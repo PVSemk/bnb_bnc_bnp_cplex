@@ -1,0 +1,50 @@
+default_language_version:
+  python: python3.7
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.5.0
+    hooks:
+      - id: check-json
+      - id: trailing-whitespace
+        files: '\.(py|md|txt)$'
+      - id: end-of-file-fixer
+        files: '\.(py|md|txt)$'
+      - id: check-ast
+      - id: mixed-line-ending
+      - id: requirements-txt-fixer
+
+  - repo: https://github.com/Lucas-C/pre-commit-hooks
+    rev: v1.1.7
+    hooks:
+      - id: remove-tabs
+        files: \.(py,md)$
+  - repo: https://github.com/asottile/add-trailing-comma
+    rev: v2.0.1
+    hooks:
+      - id: add-trailing-comma
+        files: \.py$
+  - repo: https://github.com/asottile/seed-isort-config
+    rev: v2.1.1
+    hooks:
+      - id: seed-isort-config
+        files: \.py$
+  - repo: https://github.com/timothycrosley/isort
+    rev: 4.3.21-2
+    hooks:
+      - id: isort
+        files: \.py$
+        additional_dependencies:
+          - isort[pyproject]
+
+  - repo: https://github.com/psf/black
+    rev: 19.10b0
+    hooks:
+      - id: black
+        name: black
+        types: [python]
+  - repo: https://gitlab.com/pycqa/flake8
+    rev: 3.8.0a2
+    hooks:
+      - id: flake8
+        additional_dependencies: [flake8-bugbear]
+

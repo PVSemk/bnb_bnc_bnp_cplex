@@ -1,15 +1,17 @@
 import numpy as np
+
 from utils import read_graph
 
 
 class GreedyHeuristic:
-
     def __init__(self, graph, iterations_number=100, top_k=5):
         self.graph = graph
-        self.strategies = [self.largest_first,
-                           self.largest_first_randomized,
-                           self.smallest_degree_last_with_remove,
-                           self.smallest_degree_last_with_remove_randomized]
+        self.strategies = [
+            self.largest_first,
+            self.largest_first_randomized,
+            self.smallest_degree_last_with_remove,
+            self.smallest_degree_last_with_remove_randomized,
+        ]
         self.top_k = top_k
         self.iterations_number = iterations_number
 
@@ -47,12 +49,16 @@ class GreedyHeuristic:
             solution = []
             sorted_nodes_copy = sorted_nodes.copy()
             while len(sorted_nodes_copy) > 0:
-                random_index = np.random.randint(0, min(self.top_k, len(sorted_nodes_copy)))
+                random_index = np.random.randint(
+                    0, min(self.top_k, len(sorted_nodes_copy)),
+                )
                 current_node = sorted_nodes_copy[random_index][0]
                 solution.append(current_node)
                 node_neighbours = list(self.graph.neighbors(current_node))
                 sorted_nodes_copy.pop(0)
-                sorted_nodes_copy = list(filter(lambda x: x[0] in node_neighbours, sorted_nodes_copy))
+                sorted_nodes_copy = list(
+                    filter(lambda x: x[0] in node_neighbours, sorted_nodes_copy),
+                )
             if len(solution) > best_clique:
                 best_solution = solution
                 best_clique = len(solution)
@@ -87,12 +93,16 @@ class GreedyHeuristic:
             solution = []
             sorted_nodes_copy = sorted_nodes.copy()
             while len(sorted_nodes_copy) > 0:
-                random_index = np.random.randint(0, min(self.top_k, len(sorted_nodes_copy)))
+                random_index = np.random.randint(
+                    0, min(self.top_k, len(sorted_nodes_copy)),
+                )
                 current_node = sorted_nodes_copy[random_index][0]
                 solution.append(current_node)
                 node_neighbours = list(self.graph.neighbors(current_node))
                 sorted_nodes_copy.pop(0)
-                sorted_nodes_copy = list(filter(lambda x: x[0] in node_neighbours, sorted_nodes_copy))
+                sorted_nodes_copy = list(
+                    filter(lambda x: x[0] in node_neighbours, sorted_nodes_copy),
+                )
             if len(solution) > best_clique:
                 best_solution = solution
                 best_clique = len(solution)
@@ -103,7 +113,7 @@ def test_heuristic():
     graph = read_graph("./DIMACS_all_ascii/c-fat200-1.clq")
     heuristic = GreedyHeuristic(graph)
     found_clique, found_clique_size = heuristic.solve()
-    print(f'Found clique: {found_clique_size}')
+    print(f"Found clique: {found_clique_size}")
 
 
 if __name__ == "__main__":

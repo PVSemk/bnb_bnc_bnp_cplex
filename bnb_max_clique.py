@@ -1,12 +1,13 @@
-from time import time
-from utils import cartesian_product, time_it
-import cplex
-import numpy as np
-import networkx as nx
 import logging
-from math import floor
-from utils import check_clique
 from collections import defaultdict
+from math import floor
+from time import time
+
+import cplex
+import networkx as nx
+import numpy as np
+
+from utils import cartesian_product, check_clique, time_it
 
 
 class CliqueSolver:
@@ -15,7 +16,7 @@ class CliqueSolver:
         self.graph = graph
         self.solve_type = solve_type
         self.debug = debug
-        self.n_independent_sets_growth_ratio = 0.1
+        self.n_independent_sets_growth_ratio = 0.07
         self.timer = time()
         self.time_limit = time_limit
         self.problem = self.construct_problem()[0]  # time_it returns time additionally
@@ -43,55 +44,72 @@ class CliqueSolver:
         upper_bounds = [type_one] * num_nodes
         lower_bounds = [type_zero] * num_nodes
         types = zip(range(num_nodes), [var_type] * num_nodes)
-        columns_names = [f'x{x}' for x in range(num_nodes)]
+        columns_names = [f"x{x}" for x in range(num_nodes)]
         not_connected = np.array(nx.complement(self.graph).edges)
         independent_sets = self.get_independent_sets()
 
-        problem.variables.add(obj=obj, ub=upper_bounds, lb=lower_bounds,
-                              names=columns_names)
+        problem.variables.add(
+            obj=obj, ub=upper_bounds, lb=lower_bounds, names=columns_names,
+        )
         problem.variables.set_types(types)
 
         constraints = []
         pairs_covered_by_independent_sets = list()
         for ind_set in independent_sets:
-            constraints.append([[f'x{i}' for i in ind_set], [type_one] * len(ind_set)])
-            pairs_covered_by_independent_sets.extend(cartesian_product(ind_set, ind_set))
+            constraints.append([[f"x{i}" for i in ind_set], [type_one] * len(ind_set)])
+            pairs_covered_by_independent_sets.extend(
+                cartesian_product(ind_set, ind_set),
+            )
         if len(pairs_covered_by_independent_sets):
-            pairs_covered_by_independent_sets = np.asarray(pairs_covered_by_independent_sets)
-            pairs_covered_by_independent_sets = np.unique(pairs_covered_by_independent_sets, axis=0)
-            condition = pairs_covered_by_independent_sets[:, 0] == pairs_covered_by_independent_sets[:, 1]
-            pairs_covered_by_independent_sets = np.delete(pairs_covered_by_independent_sets, np.where(condition), axis=0)
-            not_connected = not_connected[~((not_connected[:, None, :] == pairs_covered_by_independent_sets).all(-1)).any(1)]  # Remove pairs covered by independent sets from not connected
+            pairs_covered_by_independent_sets = np.asarray(
+                pairs_covered_by_independent_sets,
+            )
+            pairs_covered_by_independent_sets = np.unique(
+                pairs_covered_by_independent_sets, axis=0,
+            )
+            condition = (
+                pairs_covered_by_independent_sets[:, 0]
+                == pairs_covered_by_independent_sets[:, 1]
+            )
+            pairs_covered_by_independent_sets = np.delete(
+                pairs_covered_by_independent_sets, np.where(condition), axis=0,
+            )
+            not_connected = not_connected[
+                ~(
+                    (
+                        not_connected[:, None, :] == pairs_covered_by_independent_sets
+                    ).all(-1)
+                ).any(1)
+            ]  # Remove pairs covered by independent sets from not connected
         for xi, xj in not_connected:
-            constraints.append(
-                [[f'x{xi}', f'x{xj}'], [type_one, type_one]])
-
-
+            constraints.append([[f"x{xi}", f"x{xj}"], [type_one, type_one]])
 
         contstraints_length = len(constraints)
         right_hand_side = [type_one] * contstraints_length
-        constraint_names = [f'c{i}' for i in range(contstraints_length)]
-        constraint_senses = ['L'] * contstraints_length
+        constraint_names = [f"c{i}" for i in range(contstraints_length)]
+        constraint_senses = ["L"] * contstraints_length
 
-        problem.linear_constraints.add(lin_expr=constraints,
-                                       senses=constraint_senses,
-                                       rhs=right_hand_side,
-                                       names=constraint_names)
+        problem.linear_constraints.add(
+            lin_expr=constraints,
+            senses=constraint_senses,
+            rhs=right_hand_side,
+            names=constraint_names,
+        )
         return problem
-
 
     def get_independent_sets(self):
         independent_sets = set()
-        strategies = [nx.coloring.strategy_largest_first,
-                      nx.coloring.strategy_random_sequential,
-                      nx.coloring.strategy_independent_set,
-                      nx.coloring.strategy_connected_sequential_bfs,
-                      nx.coloring.strategy_connected_sequential_dfs,
-                      nx.coloring.strategy_saturation_largest_first,
-                      nx.coloring.strategy_smallest_last
-                      ]
+        strategies = [
+            nx.coloring.strategy_largest_first,
+            nx.coloring.strategy_random_sequential,
+            nx.coloring.strategy_independent_set,
+            nx.coloring.strategy_connected_sequential_bfs,
+            nx.coloring.strategy_connected_sequential_dfs,
+            nx.coloring.strategy_saturation_largest_first,
+            nx.coloring.strategy_smallest_last,
+        ]
         iterations_number = 0
-        while (True):
+        while True:
             iterations_number += 1
             independent_sets_number = len(independent_sets)
             for strategy in strategies:
@@ -99,11 +117,15 @@ class CliqueSolver:
                 colors_dict = nx.coloring.greedy_color(self.graph, strategy=strategy)
                 for node, color in colors_dict.items():
                     ind_sets_dict[color].append(node)
-                for color, ind_set in ind_sets_dict.items():
+                for _, ind_set in ind_sets_dict.items():
                     if len(ind_set) > 2:
                         independent_sets.add(tuple(sorted(ind_set)))
-            if (len(independent_sets) - independent_sets_number) / len(independent_sets) < self.n_independent_sets_growth_ratio:
-                logging.info(f"Searched for independent sets during {iterations_number} iterations")
+            if (len(independent_sets) - independent_sets_number) / len(
+                independent_sets,
+            ) < self.n_independent_sets_growth_ratio:
+                logging.info(
+                    f"Searched for independent sets during {iterations_number} iterations",
+                )
                 break
         return list(independent_sets)
 
@@ -137,10 +159,12 @@ class BnBCliqueSolver(CliqueSolver):
         self.contrained_variables = np.zeros(self.graph.number_of_nodes())
 
     def add_constraint(self, variable, rhs, branch_idx):
-        self.problem.linear_constraints.add(lin_expr=[[[f"x{variable}"], [1.0]]],
-                                            senses=["E"],
-                                            rhs=[rhs],
-                                            names=[f"branch_{branch_idx}"])
+        self.problem.linear_constraints.add(
+            lin_expr=[[[f"x{variable}"], [1.0]]],
+            senses=["E"],
+            rhs=[rhs],
+            names=[f"branch_{branch_idx}"],
+        )
 
     def delete_constraint(self, branch_idx):
         self.problem.linear_constraints.delete(f"branch_{branch_idx}")
@@ -152,7 +176,9 @@ class BnBCliqueSolver(CliqueSolver):
         if np.all(equals_one | equals_zero):
             return None
         else:
-            return np.argmax(np.where(~equals_one, solution,  -1)) # Variables equal to 1 are set to -1 (we don't want to take them)
+            return np.argmax(
+                np.where(~equals_one, solution, -1),
+            )  # Variables equal to 1 are set to -1 (we don't want to take them)
 
     def check_time(self):
         if time() - self.timer >= self.time_limit:
@@ -166,9 +192,13 @@ class BnBCliqueSolver(CliqueSolver):
             return 0
 
         if self.call_times % 2500 == 0:
-            logging.info(f"Total Call times: {self.call_times}, Best Found Solution: {self.best_found_clique_size},"
-                         f"Current Solution: {objective_value}")
-            logging.info(f"Number of constrained variables: {self.added_constraints_size}")
+            logging.info(
+                f"Total Call times: {self.call_times}, Best Found Solution: {self.best_found_clique_size},"
+                f"Current Solution: {objective_value}",
+            )
+            logging.info(
+                f"Number of constrained variables: {self.added_constraints_size}",
+            )
 
         branching_variable = self.find_branching_variable(solution)
 
