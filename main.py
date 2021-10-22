@@ -1,11 +1,13 @@
-from utils import parse_args, time_it
+from utils import parse_args, time_it, check_clique, read_graph
 from bnb_max_clique import BnBCliqueSolver
 import numpy as np
+from time import time
 import logging
 import json
 import os
 from datetime import datetime
 import sys
+from heuristic import GreedyHeuristic
 
 
 def print_solution(solution_values, objective_value):
@@ -18,20 +20,19 @@ def print_solution(solution_values, objective_value):
     logging.info(logging_str)
 
 
-def check_clique(graph, solution, best_known_solution_size=None):
-    solution = np.array(solution)
-    clique_nodes = np.where(np.isclose(solution, 1.0, atol=1e-4))[0]
-    clique_candidate = graph.subgraph(clique_nodes)
-    num_nodes = len(clique_nodes)
-    size_match = len(clique_nodes) == best_known_solution_size if best_known_solution_size else None
-
-    return clique_candidate.size() == num_nodes * (num_nodes - 1) / 2, size_match
-
-
 @time_it
-def process_single_graph(path, method, time_limit, debug=False, best_known_solution=None):
-    logging.info(f"\n\nPROCESSING: {os.path.basename(path)}")
-    solver = BnBCliqueSolver(path, method, time_limit, debug=debug)
+def process_single_graph(path, args, best_known_solution=None):
+    graph = read_graph(path)
+    solver = BnBCliqueSolver(graph, args.method, args.time_limit, debug=args.debug)
+    if args.use_heuristics:
+        logging.info("Using heuristics")
+        heuristic_solver = GreedyHeuristic(graph)
+        heuristic_solution, heuristic_objective_value = heuristic_solver()
+        is_clique = check_clique(graph, heuristic_solution)[0]
+        logging.info(f"Finished with heuristics, found solution length: {heuristic_objective_value}, it's a clique: {is_clique}")
+        if is_clique:
+            solver.set_objective_value(heuristic_objective_value)
+            solver.set_solution(heuristic_solution)
     time_limit_reached = False
     try:
         solver()
@@ -64,15 +65,19 @@ def main():
                             logging.FileHandler(f"logs/{start_time_formatted}"),
                             logging.StreamHandler(sys.stdout)
                         ])
-    logging.info(f"Time Limit: {args.time} secs")
+    logging.info(f"Time Limit: {args.time_limit} secs")
     if ".txt" in args.path:
         total_results = {}
         with open(args.path, "r") as fp:
             inputs = [line.rstrip().split(",") for line in fp.readlines()[1:]]
         for (path, best_known_size, difficult_level) in inputs:
             filename = os.path.basename(path)
+            logging.info(f"\n\nPROCESSING: {os.path.basename(path)}")
+            graph = read_graph(path)
             graph_results = {}
-            (found_clique_size, is_clique, time_limit_reached), processing_time = process_single_graph(path, args.method, args.time, args.debug, int(best_known_size))
+            (found_clique_size, is_clique, time_limit_reached), processing_time = process_single_graph(path,
+                                                                                                       args,
+                                                                                                       best_known_solution=int(best_known_size))
             graph_results["Time (msec.)"] = processing_time
             graph_results["Time (sec.)"] = processing_time / 1000
             graph_results["Found Answer"] = found_clique_size
@@ -83,7 +88,7 @@ def main():
         with open(f"outputs/{start_time_formatted}", "w") as fp:
             json.dump(total_results, fp, indent=4, sort_keys=False)
     else:
-        process_single_graph(args.path, args.method, args.time, args.debug)
+        process_single_graph(args.path, args)
 
 
 if __name__ == "__main__":

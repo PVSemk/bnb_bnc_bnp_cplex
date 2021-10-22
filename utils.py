@@ -43,7 +43,7 @@ def parse_args():
     parser.add_argument("-uh",
                         "--use_heuristics", action="store_true",
                         help="Use heuristics (ILS-based) to generate an initial solution")
-    parser.add_argument("-t", "--time", type=int, default=3600, help="Time limit for processing the graph (in secs)")
+    parser.add_argument("-t", "--time_limit", type=int, default=3600, help="Time limit for processing the graph (in secs)")
     parser.add_argument("-d", "--debug", action="store_true", help="Allow debug prints from cplex")
 
     return parser.parse_args()
@@ -58,7 +58,17 @@ def time_it(func):
         ret = func(*args, **kwargs)
         time2 = time.time()
         final_time = (time2 - time1)
-        logging.info('{0} function took {1:.3f} msec'.format(
-            func.__name__, final_time * 1000))
+        mins, secs = divmod(final_time, 60)
+        logging.info(f'{func.__name__} function took {mins} mins, {secs:.2f} secs')
         return ret, final_time * 1000
     return wrap
+
+
+def check_clique(graph, solution, best_known_solution_size=None):
+    solution = np.array(solution)
+    clique_nodes = np.where(np.isclose(solution, 1.0, atol=1e-4))[0]
+    clique_candidate = graph.subgraph(clique_nodes)
+    num_nodes = len(clique_nodes)
+    size_match = len(clique_nodes) == best_known_solution_size if best_known_solution_size else None
+
+    return clique_candidate.size() == num_nodes * (num_nodes - 1) / 2, size_match
