@@ -1,0 +1,25 @@
+2021-10-23 09:40:27,831 [INFO] Time Limit: 3600 secs
+2021-10-23 09:41:02,196 [INFO] Searched for independent sets during 50 iterations
+2021-10-23 09:41:02,370 [INFO] construct_problem function took 0.0 mins, 34.50 secs
+2021-10-23 09:41:02,370 [INFO] Using heuristics
+2021-10-23 09:41:02,939 [INFO] Finished with heuristics, found solution length: 33, it's a clique: True
+2021-10-23 09:41:18,391 [INFO] Total Call times: 2500, Best Found Solution: 37.0,Current Solution: 39.5
+2021-10-23 09:41:18,391 [INFO] Number of constrained variables: 18
+2021-10-23 09:41:35,250 [INFO] Total Call times: 5000, Best Found Solution: 37.0,Current Solution: 39.57142857142857
+2021-10-23 09:41:35,250 [INFO] Number of constrained variables: 14
+2021-10-23 09:42:10,401 [INFO] Total Call times: 10000, Best Found Solution: 37.0,Current Solution: 38.0
+2021-10-23 09:42:10,401 [INFO] Number of constrained variables: 16
+2021-10-23 09:42:44,241 [INFO] Total Call times: 15000, Best Found Solution: 37.0,Current Solution: 38.151515151515156
+2021-10-23 09:42:44,242 [INFO] Number of constrained variables: 19
+2021-10-23 09:44:29,956 [INFO] Total Call times: 30000, Best Found Solution: 39.0,Current Solution: 41.0
+2021-10-23 09:44:29,956 [INFO] Number of constrained variables: 16
+2021-10-23 09:45:09,882 [INFO] Total Call times: 35000, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 09:45:09,882 [INFO] Number of constrained variables: 22
+2021-10-23 09:45:51,083 [INFO] __call__ function took 4.0 mins, 48.14 secs
+2021-10-23 09:45:51,083 [INFO] objective value: 44.0 
+2021-10-23 09:45:51,083 [INFO] values:
+2021-10-23 09:45:51,083 [INFO] 	x_12 = 1.0 	x_19 = 1.0 	x_28 = 1.0 	x_33 = 1.0 	x_37 = 1.0 	x_39 = 1.0 	x_41 = 1.0 	x_45 = 1.0 	x_46 = 1.0 	x_64 = 1.0 	x_66 = 1.0 	x_71 = 1.0 	x_74 = 1.0 	x_80 = 1.0 	x_81 = 1.0 	x_83 = 1.0 	x_92 = 1.0 	x_93 = 1.0 	x_96 = 1.0 	x_99 = 1.0 	x_101 = 1.0 	x_104 = 1.0 	x_107 = 1.0 	x_116 = 1.0 	x_118 = 1.0 	x_119 = 1.0 	x_122 = 1.0 	x_126 = 1.0 	x_128 = 1.0 	x_131 = 1.0 	x_137 = 1.0 	x_140 = 1.0 	x_145 = 1.0 	x_148 = 1.0 	x_149 = 1.0 	x_150 = 1.0 	x_155 = 1.0 	x_165 = 1.0 	x_169 = 1.0 	x_179 = 1.0 	x_185 = 1.0 	x_189 = 1.0 	x_192 = 1.0 	x_194 = 1.0 
+2021-10-23 09:45:51,089 [INFO] Found nodes create a clique
+2021-10-23 09:45:51,090 [INFO] It's size matches with the best known
+2021-10-23 09:45:51,090 [INFO] process_single_graph function took 5.0 mins, 23.26 secs
+2021-10-23 09:45:51,090 [INFO] main function took 5.0 mins, 23.26 secs
