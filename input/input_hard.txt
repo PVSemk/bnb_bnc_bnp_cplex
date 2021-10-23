@@ -1,0 +1,13 @@
+File,Answer,Level
+../DIMACS_all_ascii/brock400_2.clq,29,H
+../DIMACS_all_ascii/brock400_3.clq,31,H
+../DIMACS_all_ascii/brock400_4.clq,33,H
+../DIMACS_all_ascii/p_hat300-3.clq,36,H
+../DIMACS_all_ascii/sanr200_0.9.clq,42,H
+../DIMACS_all_ascii/sanr400_0.7.clq,21,H
+../DIMACS_all_ascii/brock400_1.clq,27,H
+../DIMACS_all_ascii/p_hat500-3.clq,50,H
+../DIMACS_all_ascii/p_hat1000-2.clq,46,H
+../DIMACS_all_ascii/p_hat1500-1.clq,12,H
+../DIMACS_all_ascii/MANN_a27.clq,126,H
+../DIMACS_all_ascii/MANN_a45.clq,345,H
