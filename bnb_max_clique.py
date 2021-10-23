@@ -16,7 +16,7 @@ class CliqueSolver:
         self.graph = graph
         self.solve_type = solve_type
         self.debug = debug
-        self.n_independent_sets_growth_ratio = 0.07
+        self.n_independent_sets_growth_ratio = 0.02
         self.timer = time()
         self.time_limit = time_limit
         self.problem = self.construct_problem()[0]  # time_it returns time additionally
@@ -74,13 +74,18 @@ class CliqueSolver:
             pairs_covered_by_independent_sets = np.delete(
                 pairs_covered_by_independent_sets, np.where(condition), axis=0,
             )
-            not_connected = not_connected[
-                ~(
-                    (
-                        not_connected[:, None, :] == pairs_covered_by_independent_sets
-                    ).all(-1)
-                ).any(1)
-            ]  # Remove pairs covered by independent sets from not connected
+            # Below is from https://stackoverflow.com/questions/40055835/removing-elements-from-an-array-that-are-in-another-array
+            try:  # On very large arrays it can fail
+                not_connected = not_connected[
+                    ~(
+                        (
+                            not_connected[:, None, :]
+                            == pairs_covered_by_independent_sets
+                        ).all(-1)
+                    ).any(1)
+                ]  # Remove pairs covered by independent sets from not connected
+            except AttributeError:
+                logging.warning("Failed to remove pairs covered by independent sets")
         for xi, xj in not_connected:
             constraints.append([[f"x{xi}", f"x{xj}"], [type_one, type_one]])
 
@@ -102,14 +107,20 @@ class CliqueSolver:
         strategies = [
             nx.coloring.strategy_largest_first,
             nx.coloring.strategy_random_sequential,
-            nx.coloring.strategy_independent_set,
             nx.coloring.strategy_connected_sequential_bfs,
             nx.coloring.strategy_connected_sequential_dfs,
             nx.coloring.strategy_saturation_largest_first,
             nx.coloring.strategy_smallest_last,
         ]
+        if self.graph.number_of_nodes() < 500:
+            strategies.append(
+                nx.coloring.strategy_independent_set,
+            )  # This strategy is extremely slow on huge graphs
         iterations_number = 0
         while True:
+            if time() - self.timer >= self.time_limit * 0.1:
+                logging.info("Out of time for independent sets searching")
+                break
             iterations_number += 1
             independent_sets_number = len(independent_sets)
             for strategy in strategies:
@@ -145,6 +156,10 @@ class CliqueSolver:
     def get_objective_value(self):
         return self.problem.solution.get_objective_value()
 
+    def check_time(self):
+        if time() - self.timer >= self.time_limit:
+            raise TimeoutError
+
 
 class BnBCliqueSolver(CliqueSolver):
     def __init__(self, graph, solve_type, time_limit, debug=False):
@@ -173,21 +188,21 @@ class BnBCliqueSolver(CliqueSolver):
     def find_branching_variable(self, solution):
         equals_one = np.isclose(solution, 1.0, atol=self.epsilon)
         equals_zero = np.isclose(solution, 0.0, atol=self.epsilon)
-        if np.all(equals_one | equals_zero):
+        integer_var = equals_zero | equals_one
+        if np.all(integer_var):
             return None
         else:
             return np.argmax(
                 np.where(~equals_one, solution, -1),
             )  # Variables equal to 1 are set to -1 (we don't want to take them)
 
-    def check_time(self):
-        if time() - self.timer >= self.time_limit:
-            raise TimeoutError
-
     def solve(self):
         self.call_times += 1
         self.check_time()
-        solution, objective_value = super().solve()
+        try:
+            solution, objective_value = super().solve()
+        except cplex.exceptions.CplexSolverError:
+            return 0
         if floor(objective_value + self.epsilon) <= self.best_found_clique_size:
             return 0
 

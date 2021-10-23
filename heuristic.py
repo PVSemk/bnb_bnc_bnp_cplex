@@ -4,7 +4,7 @@ from utils import read_graph
 
 
 class GreedyHeuristic:
-    def __init__(self, graph, iterations_number=100, top_k=5):
+    def __init__(self, graph, iterations_number=150, top_k=5):
         self.graph = graph
         self.strategies = [
             self.largest_first,

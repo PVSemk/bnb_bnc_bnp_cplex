@@ -1,0 +1,76 @@
+2021-10-23 02:06:40,572 [INFO] Time Limit: 3600 secs
+2021-10-23 02:06:40,572 [INFO] 
+
+PROCESSING: johnson8-2-4.clq
+2021-10-23 02:06:40,700 [INFO] Searched for independent sets during 24 iterations
+2021-10-23 02:06:40,708 [INFO] construct_problem function took 0.0 mins, 0.14 secs
+2021-10-23 02:06:40,708 [INFO] Using heuristics
+2021-10-23 02:06:40,717 [INFO] Finished with heuristics, found solution length: 4, it's a clique: True
+2021-10-23 02:06:40,720 [INFO] __call__ function took 0.0 mins, 0.00 secs
+2021-10-23 02:06:40,720 [INFO] objective value: 4 
+2021-10-23 02:06:40,720 [INFO] values:
+2021-10-23 02:06:40,720 [INFO] 	x_0 = 1.0 	x_5 = 1.0 	x_14 = 1.0 	x_27 = 1.0 
+2021-10-23 02:06:40,720 [INFO] Found nodes create a clique
+2021-10-23 02:06:40,720 [INFO] It's size matches with the best known
+2021-10-23 02:06:40,720 [INFO] process_single_graph function took 0.0 mins, 0.15 secs
+2021-10-23 02:06:40,720 [INFO] 
+
+PROCESSING: johnson16-2-4.clq
+2021-10-23 02:06:44,688 [INFO] Searched for independent sets during 37 iterations
+2021-10-23 02:06:44,849 [INFO] construct_problem function took 0.0 mins, 4.12 secs
+2021-10-23 02:06:44,850 [INFO] Using heuristics
+2021-10-23 02:06:44,934 [INFO] Finished with heuristics, found solution length: 8, it's a clique: True
+2021-10-23 02:06:44,938 [INFO] __call__ function took 0.0 mins, 0.00 secs
+2021-10-23 02:06:44,938 [INFO] objective value: 8 
+2021-10-23 02:06:44,938 [INFO] values:
+2021-10-23 02:06:44,938 [INFO] 	x_0 = 1.0 	x_5 = 1.0 	x_14 = 1.0 	x_27 = 1.0 	x_44 = 1.0 	x_65 = 1.0 	x_90 = 1.0 	x_119 = 1.0 
+2021-10-23 02:06:44,939 [INFO] Found nodes create a clique
+2021-10-23 02:06:44,939 [INFO] It's size matches with the best known
+2021-10-23 02:06:44,939 [INFO] process_single_graph function took 0.0 mins, 4.22 secs
+2021-10-23 02:06:44,939 [INFO] 
+
+PROCESSING: MANN_a9.clq
+2021-10-23 02:06:44,987 [INFO] Searched for independent sets during 2 iterations
+2021-10-23 02:06:44,988 [INFO] construct_problem function took 0.0 mins, 0.05 secs
+2021-10-23 02:06:44,988 [INFO] Using heuristics
+2021-10-23 02:06:45,025 [INFO] Finished with heuristics, found solution length: 16, it's a clique: True
+2021-10-23 02:06:45,056 [INFO] __call__ function took 0.0 mins, 0.03 secs
+2021-10-23 02:06:45,056 [INFO] objective value: 16 
+2021-10-23 02:06:45,056 [INFO] values:
+2021-10-23 02:06:45,057 [INFO] 	x_4 = 1.0 	x_5 = 1.0 	x_7 = 1.0 	x_8 = 1.0 	x_9 = 1.0 	x_12 = 1.0 	x_15 = 1.0 	x_18 = 1.0 	x_21 = 1.0 	x_24 = 1.0 	x_27 = 1.0 	x_30 = 1.0 	x_33 = 1.0 	x_36 = 1.0 	x_39 = 1.0 	x_42 = 1.0 
+2021-10-23 02:06:45,057 [INFO] Found nodes create a clique
+2021-10-23 02:06:45,057 [INFO] It's size matches with the best known
+2021-10-23 02:06:45,057 [INFO] process_single_graph function took 0.0 mins, 0.12 secs
+2021-10-23 02:06:45,058 [INFO] 
+
+PROCESSING: keller4.clq
+2021-10-23 02:06:57,020 [INFO] Searched for independent sets during 44 iterations
+2021-10-23 02:06:58,093 [INFO] construct_problem function took 0.0 mins, 13.01 secs
+2021-10-23 02:06:58,093 [INFO] Using heuristics
+2021-10-23 02:06:58,234 [INFO] Finished with heuristics, found solution length: 10, it's a clique: True
+2021-10-23 02:07:16,614 [INFO] Total Call times: 2500, Best Found Solution: 11.0,Current Solution: 12.564614050303557
+2021-10-23 02:07:16,614 [INFO] Number of constrained variables: 13
+2021-10-23 02:07:36,393 [INFO] Total Call times: 5000, Best Found Solution: 11.0,Current Solution: 13.020408163265307
+2021-10-23 02:07:36,393 [INFO] Number of constrained variables: 22
+2021-10-23 02:07:51,620 [INFO] __call__ function took 0.0 mins, 53.39 secs
+2021-10-23 02:07:51,620 [INFO] objective value: 11.0 
+2021-10-23 02:07:51,620 [INFO] values:
+2021-10-23 02:07:51,620 [INFO] 	x_1 = 1.0 	x_23 = 1.0 	x_34 = 1.0 	x_55 = 1.0 	x_62 = 1.0 	x_74 = 1.0 	x_80 = 1.0 	x_98 = 1.0 	x_152 = 1.0 	x_158 = 1.0 	x_164 = 1.0 
+2021-10-23 02:07:51,621 [INFO] Found nodes create a clique
+2021-10-23 02:07:51,621 [INFO] It's size matches with the best known
+2021-10-23 02:07:51,621 [INFO] process_single_graph function took 1.0 mins, 6.56 secs
+2021-10-23 02:07:51,621 [INFO] 
+
+PROCESSING: hamming8-4.clq
+2021-10-23 02:08:20,593 [INFO] Searched for independent sets during 43 iterations
+2021-10-23 02:08:26,203 [INFO] construct_problem function took 0.0 mins, 34.54 secs
+2021-10-23 02:08:26,203 [INFO] Using heuristics
+2021-10-23 02:08:26,490 [INFO] Finished with heuristics, found solution length: 16, it's a clique: True
+2021-10-23 02:08:27,544 [INFO] __call__ function took 0.0 mins, 1.05 secs
+2021-10-23 02:08:27,544 [INFO] objective value: 16 
+2021-10-23 02:08:27,544 [INFO] values:
+2021-10-23 02:08:27,545 [INFO] 	x_0 = 1.0 	x_15 = 1.0 	x_51 = 1.0 	x_60 = 1.0 	x_85 = 1.0 	x_90 = 1.0 	x_102 = 1.0 	x_105 = 1.0 	x_150 = 1.0 	x_153 = 1.0 	x_165 = 1.0 	x_170 = 1.0 	x_195 = 1.0 	x_204 = 1.0 	x_240 = 1.0 	x_255 = 1.0 
+2021-10-23 02:08:27,547 [INFO] Found nodes create a clique
+2021-10-23 02:08:27,547 [INFO] It's size matches with the best known
+2021-10-23 02:08:27,547 [INFO] process_single_graph function took 0.0 mins, 35.93 secs
+2021-10-23 02:08:27,547 [INFO] main function took 1.0 mins, 46.98 secs

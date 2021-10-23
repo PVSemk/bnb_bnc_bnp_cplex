@@ -40,6 +40,8 @@ def process_single_graph(path, args, best_known_solution=None):
     except (TimeoutError, KeyboardInterrupt):
         logging.warning("Out of time!")
         time_limit_reached = True
+    except Exception as msg:
+        logging.warning(msg)
     finally:
         solution_values = solver.get_solution()
         objective_value = solver.get_objective_value()
@@ -61,7 +63,7 @@ def main():
     args = parse_args()
     start_time_formatted = datetime.now().strftime("%d-%m-%Y_%H-%M-%S")
     os.makedirs("logs", exist_ok=True)
-    os.makedirs("outputs", exist_ok=True)
+    os.makedirs(os.path.join("outputs", start_time_formatted), exist_ok=True)
     logging.basicConfig(
         level=logging.INFO if not args.debug else logging.DEBUG,
         format="%(asctime)s [%(levelname)s] %(message)s",
@@ -72,7 +74,6 @@ def main():
     )
     logging.info(f"Time Limit: {args.time_limit} secs")
     if ".txt" in args.path:
-        total_results = {}
         with open(args.path, "r") as fp:
             inputs = [line.rstrip().split(",") for line in fp.readlines()[1:]]
         for (path, best_known_size, difficult_level) in inputs:
@@ -91,9 +92,10 @@ def main():
             graph_results["Best Known Answer"] = best_known_size
             graph_results["Type"] = difficult_level
             graph_results["Reached Time Limit"] = time_limit_reached
-            total_results[filename] = graph_results
-        with open(f"outputs/{start_time_formatted}.json", "w") as fp:
-            json.dump(total_results, fp, indent=4, sort_keys=False)
+            with open(
+                os.path.join("outputs", start_time_formatted, f"{filename}.json"), "w",
+            ) as fp:
+                json.dump(graph_results, fp, indent=4, sort_keys=False)
     else:
         process_single_graph(args.path, args)
 

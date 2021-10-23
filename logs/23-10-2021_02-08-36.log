@@ -1,0 +1,584 @@
+2021-10-23 02:08:36,426 [INFO] Time Limit: 3600 secs
+2021-10-23 02:08:36,426 [INFO] 
+
+PROCESSING: C125.9.clq
+2021-10-23 02:08:39,457 [INFO] Searched for independent sets during 13 iterations
+2021-10-23 02:08:39,481 [INFO] construct_problem function took 0.0 mins, 3.04 secs
+2021-10-23 02:08:39,481 [INFO] Using heuristics
+2021-10-23 02:08:39,712 [INFO] Finished with heuristics, found solution length: 32, it's a clique: True
+2021-10-23 02:09:03,056 [INFO] Total Call times: 5000, Best Found Solution: 34.0,Current Solution: 36.0
+2021-10-23 02:09:03,056 [INFO] Number of constrained variables: 19
+2021-10-23 02:09:14,554 [INFO] Total Call times: 7500, Best Found Solution: 34.0,Current Solution: 35.25
+2021-10-23 02:09:14,554 [INFO] Number of constrained variables: 15
+2021-10-23 02:09:26,126 [INFO] Total Call times: 10000, Best Found Solution: 34.0,Current Solution: 35.0
+2021-10-23 02:09:26,126 [INFO] Number of constrained variables: 17
+2021-10-23 02:09:37,208 [INFO] Total Call times: 12500, Best Found Solution: 34.0,Current Solution: 36.0
+2021-10-23 02:09:37,208 [INFO] Number of constrained variables: 13
+2021-10-23 02:09:48,759 [INFO] Total Call times: 15000, Best Found Solution: 34.0,Current Solution: 38.5
+2021-10-23 02:09:48,759 [INFO] Number of constrained variables: 9
+2021-10-23 02:10:38,791 [INFO] Total Call times: 25000, Best Found Solution: 34.0,Current Solution: 36.3125
+2021-10-23 02:10:38,791 [INFO] Number of constrained variables: 12
+2021-10-23 02:10:51,652 [INFO] Total Call times: 27500, Best Found Solution: 34.0,Current Solution: 36.0
+2021-10-23 02:10:51,652 [INFO] Number of constrained variables: 15
+2021-10-23 02:11:27,335 [INFO] Total Call times: 35000, Best Found Solution: 34.0,Current Solution: 35.0
+2021-10-23 02:11:27,335 [INFO] Number of constrained variables: 17
+2021-10-23 02:12:05,118 [INFO] Total Call times: 42500, Best Found Solution: 34.0,Current Solution: 35.0
+2021-10-23 02:12:05,118 [INFO] Number of constrained variables: 17
+2021-10-23 02:12:19,540 [INFO] Total Call times: 45000, Best Found Solution: 34.0,Current Solution: 36.75
+2021-10-23 02:12:19,541 [INFO] Number of constrained variables: 11
+2021-10-23 02:12:32,654 [INFO] Total Call times: 47500, Best Found Solution: 34.0,Current Solution: 35.4
+2021-10-23 02:12:32,654 [INFO] Number of constrained variables: 15
+2021-10-23 02:13:03,779 [INFO] Total Call times: 52500, Best Found Solution: 34.0,Current Solution: 36.275179856115116
+2021-10-23 02:13:03,779 [INFO] Number of constrained variables: 16
+2021-10-23 02:13:05,408 [INFO] __call__ function took 4.0 mins, 25.70 secs
+2021-10-23 02:13:05,408 [INFO] objective value: 34.0 
+2021-10-23 02:13:05,408 [INFO] values:
+2021-10-23 02:13:05,408 [INFO] 	x_0 = 1.0 	x_1 = 1.0 	x_4 = 1.0 	x_6 = 1.0 	x_8 = 1.0 	x_10 = 1.0 	x_17 = 1.0 	x_24 = 1.0 	x_28 = 1.0 	x_33 = 1.0 	x_39 = 1.0 	x_43 = 1.0 	x_47 = 1.0 	x_48 = 1.0 	x_53 = 1.0 	x_59 = 1.0 	x_67 = 1.0 	x_69 = 1.0 	x_70 = 1.0 	x_76 = 1.0 	x_78 = 1.0 	x_79 = 1.0 	x_92 = 1.0 	x_98 = 1.0 	x_100 = 1.0 	x_109 = 1.0 	x_110 = 1.0 	x_113 = 1.0 	x_114 = 1.0 	x_116 = 1.0 	x_120 = 1.0 	x_121 = 1.0 	x_122 = 1.0 	x_124 = 1.0 
+2021-10-23 02:13:05,410 [INFO] Found nodes create a clique
+2021-10-23 02:13:05,410 [INFO] It's size matches with the best known
+2021-10-23 02:13:05,410 [INFO] process_single_graph function took 4.0 mins, 28.98 secs
+2021-10-23 02:13:05,411 [INFO] 
+
+PROCESSING: brock200_2.clq
+2021-10-23 02:13:21,340 [INFO] Searched for independent sets during 43 iterations
+2021-10-23 02:13:25,126 [INFO] construct_problem function took 0.0 mins, 19.70 secs
+2021-10-23 02:13:25,127 [INFO] Using heuristics
+2021-10-23 02:13:25,260 [INFO] Finished with heuristics, found solution length: 9, it's a clique: True
+2021-10-23 02:14:34,967 [INFO] Total Call times: 7500, Best Found Solution: 12.0,Current Solution: 16.57058811421692
+2021-10-23 02:14:34,967 [INFO] Number of constrained variables: 37
+2021-10-23 02:14:54,147 [INFO] __call__ function took 1.0 mins, 28.89 secs
+2021-10-23 02:14:54,147 [INFO] objective value: 12.0 
+2021-10-23 02:14:54,147 [INFO] values:
+2021-10-23 02:14:54,147 [INFO] 	x_26 = 1.0 	x_47 = 1.0 	x_54 = 1.0 	x_69 = 1.0 	x_104 = 1.0 	x_119 = 1.0 	x_120 = 1.0 	x_134 = 1.0 	x_144 = 1.0 	x_148 = 1.0 	x_157 = 1.0 	x_182 = 1.0 
+2021-10-23 02:14:54,148 [INFO] Found nodes create a clique
+2021-10-23 02:14:54,148 [INFO] It's size matches with the best known
+2021-10-23 02:14:54,148 [INFO] process_single_graph function took 1.0 mins, 48.74 secs
+2021-10-23 02:14:54,148 [INFO] 
+
+PROCESSING: brock200_3.clq
+2021-10-23 02:15:13,773 [INFO] Searched for independent sets during 45 iterations
+2021-10-23 02:15:16,134 [INFO] construct_problem function took 0.0 mins, 21.96 secs
+2021-10-23 02:15:16,134 [INFO] Using heuristics
+2021-10-23 02:15:16,301 [INFO] Finished with heuristics, found solution length: 11, it's a clique: True
+2021-10-23 02:15:32,273 [INFO] Total Call times: 2500, Best Found Solution: 13.0,Current Solution: 15.541632983023444
+2021-10-23 02:15:32,273 [INFO] Number of constrained variables: 16
+2021-10-23 02:15:51,566 [INFO] Total Call times: 5000, Best Found Solution: 13.0,Current Solution: 14.142857142857142
+2021-10-23 02:15:51,566 [INFO] Number of constrained variables: 14
+2021-10-23 02:17:22,671 [INFO] Total Call times: 17500, Best Found Solution: 13.0,Current Solution: 16.32037164487268
+2021-10-23 02:17:22,671 [INFO] Number of constrained variables: 15
+2021-10-23 02:18:04,086 [INFO] Total Call times: 22500, Best Found Solution: 14.0,Current Solution: 24.70856747232962
+2021-10-23 02:18:04,086 [INFO] Number of constrained variables: 6
+2021-10-23 02:19:14,306 [INFO] Total Call times: 30000, Best Found Solution: 14.0,Current Solution: 15.629782833505686
+2021-10-23 02:19:14,307 [INFO] Number of constrained variables: 27
+2021-10-23 02:19:38,652 [INFO] Total Call times: 32500, Best Found Solution: 14.0,Current Solution: 15.25
+2021-10-23 02:19:38,652 [INFO] Number of constrained variables: 22
+2021-10-23 02:20:27,749 [INFO] Total Call times: 37500, Best Found Solution: 14.0,Current Solution: 16.2135593220339
+2021-10-23 02:20:27,749 [INFO] Number of constrained variables: 28
+2021-10-23 02:20:53,395 [INFO] Total Call times: 40000, Best Found Solution: 14.0,Current Solution: 15.934604904632153
+2021-10-23 02:20:53,395 [INFO] Number of constrained variables: 25
+2021-10-23 02:21:49,339 [INFO] Total Call times: 45000, Best Found Solution: 15.0,Current Solution: 16.85367263311641
+2021-10-23 02:21:49,339 [INFO] Number of constrained variables: 55
+2021-10-23 02:22:33,493 [INFO] __call__ function took 7.0 mins, 17.19 secs
+2021-10-23 02:22:33,493 [INFO] objective value: 15.0 
+2021-10-23 02:22:33,493 [INFO] values:
+2021-10-23 02:22:33,493 [INFO] 	x_11 = 1.0 	x_28 = 1.0 	x_35 = 1.0 	x_37 = 1.0 	x_57 = 0.9999999999999999 	x_83 = 1.0 	x_96 = 0.9999999999999999 	x_97 = 1.0 	x_103 = 1.0 	x_117 = 1.0 	x_129 = 1.0 	x_143 = 1.0 	x_157 = 1.0 	x_172 = 1.0 	x_177 = 1.0 
+2021-10-23 02:22:33,494 [INFO] Found nodes create a clique
+2021-10-23 02:22:33,494 [INFO] It's size matches with the best known
+2021-10-23 02:22:33,495 [INFO] process_single_graph function took 7.0 mins, 39.35 secs
+2021-10-23 02:22:33,495 [INFO] 
+
+PROCESSING: brock200_4.clq
+2021-10-23 02:22:54,431 [INFO] Searched for independent sets during 44 iterations
+2021-10-23 02:22:56,231 [INFO] construct_problem function took 0.0 mins, 22.71 secs
+2021-10-23 02:22:56,231 [INFO] Using heuristics
+2021-10-23 02:22:56,425 [INFO] Finished with heuristics, found solution length: 13, it's a clique: True
+2021-10-23 02:23:14,349 [INFO] Total Call times: 2500, Best Found Solution: 15.0,Current Solution: 16.317073170731707
+2021-10-23 02:23:14,349 [INFO] Number of constrained variables: 15
+2021-10-23 02:23:32,716 [INFO] Total Call times: 5000, Best Found Solution: 16.0,Current Solution: 18.748157972295903
+2021-10-23 02:23:32,716 [INFO] Number of constrained variables: 15
+2021-10-23 02:23:55,341 [INFO] Total Call times: 7500, Best Found Solution: 16.0,Current Solution: 19.43300485365495
+2021-10-23 02:23:55,341 [INFO] Number of constrained variables: 19
+2021-10-23 02:24:56,653 [INFO] Total Call times: 12500, Best Found Solution: 17.0,Current Solution: 26.25775445429529
+2021-10-23 02:24:56,653 [INFO] Number of constrained variables: 14
+2021-10-23 02:25:29,553 [INFO] Total Call times: 15000, Best Found Solution: 17.0,Current Solution: 18.06689342403628
+2021-10-23 02:25:29,553 [INFO] Number of constrained variables: 26
+2021-10-23 02:27:37,322 [INFO] Total Call times: 25000, Best Found Solution: 17.0,Current Solution: 18.23270995059986
+2021-10-23 02:27:37,322 [INFO] Number of constrained variables: 25
+2021-10-23 02:31:48,097 [INFO] Total Call times: 42500, Best Found Solution: 17.0,Current Solution: 22.31914249180953
+2021-10-23 02:31:48,097 [INFO] Number of constrained variables: 44
+2021-10-23 02:32:21,866 [INFO] __call__ function took 9.0 mins, 25.44 secs
+2021-10-23 02:32:21,867 [INFO] objective value: 17.0 
+2021-10-23 02:32:21,867 [INFO] values:
+2021-10-23 02:32:21,867 [INFO] 	x_11 = 1.0 	x_18 = 1.0 	x_27 = 1.0 	x_28 = 1.0 	x_37 = 1.0 	x_53 = 1.0 	x_64 = 1.0 	x_70 = 1.0 	x_78 = 1.0 	x_92 = 1.0 	x_116 = 1.0 	x_126 = 1.0 	x_138 = 1.0 	x_160 = 1.0 	x_164 = 1.0 	x_185 = 1.0 	x_191 = 1.0 
+2021-10-23 02:32:21,868 [INFO] Found nodes create a clique
+2021-10-23 02:32:21,868 [INFO] It's size matches with the best known
+2021-10-23 02:32:21,868 [INFO] process_single_graph function took 9.0 mins, 48.37 secs
+2021-10-23 02:32:21,868 [INFO] 
+
+PROCESSING: brock200_1.clq
+2021-10-23 02:32:44,715 [INFO] Searched for independent sets during 42 iterations
+2021-10-23 02:32:45,727 [INFO] construct_problem function took 0.0 mins, 23.83 secs
+2021-10-23 02:32:45,728 [INFO] Using heuristics
+2021-10-23 02:32:45,979 [INFO] Finished with heuristics, found solution length: 17, it's a clique: True
+2021-10-23 02:33:03,702 [INFO] Total Call times: 2500, Best Found Solution: 20.0,Current Solution: 24.3125
+2021-10-23 02:33:03,702 [INFO] Number of constrained variables: 7
+2021-10-23 02:33:22,697 [INFO] Total Call times: 5000, Best Found Solution: 20.0,Current Solution: 21.42857142857143
+2021-10-23 02:33:22,697 [INFO] Number of constrained variables: 15
+2021-10-23 02:34:24,113 [INFO] Total Call times: 12500, Best Found Solution: 20.0,Current Solution: 21.070175438596493
+2021-10-23 02:34:24,113 [INFO] Number of constrained variables: 17
+2021-10-23 02:34:44,211 [INFO] Total Call times: 15000, Best Found Solution: 20.0,Current Solution: 21.0
+2021-10-23 02:34:44,211 [INFO] Number of constrained variables: 20
+2021-10-23 02:35:29,827 [INFO] Total Call times: 20000, Best Found Solution: 20.0,Current Solution: 21.64383561643836
+2021-10-23 02:35:29,827 [INFO] Number of constrained variables: 18
+2021-10-23 02:35:49,259 [INFO] Total Call times: 22500, Best Found Solution: 20.0,Current Solution: 22.555555555555557
+2021-10-23 02:35:49,260 [INFO] Number of constrained variables: 15
+2021-10-23 02:36:29,280 [INFO] Total Call times: 27500, Best Found Solution: 20.0,Current Solution: 22.178571428571427
+2021-10-23 02:36:29,280 [INFO] Number of constrained variables: 20
+2021-10-23 02:36:50,759 [INFO] Total Call times: 30000, Best Found Solution: 20.0,Current Solution: 22.159999999999997
+2021-10-23 02:36:50,759 [INFO] Number of constrained variables: 17
+2021-10-23 02:37:33,804 [INFO] Total Call times: 35000, Best Found Solution: 20.0,Current Solution: 23.236624003357115
+2021-10-23 02:37:33,804 [INFO] Number of constrained variables: 20
+2021-10-23 02:38:18,090 [INFO] Total Call times: 40000, Best Found Solution: 20.0,Current Solution: 22.031491712707183
+2021-10-23 02:38:18,090 [INFO] Number of constrained variables: 20
+2021-10-23 02:39:00,180 [INFO] Total Call times: 45000, Best Found Solution: 20.0,Current Solution: 21.244094488188974
+2021-10-23 02:39:00,180 [INFO] Number of constrained variables: 24
+2021-10-23 02:40:52,859 [INFO] Total Call times: 57500, Best Found Solution: 20.0,Current Solution: 21.364864864864867
+2021-10-23 02:40:52,859 [INFO] Number of constrained variables: 24
+2021-10-23 02:41:16,091 [INFO] Total Call times: 60000, Best Found Solution: 20.0,Current Solution: 22.333333333333336
+2021-10-23 02:41:16,091 [INFO] Number of constrained variables: 25
+2021-10-23 02:42:27,445 [INFO] Total Call times: 67500, Best Found Solution: 20.0,Current Solution: 21.8296
+2021-10-23 02:42:27,445 [INFO] Number of constrained variables: 37
+2021-10-23 02:43:19,326 [INFO] Total Call times: 72500, Best Found Solution: 20.0,Current Solution: 21.565217391304348
+2021-10-23 02:43:19,326 [INFO] Number of constrained variables: 34
+2021-10-23 02:44:13,209 [INFO] Total Call times: 77500, Best Found Solution: 20.0,Current Solution: 22.56422764227642
+2021-10-23 02:44:13,210 [INFO] Number of constrained variables: 14
+2021-10-23 02:44:54,863 [INFO] Total Call times: 82500, Best Found Solution: 20.0,Current Solution: 21.727272727272727
+2021-10-23 02:44:54,863 [INFO] Number of constrained variables: 17
+2021-10-23 02:45:14,134 [INFO] Total Call times: 85000, Best Found Solution: 20.0,Current Solution: 21.92936802973978
+2021-10-23 02:45:14,134 [INFO] Number of constrained variables: 12
+2021-10-23 02:45:56,177 [INFO] Total Call times: 90000, Best Found Solution: 20.0,Current Solution: 23.227058981593444
+2021-10-23 02:45:56,177 [INFO] Number of constrained variables: 28
+2021-10-23 02:46:20,089 [INFO] Total Call times: 92500, Best Found Solution: 20.0,Current Solution: 24.043074324324323
+2021-10-23 02:46:20,089 [INFO] Number of constrained variables: 15
+2021-10-23 02:46:42,961 [INFO] Total Call times: 95000, Best Found Solution: 20.0,Current Solution: 21.125
+2021-10-23 02:46:42,961 [INFO] Number of constrained variables: 18
+2021-10-23 02:47:05,908 [INFO] Total Call times: 97500, Best Found Solution: 20.0,Current Solution: 21.0
+2021-10-23 02:47:05,908 [INFO] Number of constrained variables: 21
+2021-10-23 02:47:28,490 [INFO] Total Call times: 100000, Best Found Solution: 20.0,Current Solution: 22.437250996015937
+2021-10-23 02:47:28,490 [INFO] Number of constrained variables: 24
+2021-10-23 02:48:14,667 [INFO] Total Call times: 105000, Best Found Solution: 20.0,Current Solution: 21.376436781609197
+2021-10-23 02:48:14,667 [INFO] Number of constrained variables: 17
+2021-10-23 02:49:30,206 [INFO] Total Call times: 112500, Best Found Solution: 20.0,Current Solution: 21.2125
+2021-10-23 02:49:30,207 [INFO] Number of constrained variables: 34
+2021-10-23 02:50:21,960 [INFO] Total Call times: 117500, Best Found Solution: 20.0,Current Solution: 21.529235382308848
+2021-10-23 02:50:21,960 [INFO] Number of constrained variables: 29
+2021-10-23 02:50:51,478 [INFO] Total Call times: 120000, Best Found Solution: 20.0,Current Solution: 21.666666666666668
+2021-10-23 02:50:51,478 [INFO] Number of constrained variables: 40
+2021-10-23 02:52:00,174 [INFO] Total Call times: 127500, Best Found Solution: 20.0,Current Solution: 21.5
+2021-10-23 02:52:00,174 [INFO] Number of constrained variables: 19
+2021-10-23 02:52:18,236 [INFO] Total Call times: 130000, Best Found Solution: 20.0,Current Solution: 23.660326086956523
+2021-10-23 02:52:18,236 [INFO] Number of constrained variables: 15
+2021-10-23 02:53:21,445 [INFO] Total Call times: 137500, Best Found Solution: 20.0,Current Solution: 21.249307479224377
+2021-10-23 02:53:21,445 [INFO] Number of constrained variables: 45
+2021-10-23 02:53:39,571 [INFO] Total Call times: 140000, Best Found Solution: 20.0,Current Solution: 21.626760563380284
+2021-10-23 02:53:39,571 [INFO] Number of constrained variables: 16
+2021-10-23 02:54:22,107 [INFO] Total Call times: 145000, Best Found Solution: 20.0,Current Solution: 21.936708860759495
+2021-10-23 02:54:22,107 [INFO] Number of constrained variables: 17
+2021-10-23 02:55:05,891 [INFO] Total Call times: 150000, Best Found Solution: 20.0,Current Solution: 25.221305745840905
+2021-10-23 02:55:05,891 [INFO] Number of constrained variables: 18
+2021-10-23 02:56:15,990 [INFO] Total Call times: 157500, Best Found Solution: 20.0,Current Solution: 21.014705882352942
+2021-10-23 02:56:15,990 [INFO] Number of constrained variables: 21
+2021-10-23 02:58:15,783 [INFO] Total Call times: 170000, Best Found Solution: 20.0,Current Solution: 22.893450635386124
+2021-10-23 02:58:15,783 [INFO] Number of constrained variables: 28
+2021-10-23 02:58:41,690 [INFO] Total Call times: 172500, Best Found Solution: 20.0,Current Solution: 22.83235904205167
+2021-10-23 02:58:41,690 [INFO] Number of constrained variables: 31
+2021-10-23 03:00:28,111 [INFO] Total Call times: 182500, Best Found Solution: 20.0,Current Solution: 23.0442581399883
+2021-10-23 03:00:28,112 [INFO] Number of constrained variables: 18
+2021-10-23 03:00:47,528 [INFO] Total Call times: 185000, Best Found Solution: 20.0,Current Solution: 21.222222222222225
+2021-10-23 03:00:47,529 [INFO] Number of constrained variables: 23
+2021-10-23 03:01:32,455 [INFO] Total Call times: 190000, Best Found Solution: 20.0,Current Solution: 21.025484764542938
+2021-10-23 03:01:32,456 [INFO] Number of constrained variables: 32
+2021-10-23 03:02:16,761 [INFO] Total Call times: 195000, Best Found Solution: 20.0,Current Solution: 22.067579127459368
+2021-10-23 03:02:16,761 [INFO] Number of constrained variables: 17
+2021-10-23 03:02:38,725 [INFO] Total Call times: 197500, Best Found Solution: 20.0,Current Solution: 23.252991452991452
+2021-10-23 03:02:38,725 [INFO] Number of constrained variables: 15
+2021-10-23 03:03:02,339 [INFO] Total Call times: 200000, Best Found Solution: 20.0,Current Solution: 22.915843709746675
+2021-10-23 03:03:02,339 [INFO] Number of constrained variables: 28
+2021-10-23 03:03:28,248 [INFO] Total Call times: 202500, Best Found Solution: 20.0,Current Solution: 25.035752855527466
+2021-10-23 03:03:28,248 [INFO] Number of constrained variables: 21
+2021-10-23 03:03:53,693 [INFO] Total Call times: 205000, Best Found Solution: 20.0,Current Solution: 22.122080006758758
+2021-10-23 03:03:53,693 [INFO] Number of constrained variables: 33
+2021-10-23 03:04:21,131 [INFO] Total Call times: 207500, Best Found Solution: 20.0,Current Solution: 23.420525657071337
+2021-10-23 03:04:21,131 [INFO] Number of constrained variables: 27
+2021-10-23 03:04:49,917 [INFO] Total Call times: 210000, Best Found Solution: 20.0,Current Solution: 22.10344827586207
+2021-10-23 03:04:49,917 [INFO] Number of constrained variables: 14
+2021-10-23 03:05:48,787 [INFO] Total Call times: 217500, Best Found Solution: 20.0,Current Solution: 21.88235294117647
+2021-10-23 03:05:48,787 [INFO] Number of constrained variables: 21
+2021-10-23 03:06:13,705 [INFO] Total Call times: 220000, Best Found Solution: 21.0,Current Solution: 22.454545454545457
+2021-10-23 03:06:13,705 [INFO] Number of constrained variables: 15
+2021-10-23 03:06:42,501 [INFO] Total Call times: 222500, Best Found Solution: 21.0,Current Solution: 23.259740259740262
+2021-10-23 03:06:42,501 [INFO] Number of constrained variables: 14
+2021-10-23 03:07:40,366 [INFO] Total Call times: 227500, Best Found Solution: 21.0,Current Solution: 24.86892347290771
+2021-10-23 03:07:40,366 [INFO] Number of constrained variables: 15
+2021-10-23 03:08:11,990 [INFO] Total Call times: 230000, Best Found Solution: 21.0,Current Solution: 23.640956507783663
+2021-10-23 03:08:11,990 [INFO] Number of constrained variables: 27
+2021-10-23 03:09:18,392 [INFO] Total Call times: 235000, Best Found Solution: 21.0,Current Solution: 22.682904411764707
+2021-10-23 03:09:18,392 [INFO] Number of constrained variables: 26
+2021-10-23 03:09:43,408 [INFO] Total Call times: 237500, Best Found Solution: 21.0,Current Solution: 23.491803278688522
+2021-10-23 03:09:43,408 [INFO] Number of constrained variables: 19
+2021-10-23 03:10:10,911 [INFO] Total Call times: 240000, Best Found Solution: 21.0,Current Solution: 22.400244798041616
+2021-10-23 03:10:10,911 [INFO] Number of constrained variables: 21
+2021-10-23 03:10:39,010 [INFO] Total Call times: 242500, Best Found Solution: 21.0,Current Solution: 23.98856858846918
+2021-10-23 03:10:39,011 [INFO] Number of constrained variables: 22
+2021-10-23 03:12:09,608 [INFO] Total Call times: 250000, Best Found Solution: 21.0,Current Solution: 23.02816901408451
+2021-10-23 03:12:09,608 [INFO] Number of constrained variables: 18
+2021-10-23 03:13:34,007 [INFO] Total Call times: 257500, Best Found Solution: 21.0,Current Solution: 22.37923250564334
+2021-10-23 03:13:34,007 [INFO] Number of constrained variables: 26
+2021-10-23 03:14:03,111 [INFO] Total Call times: 260000, Best Found Solution: 21.0,Current Solution: 23.662432518259767
+2021-10-23 03:14:03,111 [INFO] Number of constrained variables: 25
+2021-10-23 03:15:12,915 [INFO] Total Call times: 265000, Best Found Solution: 21.0,Current Solution: 22.2
+2021-10-23 03:15:12,915 [INFO] Number of constrained variables: 19
+2021-10-23 03:16:07,606 [INFO] Total Call times: 270000, Best Found Solution: 21.0,Current Solution: 23.508231408028443
+2021-10-23 03:16:07,606 [INFO] Number of constrained variables: 30
+2021-10-23 03:16:35,373 [INFO] Total Call times: 272500, Best Found Solution: 21.0,Current Solution: 22.0360315893386
+2021-10-23 03:16:35,373 [INFO] Number of constrained variables: 25
+2021-10-23 03:17:06,130 [INFO] Total Call times: 275000, Best Found Solution: 21.0,Current Solution: 22.818896051571315
+2021-10-23 03:17:06,130 [INFO] Number of constrained variables: 31
+2021-10-23 03:18:07,437 [INFO] Total Call times: 280000, Best Found Solution: 21.0,Current Solution: 22.417697238907678
+2021-10-23 03:18:07,437 [INFO] Number of constrained variables: 30
+2021-10-23 03:19:13,693 [INFO] Total Call times: 285000, Best Found Solution: 21.0,Current Solution: 22.858156028368796
+2021-10-23 03:19:13,693 [INFO] Number of constrained variables: 34
+2021-10-23 03:19:49,205 [INFO] Total Call times: 287500, Best Found Solution: 21.0,Current Solution: 25.75257676445032
+2021-10-23 03:19:49,205 [INFO] Number of constrained variables: 19
+2021-10-23 03:20:52,470 [INFO] Total Call times: 292500, Best Found Solution: 21.0,Current Solution: 22.986045286993154
+2021-10-23 03:20:52,470 [INFO] Number of constrained variables: 30
+2021-10-23 03:21:27,267 [INFO] Total Call times: 295000, Best Found Solution: 21.0,Current Solution: 22.3
+2021-10-23 03:21:27,267 [INFO] Number of constrained variables: 23
+2021-10-23 03:21:55,252 [INFO] Total Call times: 297500, Best Found Solution: 21.0,Current Solution: 22.693045563549163
+2021-10-23 03:21:55,252 [INFO] Number of constrained variables: 20
+2021-10-23 03:23:21,945 [INFO] Total Call times: 305000, Best Found Solution: 21.0,Current Solution: 24.28725286654582
+2021-10-23 03:23:21,945 [INFO] Number of constrained variables: 28
+2021-10-23 03:23:53,503 [INFO] Total Call times: 307500, Best Found Solution: 21.0,Current Solution: 23.34827451446825
+2021-10-23 03:23:53,503 [INFO] Number of constrained variables: 28
+2021-10-23 03:24:27,253 [INFO] Total Call times: 310000, Best Found Solution: 21.0,Current Solution: 25.682809963172694
+2021-10-23 03:24:27,253 [INFO] Number of constrained variables: 31
+2021-10-23 03:25:02,804 [INFO] Total Call times: 312500, Best Found Solution: 21.0,Current Solution: 22.14437689969605
+2021-10-23 03:25:02,804 [INFO] Number of constrained variables: 21
+2021-10-23 03:26:39,103 [INFO] Total Call times: 320000, Best Found Solution: 21.0,Current Solution: 22.0
+2021-10-23 03:26:39,103 [INFO] Number of constrained variables: 27
+2021-10-23 03:27:10,920 [INFO] Total Call times: 322500, Best Found Solution: 21.0,Current Solution: 22.13221406086044
+2021-10-23 03:27:10,920 [INFO] Number of constrained variables: 31
+2021-10-23 03:28:16,386 [INFO] Total Call times: 327500, Best Found Solution: 21.0,Current Solution: 23.97203600891776
+2021-10-23 03:28:16,386 [INFO] Number of constrained variables: 25
+2021-10-23 03:28:52,228 [INFO] Total Call times: 330000, Best Found Solution: 21.0,Current Solution: 25.858270749848558
+2021-10-23 03:28:52,228 [INFO] Number of constrained variables: 43
+2021-10-23 03:29:54,649 [INFO] Total Call times: 335000, Best Found Solution: 21.0,Current Solution: 22.023562412342216
+2021-10-23 03:29:54,649 [INFO] Number of constrained variables: 35
+2021-10-23 03:31:01,322 [INFO] Total Call times: 340000, Best Found Solution: 21.0,Current Solution: 23.154411764705884
+2021-10-23 03:31:01,322 [INFO] Number of constrained variables: 28
+2021-10-23 03:31:35,259 [INFO] Total Call times: 342500, Best Found Solution: 21.0,Current Solution: 22.142857142857146
+2021-10-23 03:31:35,259 [INFO] Number of constrained variables: 29
+2021-10-23 03:32:09,604 [INFO] Total Call times: 345000, Best Found Solution: 21.0,Current Solution: 22.66172360802215
+2021-10-23 03:32:09,604 [INFO] Number of constrained variables: 35
+2021-10-23 03:32:21,900 [WARNING] Out of time!
+2021-10-23 03:32:21,901 [INFO] objective value: 21.0 
+2021-10-23 03:32:21,901 [INFO] values:
+2021-10-23 03:32:21,901 [INFO] 	x_3 = 1.0 	x_25 = 1.0 	x_31 = 1.0 	x_40 = 1.0 	x_45 = 1.0 	x_47 = 1.0 	x_82 = 1.0 	x_99 = 1.0 	x_102 = 1.0 	x_103 = 1.0 	x_106 = 1.0 	x_119 = 1.0 	x_121 = 1.0 	x_131 = 1.0 	x_136 = 1.0 	x_137 = 1.0 	x_143 = 1.0 	x_174 = 1.0 	x_179 = 1.0 	x_190 = 1.0 	x_198 = 1.0 
+2021-10-23 03:32:21,903 [INFO] Found nodes create a clique
+2021-10-23 03:32:21,903 [INFO] It's size matches with the best known
+2021-10-23 03:32:21,903 [INFO] process_single_graph function took 60.0 mins, 0.03 secs
+2021-10-23 03:32:21,903 [INFO] 
+
+PROCESSING: gen200_p0.9_44.clq
+2021-10-23 03:32:34,768 [INFO] Searched for independent sets during 20 iterations
+2021-10-23 03:32:34,900 [INFO] construct_problem function took 0.0 mins, 12.96 secs
+2021-10-23 03:32:34,900 [INFO] Using heuristics
+2021-10-23 03:32:35,450 [INFO] Finished with heuristics, found solution length: 33, it's a clique: True
+2021-10-23 03:32:49,405 [INFO] Total Call times: 2500, Best Found Solution: 39.0,Current Solution: 40.8
+2021-10-23 03:32:49,405 [INFO] Number of constrained variables: 16
+2021-10-23 03:33:05,207 [INFO] Total Call times: 5000, Best Found Solution: 39.0,Current Solution: 41.0
+2021-10-23 03:33:05,207 [INFO] Number of constrained variables: 15
+2021-10-23 03:33:48,814 [INFO] Total Call times: 12500, Best Found Solution: 39.0,Current Solution: 40.733333333333334
+2021-10-23 03:33:48,815 [INFO] Number of constrained variables: 19
+2021-10-23 03:34:18,708 [INFO] Total Call times: 17500, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 03:34:18,708 [INFO] Number of constrained variables: 17
+2021-10-23 03:35:04,672 [INFO] Total Call times: 25000, Best Found Solution: 39.0,Current Solution: 40.666666666666664
+2021-10-23 03:35:04,672 [INFO] Number of constrained variables: 19
+2021-10-23 03:35:37,578 [INFO] Total Call times: 30000, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 03:35:37,578 [INFO] Number of constrained variables: 20
+2021-10-23 03:35:55,442 [INFO] Total Call times: 32500, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 03:35:55,442 [INFO] Number of constrained variables: 17
+2021-10-23 03:36:11,255 [INFO] Total Call times: 35000, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 03:36:11,255 [INFO] Number of constrained variables: 22
+2021-10-23 03:36:26,966 [INFO] Total Call times: 37500, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 03:36:26,966 [INFO] Number of constrained variables: 22
+2021-10-23 03:38:17,784 [INFO] Total Call times: 55000, Best Found Solution: 39.0,Current Solution: 40.175000000000004
+2021-10-23 03:38:17,784 [INFO] Number of constrained variables: 25
+2021-10-23 03:38:46,798 [INFO] Total Call times: 60000, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 03:38:46,798 [INFO] Number of constrained variables: 19
+2021-10-23 03:39:01,096 [INFO] Total Call times: 62500, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 03:39:01,096 [INFO] Number of constrained variables: 34
+2021-10-23 03:39:15,779 [INFO] Total Call times: 65000, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 03:39:15,779 [INFO] Number of constrained variables: 21
+2021-10-23 03:39:45,546 [INFO] Total Call times: 70000, Best Found Solution: 39.0,Current Solution: 40.5
+2021-10-23 03:39:45,546 [INFO] Number of constrained variables: 22
+2021-10-23 03:40:01,311 [INFO] Total Call times: 72500, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 03:40:01,311 [INFO] Number of constrained variables: 31
+2021-10-23 03:40:17,346 [INFO] Total Call times: 75000, Best Found Solution: 39.0,Current Solution: 41.0
+2021-10-23 03:40:17,346 [INFO] Number of constrained variables: 19
+2021-10-23 03:40:47,635 [INFO] Total Call times: 80000, Best Found Solution: 39.0,Current Solution: 40.2
+2021-10-23 03:40:47,635 [INFO] Number of constrained variables: 20
+2021-10-23 03:41:03,427 [INFO] Total Call times: 82500, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 03:41:03,427 [INFO] Number of constrained variables: 23
+2021-10-23 03:41:17,598 [INFO] Total Call times: 85000, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 03:41:17,598 [INFO] Number of constrained variables: 18
+2021-10-23 03:41:33,156 [INFO] Total Call times: 87500, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 03:41:33,156 [INFO] Number of constrained variables: 21
+2021-10-23 03:42:51,958 [INFO] Total Call times: 100000, Best Found Solution: 39.0,Current Solution: 41.0
+2021-10-23 03:42:51,959 [INFO] Number of constrained variables: 19
+2021-10-23 03:43:56,104 [INFO] Total Call times: 110000, Best Found Solution: 39.0,Current Solution: 40.5
+2021-10-23 03:43:56,104 [INFO] Number of constrained variables: 18
+2021-10-23 03:44:13,190 [INFO] Total Call times: 112500, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 03:44:13,190 [INFO] Number of constrained variables: 20
+2021-10-23 03:44:44,798 [INFO] Total Call times: 117500, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 03:44:44,798 [INFO] Number of constrained variables: 30
+2021-10-23 03:45:17,285 [INFO] Total Call times: 122500, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 03:45:17,285 [INFO] Number of constrained variables: 23
+2021-10-23 03:46:06,858 [INFO] Total Call times: 130000, Best Found Solution: 39.0,Current Solution: 40.5
+2021-10-23 03:46:06,858 [INFO] Number of constrained variables: 25
+2021-10-23 03:46:25,588 [INFO] Total Call times: 132500, Best Found Solution: 39.0,Current Solution: 40.66666666666667
+2021-10-23 03:46:25,588 [INFO] Number of constrained variables: 22
+2021-10-23 03:47:49,283 [INFO] Total Call times: 145000, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 03:47:49,283 [INFO] Number of constrained variables: 24
+2021-10-23 03:48:02,284 [INFO] Total Call times: 147500, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 03:48:02,284 [INFO] Number of constrained variables: 27
+2021-10-23 03:48:29,720 [INFO] Total Call times: 152500, Best Found Solution: 39.0,Current Solution: 40.5
+2021-10-23 03:48:29,720 [INFO] Number of constrained variables: 21
+2021-10-23 03:49:13,501 [INFO] Total Call times: 160000, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 03:49:13,501 [INFO] Number of constrained variables: 22
+2021-10-23 03:49:59,918 [INFO] Total Call times: 167500, Best Found Solution: 39.0,Current Solution: 40.5
+2021-10-23 03:49:59,918 [INFO] Number of constrained variables: 19
+2021-10-23 03:51:33,748 [INFO] Total Call times: 182500, Best Found Solution: 39.0,Current Solution: 40.25
+2021-10-23 03:51:33,748 [INFO] Number of constrained variables: 29
+2021-10-23 03:52:07,066 [INFO] Total Call times: 187500, Best Found Solution: 39.0,Current Solution: 41.57142857142858
+2021-10-23 03:52:07,066 [INFO] Number of constrained variables: 18
+2021-10-23 03:52:25,166 [INFO] Total Call times: 190000, Best Found Solution: 39.0,Current Solution: 40.5
+2021-10-23 03:52:25,166 [INFO] Number of constrained variables: 24
+2021-10-23 03:52:39,234 [INFO] Total Call times: 192500, Best Found Solution: 39.0,Current Solution: 40.5
+2021-10-23 03:52:39,234 [INFO] Number of constrained variables: 18
+2021-10-23 03:52:53,895 [INFO] Total Call times: 195000, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 03:52:53,895 [INFO] Number of constrained variables: 26
+2021-10-23 03:53:41,186 [INFO] Total Call times: 202500, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 03:53:41,186 [INFO] Number of constrained variables: 19
+2021-10-23 03:53:57,563 [INFO] Total Call times: 205000, Best Found Solution: 39.0,Current Solution: 40.75
+2021-10-23 03:53:57,564 [INFO] Number of constrained variables: 21
+2021-10-23 03:54:14,076 [INFO] Total Call times: 207500, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 03:54:14,076 [INFO] Number of constrained variables: 22
+2021-10-23 03:54:31,491 [INFO] Total Call times: 210000, Best Found Solution: 39.0,Current Solution: 40.5
+2021-10-23 03:54:31,491 [INFO] Number of constrained variables: 22
+2021-10-23 03:54:48,297 [INFO] Total Call times: 212500, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 03:54:48,297 [INFO] Number of constrained variables: 22
+2021-10-23 03:55:06,636 [INFO] Total Call times: 215000, Best Found Solution: 39.0,Current Solution: 40.958333333333336
+2021-10-23 03:55:06,636 [INFO] Number of constrained variables: 20
+2021-10-23 03:55:52,852 [INFO] Total Call times: 222500, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 03:55:52,852 [INFO] Number of constrained variables: 25
+2021-10-23 03:56:22,178 [INFO] Total Call times: 227500, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 03:56:22,179 [INFO] Number of constrained variables: 17
+2021-10-23 03:57:18,769 [INFO] Total Call times: 237500, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 03:57:18,769 [INFO] Number of constrained variables: 22
+2021-10-23 03:57:32,778 [INFO] Total Call times: 240000, Best Found Solution: 39.0,Current Solution: 40.5
+2021-10-23 03:57:32,778 [INFO] Number of constrained variables: 23
+2021-10-23 03:58:18,376 [INFO] Total Call times: 247500, Best Found Solution: 39.0,Current Solution: 40.5
+2021-10-23 03:58:18,376 [INFO] Number of constrained variables: 17
+2021-10-23 03:58:47,165 [INFO] Total Call times: 252500, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 03:58:47,166 [INFO] Number of constrained variables: 21
+2021-10-23 03:59:02,250 [INFO] Total Call times: 255000, Best Found Solution: 39.0,Current Solution: 40.5
+2021-10-23 03:59:02,250 [INFO] Number of constrained variables: 21
+2021-10-23 03:59:18,000 [INFO] Total Call times: 257500, Best Found Solution: 39.0,Current Solution: 40.689655172413794
+2021-10-23 03:59:18,000 [INFO] Number of constrained variables: 19
+2021-10-23 03:59:35,281 [INFO] Total Call times: 260000, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 03:59:35,281 [INFO] Number of constrained variables: 24
+2021-10-23 04:00:06,302 [INFO] Total Call times: 265000, Best Found Solution: 39.0,Current Solution: 42.0
+2021-10-23 04:00:06,302 [INFO] Number of constrained variables: 22
+2021-10-23 04:00:22,988 [INFO] Total Call times: 267500, Best Found Solution: 39.0,Current Solution: 40.357142857142854
+2021-10-23 04:00:22,988 [INFO] Number of constrained variables: 24
+2021-10-23 04:00:40,687 [INFO] Total Call times: 270000, Best Found Solution: 39.0,Current Solution: 41.0
+2021-10-23 04:00:40,687 [INFO] Number of constrained variables: 19
+2021-10-23 04:00:59,148 [INFO] Total Call times: 272500, Best Found Solution: 39.0,Current Solution: 42.0
+2021-10-23 04:00:59,148 [INFO] Number of constrained variables: 17
+2021-10-23 04:01:47,922 [INFO] Total Call times: 280000, Best Found Solution: 39.0,Current Solution: 40.5
+2021-10-23 04:01:47,922 [INFO] Number of constrained variables: 27
+2021-10-23 04:02:03,362 [INFO] Total Call times: 282500, Best Found Solution: 39.0,Current Solution: 41.125
+2021-10-23 04:02:03,362 [INFO] Number of constrained variables: 19
+2021-10-23 04:02:19,594 [INFO] Total Call times: 285000, Best Found Solution: 39.0,Current Solution: 41.0
+2021-10-23 04:02:19,594 [INFO] Number of constrained variables: 20
+2021-10-23 04:03:41,705 [INFO] Total Call times: 297500, Best Found Solution: 39.0,Current Solution: 40.090909090909086
+2021-10-23 04:03:41,705 [INFO] Number of constrained variables: 27
+2021-10-23 04:04:17,431 [INFO] Total Call times: 302500, Best Found Solution: 39.0,Current Solution: 42.0
+2021-10-23 04:04:17,431 [INFO] Number of constrained variables: 17
+2021-10-23 04:04:50,924 [INFO] Total Call times: 307500, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 04:04:50,925 [INFO] Number of constrained variables: 25
+2021-10-23 04:05:44,838 [INFO] Total Call times: 315000, Best Found Solution: 39.0,Current Solution: 40.5
+2021-10-23 04:05:44,838 [INFO] Number of constrained variables: 24
+2021-10-23 04:06:01,905 [INFO] Total Call times: 317500, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 04:06:01,905 [INFO] Number of constrained variables: 25
+2021-10-23 04:08:42,074 [INFO] Total Call times: 340000, Best Found Solution: 39.0,Current Solution: 41.0
+2021-10-23 04:08:42,074 [INFO] Number of constrained variables: 23
+2021-10-23 04:09:10,636 [INFO] Total Call times: 345000, Best Found Solution: 39.0,Current Solution: 40.5
+2021-10-23 04:09:10,636 [INFO] Number of constrained variables: 23
+2021-10-23 04:09:25,352 [INFO] Total Call times: 347500, Best Found Solution: 39.0,Current Solution: 40.5
+2021-10-23 04:09:25,352 [INFO] Number of constrained variables: 23
+2021-10-23 04:09:57,351 [INFO] Total Call times: 352500, Best Found Solution: 39.0,Current Solution: 41.5
+2021-10-23 04:09:57,351 [INFO] Number of constrained variables: 22
+2021-10-23 04:10:14,199 [INFO] Total Call times: 355000, Best Found Solution: 39.0,Current Solution: 41.37974683544305
+2021-10-23 04:10:14,200 [INFO] Number of constrained variables: 24
+2021-10-23 04:11:35,299 [INFO] Total Call times: 367500, Best Found Solution: 39.0,Current Solution: 40.5
+2021-10-23 04:11:35,299 [INFO] Number of constrained variables: 24
+2021-10-23 04:13:00,277 [INFO] Total Call times: 380000, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 04:13:00,277 [INFO] Number of constrained variables: 25
+2021-10-23 04:13:15,833 [INFO] Total Call times: 382500, Best Found Solution: 39.0,Current Solution: 40.25
+2021-10-23 04:13:15,833 [INFO] Number of constrained variables: 24
+2021-10-23 04:13:30,422 [INFO] Total Call times: 385000, Best Found Solution: 39.0,Current Solution: 40.75
+2021-10-23 04:13:30,422 [INFO] Number of constrained variables: 19
+2021-10-23 04:14:15,621 [INFO] Total Call times: 392500, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 04:14:15,621 [INFO] Number of constrained variables: 21
+2021-10-23 04:14:32,400 [INFO] Total Call times: 395000, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 04:14:32,400 [INFO] Number of constrained variables: 22
+2021-10-23 04:15:07,364 [INFO] Total Call times: 400000, Best Found Solution: 39.0,Current Solution: 40.75
+2021-10-23 04:15:07,364 [INFO] Number of constrained variables: 21
+2021-10-23 04:15:42,672 [INFO] Total Call times: 405000, Best Found Solution: 39.0,Current Solution: 41.81818181818182
+2021-10-23 04:15:42,673 [INFO] Number of constrained variables: 15
+2021-10-23 04:16:00,188 [INFO] Total Call times: 407500, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 04:16:00,188 [INFO] Number of constrained variables: 17
+2021-10-23 04:16:15,820 [INFO] Total Call times: 410000, Best Found Solution: 39.0,Current Solution: 40.25
+2021-10-23 04:16:15,820 [INFO] Number of constrained variables: 20
+2021-10-23 04:16:53,540 [INFO] Total Call times: 415000, Best Found Solution: 39.0,Current Solution: 40.23076923076923
+2021-10-23 04:16:53,540 [INFO] Number of constrained variables: 22
+2021-10-23 04:17:31,563 [INFO] Total Call times: 420000, Best Found Solution: 39.0,Current Solution: 41.16666666666667
+2021-10-23 04:17:31,563 [INFO] Number of constrained variables: 21
+2021-10-23 04:17:47,105 [INFO] Total Call times: 422500, Best Found Solution: 39.0,Current Solution: 42.233333333333334
+2021-10-23 04:17:47,105 [INFO] Number of constrained variables: 22
+2021-10-23 04:18:21,232 [INFO] Total Call times: 427500, Best Found Solution: 39.0,Current Solution: 40.25
+2021-10-23 04:18:21,232 [INFO] Number of constrained variables: 25
+2021-10-23 04:18:40,545 [INFO] Total Call times: 430000, Best Found Solution: 39.0,Current Solution: 42.0
+2021-10-23 04:18:40,545 [INFO] Number of constrained variables: 14
+2021-10-23 04:19:55,811 [INFO] Total Call times: 440000, Best Found Solution: 39.0,Current Solution: 41.0
+2021-10-23 04:19:55,811 [INFO] Number of constrained variables: 20
+2021-10-23 04:20:55,060 [INFO] Total Call times: 450000, Best Found Solution: 39.0,Current Solution: 41.0
+2021-10-23 04:20:55,060 [INFO] Number of constrained variables: 23
+2021-10-23 04:21:11,082 [INFO] Total Call times: 452500, Best Found Solution: 39.0,Current Solution: 41.0625
+2021-10-23 04:21:11,082 [INFO] Number of constrained variables: 20
+2021-10-23 04:21:42,971 [INFO] Total Call times: 457500, Best Found Solution: 39.0,Current Solution: 41.0
+2021-10-23 04:21:42,971 [INFO] Number of constrained variables: 23
+2021-10-23 04:23:20,938 [INFO] Total Call times: 472500, Best Found Solution: 39.0,Current Solution: 40.96296296296296
+2021-10-23 04:23:20,938 [INFO] Number of constrained variables: 19
+2021-10-23 04:23:36,397 [INFO] Total Call times: 475000, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 04:23:36,397 [INFO] Number of constrained variables: 26
+2021-10-23 04:23:52,083 [INFO] Total Call times: 477500, Best Found Solution: 39.0,Current Solution: 40.19230769230769
+2021-10-23 04:23:52,083 [INFO] Number of constrained variables: 27
+2021-10-23 04:24:41,156 [INFO] Total Call times: 485000, Best Found Solution: 39.0,Current Solution: 40.28571428571429
+2021-10-23 04:24:41,156 [INFO] Number of constrained variables: 26
+2021-10-23 04:24:59,719 [INFO] Total Call times: 487500, Best Found Solution: 39.0,Current Solution: 40.333333333333336
+2021-10-23 04:24:59,719 [INFO] Number of constrained variables: 19
+2021-10-23 04:25:36,207 [INFO] Total Call times: 492500, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 04:25:36,207 [INFO] Number of constrained variables: 23
+2021-10-23 04:25:55,114 [INFO] Total Call times: 495000, Best Found Solution: 39.0,Current Solution: 41.75
+2021-10-23 04:25:55,114 [INFO] Number of constrained variables: 17
+2021-10-23 04:26:10,193 [INFO] Total Call times: 497500, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 04:26:10,194 [INFO] Number of constrained variables: 28
+2021-10-23 04:26:57,437 [INFO] Total Call times: 505000, Best Found Solution: 39.0,Current Solution: 40.75
+2021-10-23 04:26:57,437 [INFO] Number of constrained variables: 19
+2021-10-23 04:27:28,519 [INFO] Total Call times: 510000, Best Found Solution: 39.0,Current Solution: 42.0
+2021-10-23 04:27:28,519 [INFO] Number of constrained variables: 23
+2021-10-23 04:27:44,185 [INFO] Total Call times: 512500, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 04:27:44,185 [INFO] Number of constrained variables: 26
+2021-10-23 04:28:18,145 [INFO] Total Call times: 517500, Best Found Solution: 39.0,Current Solution: 40.833333333333336
+2021-10-23 04:28:18,145 [INFO] Number of constrained variables: 24
+2021-10-23 04:28:53,500 [INFO] Total Call times: 522500, Best Found Solution: 39.0,Current Solution: 40.6
+2021-10-23 04:28:53,500 [INFO] Number of constrained variables: 20
+2021-10-23 04:29:28,507 [INFO] Total Call times: 527500, Best Found Solution: 39.0,Current Solution: 40.5
+2021-10-23 04:29:28,507 [INFO] Number of constrained variables: 28
+2021-10-23 04:29:45,925 [INFO] Total Call times: 530000, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 04:29:45,925 [INFO] Number of constrained variables: 24
+2021-10-23 04:31:00,112 [INFO] Total Call times: 540000, Best Found Solution: 39.0,Current Solution: 40.00000000000001
+2021-10-23 04:31:00,112 [INFO] Number of constrained variables: 19
+2021-10-23 04:31:33,037 [INFO] Total Call times: 545000, Best Found Solution: 39.0,Current Solution: 40.6
+2021-10-23 04:31:33,037 [INFO] Number of constrained variables: 25
+2021-10-23 04:31:49,911 [INFO] Total Call times: 547500, Best Found Solution: 39.0,Current Solution: 40.0
+2021-10-23 04:31:49,912 [INFO] Number of constrained variables: 23
+2021-10-23 04:32:21,946 [WARNING] Out of time!
+2021-10-23 04:32:21,946 [INFO] objective value: 39.0 
+2021-10-23 04:32:21,946 [INFO] values:
+2021-10-23 04:32:21,946 [INFO] 	x_1 = 1.0 	x_12 = 1.0 	x_19 = 1.0 	x_22 = 1.0 	x_33 = 1.0 	x_37 = 1.0 	x_39 = 1.0 	x_45 = 1.0 	x_46 = 1.0 	x_66 = 1.0 	x_74 = 1.0 	x_83 = 1.0 	x_85 = 1.0 	x_99 = 1.0 	x_101 = 1.0 	x_107 = 1.0 	x_116 = 1.0 	x_118 = 1.0 	x_119 = 1.0 	x_122 = 1.0 	x_126 = 1.0 	x_128 = 1.0 	x_132 = 1.0 	x_137 = 1.0 	x_140 = 1.0 	x_148 = 1.0 	x_149 = 1.0 	x_150 = 1.0 	x_154 = 1.0 	x_155 = 1.0 	x_159 = 1.0 	x_165 = 1.0 	x_169 = 1.0 	x_177 = 1.0 	x_179 = 1.0 	x_185 = 1.0 	x_189 = 1.0 	x_192 = 1.0 	x_194 = 1.0 
+2021-10-23 04:32:21,951 [INFO] Found nodes create a clique
+2021-10-23 04:32:21,951 [INFO] process_single_graph function took 60.0 mins, 0.05 secs
+2021-10-23 04:32:21,951 [INFO] 
+
+PROCESSING: gen200_p0.9_55.clq
+2021-10-23 04:32:40,778 [INFO] Searched for independent sets during 26 iterations
+2021-10-23 04:32:40,917 [INFO] construct_problem function took 0.0 mins, 18.93 secs
+2021-10-23 04:32:40,917 [INFO] Using heuristics
+2021-10-23 04:32:41,467 [INFO] Finished with heuristics, found solution length: 39, it's a clique: True
+2021-10-23 04:32:41,895 [INFO] __call__ function took 0.0 mins, 0.43 secs
+2021-10-23 04:32:41,895 [INFO] objective value: 55.0 
+2021-10-23 04:32:41,896 [INFO] values:
+2021-10-23 04:32:41,896 [INFO] 	x_4 = 1.0 	x_5 = 1.0 	x_11 = 1.0 	x_13 = 1.0 	x_14 = 1.0 	x_18 = 1.0 	x_20 = 1.0 	x_24 = 1.0 	x_25 = 1.0 	x_26 = 1.0 	x_29 = 1.0 	x_32 = 1.0 	x_34 = 1.0 	x_35 = 1.0 	x_40 = 1.0 	x_61 = 1.0 	x_63 = 1.0 	x_66 = 1.0 	x_68 = 1.0 	x_72 = 1.0 	x_75 = 1.0 	x_76 = 1.0 	x_77 = 0.9999999999999998 	x_78 = 1.0 	x_80 = 1.0 	x_81 = 1.0 	x_85 = 1.0 	x_87 = 1.0 	x_88 = 1.0 	x_90 = 1.0 	x_92 = 1.0 	x_94 = 1.0 	x_95 = 1.0 	x_106 = 1.0 	x_110 = 1.0 	x_112 = 1.0 	x_115 = 1.0 	x_116 = 1.0 	x_122 = 1.0 	x_128 = 1.0 	x_142 = 1.0 	x_143 = 1.0 	x_145 = 1.0 	x_146 = 1.0 	x_158 = 1.0 	x_162 = 1.0 	x_163 = 1.0 	x_174 = 1.0 	x_176 = 1.0 	x_181 = 1.0 	x_186 = 1.0 	x_191 = 1.0 	x_196 = 1.0 	x_197 = 1.0 	x_198 = 1.0 
+2021-10-23 04:32:41,903 [INFO] Found nodes create a clique
+2021-10-23 04:32:41,903 [INFO] It's size matches with the best known
+2021-10-23 04:32:41,903 [INFO] process_single_graph function took 0.0 mins, 19.95 secs
+2021-10-23 04:32:41,903 [INFO] 
+
+PROCESSING: p_hat1000-1.clq
+2021-10-23 04:33:49,056 [INFO] Searched for independent sets during 45 iterations
+2021-10-23 04:33:50,066 [WARNING] Failed to remove pairs covered by independent sets
+2021-10-23 04:33:51,560 [INFO] construct_problem function took 1.0 mins, 9.39 secs
+2021-10-23 04:33:51,560 [INFO] Using heuristics
+2021-10-23 04:33:53,408 [INFO] Finished with heuristics, found solution length: 9, it's a clique: True
+2021-10-23 04:50:23,857 [INFO] Total Call times: 5000, Best Found Solution: 10.0,Current Solution: 15.201834862385324
+2021-10-23 04:50:23,857 [INFO] Number of constrained variables: 20
+2021-10-23 04:58:07,564 [INFO] Total Call times: 7500, Best Found Solution: 10.0,Current Solution: 12.821428571428573
+2021-10-23 04:58:07,564 [INFO] Number of constrained variables: 25
+2021-10-23 05:05:49,971 [INFO] Total Call times: 10000, Best Found Solution: 10.0,Current Solution: 11.0
+2021-10-23 05:05:49,971 [INFO] Number of constrained variables: 44
+2021-10-23 05:13:36,045 [INFO] Total Call times: 12500, Best Found Solution: 10.0,Current Solution: 11.666666666666666
+2021-10-23 05:13:36,045 [INFO] Number of constrained variables: 40
+2021-10-23 05:21:21,131 [INFO] Total Call times: 15000, Best Found Solution: 10.0,Current Solution: 12.673076923076923
+2021-10-23 05:21:21,131 [INFO] Number of constrained variables: 40
+2021-10-23 05:29:06,946 [INFO] Total Call times: 17500, Best Found Solution: 10.0,Current Solution: 11.0
+2021-10-23 05:29:06,946 [INFO] Number of constrained variables: 44
+2021-10-23 05:32:42,179 [WARNING] Out of time!
+2021-10-23 05:32:42,179 [INFO] objective value: 10.0 
+2021-10-23 05:32:42,179 [INFO] values:
+2021-10-23 05:32:42,179 [INFO] 	x_114 = 1.0 	x_152 = 1.0 	x_333 = 1.0 	x_415 = 1.0 	x_576 = 1.0 	x_652 = 1.0 	x_800 = 1.0 	x_863 = 1.0 	x_938 = 1.0 	x_992 = 1.0 
+2021-10-23 05:32:42,181 [INFO] Found nodes create a clique
+2021-10-23 05:32:42,181 [INFO] It's size matches with the best known
+2021-10-23 05:32:42,181 [INFO] process_single_graph function took 60.0 mins, 0.28 secs
+2021-10-23 05:32:42,182 [INFO] 
+
+PROCESSING: san1000.clq
+2021-10-23 05:34:29,353 [INFO] Searched for independent sets during 46 iterations
+2021-10-23 05:34:30,897 [WARNING] Failed to remove pairs covered by independent sets
+2021-10-23 05:34:31,921 [INFO] construct_problem function took 1.0 mins, 49.21 secs
+2021-10-23 05:34:31,921 [INFO] Using heuristics
+2021-10-23 05:34:35,456 [INFO] Finished with heuristics, found solution length: 8, it's a clique: True
+2021-10-23 05:39:33,463 [INFO] Total Call times: 2500, Best Found Solution: 10.0,Current Solution: 11.666666666666668
+2021-10-23 05:39:33,464 [INFO] Number of constrained variables: 21
+2021-10-23 05:49:29,382 [INFO] Total Call times: 7500, Best Found Solution: 10.0,Current Solution: 11.0
+2021-10-23 05:49:29,382 [INFO] Number of constrained variables: 37
+2021-10-23 05:59:27,739 [INFO] Total Call times: 12500, Best Found Solution: 10.0,Current Solution: 11.455882352941178
+2021-10-23 05:59:27,739 [INFO] Number of constrained variables: 34
+2021-10-23 06:04:25,199 [INFO] Total Call times: 15000, Best Found Solution: 10.0,Current Solution: 11.25
+2021-10-23 06:04:25,199 [INFO] Number of constrained variables: 67
+2021-10-23 06:09:21,651 [INFO] Total Call times: 17500, Best Found Solution: 10.0,Current Solution: 11.5
+2021-10-23 06:09:21,651 [INFO] Number of constrained variables: 51
+2021-10-23 06:24:32,268 [INFO] Total Call times: 25000, Best Found Solution: 10.0,Current Solution: 11.5
+2021-10-23 06:24:32,268 [INFO] Number of constrained variables: 30
+2021-10-23 06:29:37,737 [INFO] Total Call times: 27500, Best Found Solution: 10.0,Current Solution: 11.0
+2021-10-23 06:29:37,737 [INFO] Number of constrained variables: 47
+2021-10-23 06:32:42,776 [WARNING] Out of time!
+2021-10-23 06:32:42,777 [INFO] objective value: 10.0 
+2021-10-23 06:32:42,777 [INFO] values:
+2021-10-23 06:32:42,777 [INFO] 	x_16 = 1.0 	x_136 = 1.0 	x_309 = 1.0 	x_433 = 1.0 	x_581 = 1.0 	x_625 = 1.0 	x_740 = 1.0 	x_776 = 1.0 	x_889 = 1.0 	x_903 = 1.0 
+2021-10-23 06:32:42,781 [INFO] Found nodes create a clique
+2021-10-23 06:32:42,781 [INFO] process_single_graph function took 60.0 mins, 0.60 secs
+2021-10-23 06:32:42,782 [INFO] main function took 264.0 mins, 6.36 secs
