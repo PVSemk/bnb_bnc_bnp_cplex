@@ -97,7 +97,20 @@ def main():
             ) as fp:
                 json.dump(graph_results, fp, indent=4, sort_keys=False)
     else:
-        process_single_graph(args.path, args)
+        filename = os.path.basename(args.path)
+        graph_results = {}
+        (
+            (found_clique_size, is_clique, time_limit_reached),
+            processing_time,
+        ) = process_single_graph(args.path, args)
+        graph_results["Time (msec.)"] = processing_time
+        graph_results["Time (sec.)"] = processing_time / 1000
+        graph_results["Found Answer"] = found_clique_size
+        graph_results["Reached Time Limit"] = time_limit_reached
+        with open(
+            os.path.join("outputs", start_time_formatted, f"{filename}.json"), "w",
+        ) as fp:
+            json.dump(graph_results, fp, indent=4, sort_keys=False)
 
 
 if __name__ == "__main__":

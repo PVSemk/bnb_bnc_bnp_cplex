@@ -8,7 +8,10 @@ AMD Ryzen 7 3700X 8-Core Processor @ 3.60 Ghz
 
 ## Achieved results
 Benchmark - subset from DIMACS
-Time Limit was set to 1 hour (3600 secs)
+Time Limit was set to 1 hour (3600 secs) for easy/medium and 2 hours (7200 secs) for hard/timeout_medium.
+
+For hard/timeout_medium `n_independent_sets_growth_ratio` was set to 0.01
+
 Achieved results (E - easy, M - middle, H - hard):
 
 | Graph              	| Found Answer 	| Best Known Answer 	| BnB Time (sec) 	| Total Time (sec) 	| Reached Time Limit 	| Difficult 	| Notes                                                                                                                    	|
@@ -19,15 +22,26 @@ Achieved results (E - easy, M - middle, H - hard):
 | keller4.clq        	| 11           	| 11                	| 53.39          	| 66.56            	| False              	| E         	|                                                                                                                          	|
 | hamming8-4.clq     	| 16           	| 16                	| 1.05           	| 35.9             	| False              	| E         	|                                                                                                                          	|
 | C125.9.clq         	| 34           	| 34                	| 265.7          	| 268.9            	| False              	| M         	|                                                                                                                          	|
-| brock200_1.clq     	| 21           	| 21                	| 3600           	| 3600             	| True               	| M         	|                                                                                                                          	|
+| brock200_1.clq     	| 21           	| 21                	| 2933           	| 2982             	| False               	| M         	| n_independent_sets_growth_ratio was set to 0.01 (default is 0.02) to generate more independent sets (see logs)            |
 | brock200_2.clq     	| 12           	| 12                	| 88.89          	| 108.73           	| False              	| M         	|                                                                                                                          	|
 | brock200_3.clq     	| 15           	| 15                	| 437.19         	| 459              	| False              	| M         	|                                                                                                                          	|
 | brock200_4.clq     	| 17           	| 17                	| 565.44         	| 588.3            	| False              	| M         	|                                                                                                                          	|
-| gen200_p0.9_44.clq 	| 44           	| 44                	| 288.14         	| 323.26           	| False              	| M         	| Hard-coded number of independent set searching iterations to 50 as with default strategy it out of time limit (see logs) 	|
+| gen200_p0.9_44.clq 	| 44           	| 44                	| 288.14         	| 323.26           	| False              	| M         	| Hard-coded number of independent set searching iterations to 50 as with default strategy it's out of time limit (see logs)|
 | gen200_p0.9_55.clq 	| 55           	| 55                	| 0.43           	| 19.9             	| False              	| M         	|                                                                                                                          	|
-| p_hat1000-1.clq    	| 10           	| 10                	| 3600           	| 3600             	| True               	| M         	|                                                                                                                          	|
-| san1000.clq        	| 10           	| 15                	| 3600           	| 3600             	| True               	| M         	|                                                                                                                          	|
-
+| p_hat1000-1.clq    	| 10           	| 10                	| 7200           	| 7200             	| True               	| M         	|                                                                                                                          	|
+| san1000.clq        	| 10           	| 15                	| 7200           	| 7200             	| True               	| M         	|                                                                                                                          	|
+| MANN_a27.clq        	| 126           | 126                	| 21.41           	| 42             	| False               	| H         	|                                                                                                                          	|
+| MANN_a45.clq        	| 345           | 345                	| 924.82           	| 1167              | False               	| H         	|                                                                                                                          	|
+| brock400_1.clq        | 23           	| 27                	| 7200           	| 7200             	| True               	| H         	|                                                                                                                          	|
+| brock400_2.clq        | 24           	| 29                	| 7200           	| 7200             	| True               	| H         	|                                                                                                                          	|
+| brock400_3.clq        | 23           	| 31                	| 7200           	| 7200             	| True               	| H         	|                                                                                                                          	|
+| brock400_4.clq        | 24           	| 33                	| 7200           	| 7200             	| True               	| H         	|                                                                                                                          	|
+| p_hat300-3.clq        | 36           	| 36                	| 7200           	| 7200             	| True               	| H         	|                                                                                                                          	|
+| p_hat500-3.clq        | 49           	| 50                	| 7200           	| 7200             	| True               	| H         	|                                                                                                                          	|
+| p_hat1000-2.clq       | 45           	| 46                	| 7200           	| 7200             	| True               	| H         	|                                                                                                                          	|
+| p_hat1500-1.clq       | 10           	| 12                	| 7200           	| 7200             	| True               	| H         	|                                                                                                                          	|
+| sanr200_0.9.clq       | 42           	| 42                	| 7200           	| 7200             	| True               	| H         	|                                                                                                                          	|
+| sanr400_0.7.clq       | 21           	| 21                	| 7200           	| 7200             	| True               	| H         	|                                                                                                                          	|
 
 ## Installation & Usage
 1. Install IBM CPLEX, setup it for Python
