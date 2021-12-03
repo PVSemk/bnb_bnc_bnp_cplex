@@ -49,7 +49,7 @@ Achieved results (E - easy, M - middle, H - hard):
 | MANN_a27.clq              |        126        |         126          |       184        |         202          |         False          | H           |                                                                                                                            |
 | MANN_a45.clq              |        345        |         345          |       3600       |         3600         |          True          | H           |                                                                                                                            |
 | p_hat300-3.clq            |        34         |          36          |       3600       |         3600         |          True          | H           |                                                                                                                            |
-| sanr200_0.7.clq           |        18         |          42          |       3600       |         3600         |          True          | H           |                                                                                                                            |
+| sanr200_0.7.clq           |        18         |          18          |       3600       |         3600         |          True          | H           |                                                                                                                            |
 
 ## Installation & Usage
 1. Install IBM CPLEX, setup it for Python
