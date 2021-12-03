@@ -4,7 +4,7 @@ import os
 import sys
 from datetime import datetime
 
-from bnb_max_clique import BnBCliqueSolver
+from bnc_max_clique import BnCCliqueSolver
 from heuristic import GreedyHeuristic
 from utils import check_clique, parse_args, read_graph, time_it
 
@@ -22,7 +22,7 @@ def print_solution(solution_values, objective_value):
 @time_it
 def process_single_graph(path, args, best_known_solution=None):
     graph = read_graph(path)
-    solver = BnBCliqueSolver(graph, args.method, args.time_limit, debug=args.debug)
+    solver = BnCCliqueSolver(graph, args.time_limit, debug=args.debug)
     if args.use_heuristics:
         logging.info("Using heuristics")
         heuristic_solver = GreedyHeuristic(graph)
@@ -42,6 +42,7 @@ def process_single_graph(path, args, best_known_solution=None):
         time_limit_reached = True
     except Exception as msg:
         logging.warning(msg)
+        raise msg
     finally:
         solution_values = solver.get_solution()
         objective_value = solver.get_objective_value()

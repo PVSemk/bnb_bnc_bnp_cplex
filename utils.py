@@ -37,14 +37,6 @@ def parse_args():
         default="input.txt",
         type=str,
     )
-    parser.add_argument(
-        "-m",
-        "--method",
-        type=str,
-        choices=["LP", "ILP"],
-        default="LP",
-        help="Treat the problem as LP or ILP",
-    )
 
     parser.add_argument(
         "-uh",

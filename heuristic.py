@@ -55,7 +55,7 @@ class GreedyHeuristic:
                 current_node = sorted_nodes_copy[random_index][0]
                 solution.append(current_node)
                 node_neighbours = list(self.graph.neighbors(current_node))
-                sorted_nodes_copy.pop(0)
+                sorted_nodes_copy.pop(random_index)
                 sorted_nodes_copy = list(
                     filter(lambda x: x[0] in node_neighbours, sorted_nodes_copy),
                 )
@@ -99,7 +99,7 @@ class GreedyHeuristic:
                 current_node = sorted_nodes_copy[random_index][0]
                 solution.append(current_node)
                 node_neighbours = list(self.graph.neighbors(current_node))
-                sorted_nodes_copy.pop(0)
+                sorted_nodes_copy.pop(random_index)
                 sorted_nodes_copy = list(
                     filter(lambda x: x[0] in node_neighbours, sorted_nodes_copy),
                 )
