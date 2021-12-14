@@ -16,7 +16,7 @@ class CliqueSolver:
         self.graph = graph
         self.complement_graph = nx.complement(self.graph)
         self.debug = debug
-        self.n_independent_sets_growth_ratio = 0.1
+        self.n_independent_sets_growth_ratio = 0.05
         self.timer = time()
         self.time_limit = time_limit
         self.problem = self.construct_problem()[0]  # time_it returns time additionally
@@ -180,23 +180,11 @@ class BnCCliqueSolver(CliqueSolver):
     def separation(self, solution, top_k=5):
         solution = np.array(solution)
         solution[np.abs(solution) < self.epsilon] = 0
-        not_deleted_mask = np.ones(solution.shape, np.bool)
+        # not_deleted_mask = np.ones(solution.shape, np.bool)
         # Randomized smallest degree last for weighted independent sets searching
-        graph = self.complement_graph.copy()
-        sorted_nodes = []
-        while graph.number_of_nodes():
-            vertices_indices, weighted_degree = np.array(graph.degree()).T
-            weighted_degree = solution[not_deleted_mask] * weighted_degree
-            min_degree_vertex_idx = np.argmin(weighted_degree)
-            sorted_nodes.append(
-                (
-                    vertices_indices[min_degree_vertex_idx],
-                    solution[not_deleted_mask][min_degree_vertex_idx],
-                ),
-            )
-            graph.remove_node(sorted_nodes[-1][0])
-            not_deleted_mask[sorted_nodes[-1][0]] = False
-        sorted_nodes = list(reversed(sorted_nodes))
+        vertices_indices, weighted_degree = np.array(self.complement_graph.degree()).T
+        weighted_degree = solution * weighted_degree
+        sorted_nodes = vertices_indices[(np.argsort(weighted_degree)[::-1])].tolist()
         best_violated_constraints = set()
         best_total_weight = 1
         for _ in range(self.cutting_iterations_number):
@@ -205,17 +193,20 @@ class BnCCliqueSolver(CliqueSolver):
             total_weight = 0
             while len(sorted_nodes_copy) > 0:
                 random_index = np.random.randint(0, min(top_k, len(sorted_nodes_copy)))
-                current_node = sorted_nodes_copy[random_index][0]
-                total_weight += sorted_nodes_copy[random_index][1]
+                current_node = sorted_nodes_copy[random_index]
+                total_weight += solution[current_node]
                 violated_constraint.append(current_node)
-                node_neighbours = list(self.complement_graph.neighbors(current_node))
+                node_neighbours = self.complement_graph[current_node].keys()
+                # print(list(node_neighbours))
                 sorted_nodes_copy.pop(random_index)
                 sorted_nodes_copy = list(
-                    filter(lambda x: x[0] in node_neighbours, sorted_nodes_copy),
+                    filter(lambda x: x in node_neighbours, sorted_nodes_copy),
                 )
-            if total_weight - best_total_weight > self.epsilon:
+            if total_weight > best_total_weight + self.epsilon:
+                if tuple(violated_constraint) in best_violated_constraints:
+                    break
                 best_violated_constraints.add(tuple(violated_constraint))
-                best_total_weight = total_weight
+                # best_total_weight = total_weight
         if len(best_violated_constraints):
             return best_violated_constraints
         else:

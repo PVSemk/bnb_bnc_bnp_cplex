@@ -1,8 +1,8 @@
 {
-    "Time (msec.)": 3601416.8231487274,
-    "Time (sec.)": 3601.4168231487274,
+    "Time (msec.)": 2340655.4415225983,
+    "Time (sec.)": 2340.6554415225983,
     "Found Answer": 345.0,
     "Best Known Answer": "345",
     "Type": "H",
-    "Reached Time Limit": true
+    "Reached Time Limit": false
 }
