@@ -246,9 +246,13 @@ class BnPColoringSolver(ColoringSolver):
     def column_generation_loop(
         self, dual_solution, objective_value, use_cplex=False, time_limit=None,
     ):  # ToDo: time_limit - object to tune
+        cplex_iterations_num = 0
         while True:
             dual_solution = dual_solution[: self.graph.number_of_nodes()]
             if use_cplex:
+                cplex_iterations_num += 1
+                if cplex_iterations_num > 10:
+                    break
                 self.slave_problem.construct_slave_problem(
                     dual_solution, self.forbidden_sets, time_limit=time_limit,
                 )
@@ -293,7 +297,7 @@ class BnPColoringSolver(ColoringSolver):
                 objective_value,
                 dual_solution,
             ) = self.column_generation_loop(
-                dual_solution, objective_value, use_cplex=use_cplex, time_limit=2,
+                dual_solution, objective_value, use_cplex=use_cplex, time_limit=2.0,
             )
             if can_prune_branch:
                 print("Pruned")
@@ -309,7 +313,7 @@ class BnPColoringSolver(ColoringSolver):
                 dual_solution,
                 objective_value,
                 use_cplex=True,
-                time_limit=self.time_limit,
+                time_limit=float(self.time_limit),
             )
             if can_prune_branch:
                 print("Pruned")
@@ -330,7 +334,6 @@ class BnPColoringSolver(ColoringSolver):
                 f"Total Call times: {self.call_times}, Best Found Solution: {self.best_found_colors_number},"
                 f"Current Solution: {objective_value}",
             )
-        # ToDo: Доделать
         for branch_value in [1.0, 0.0]:
             self.branch_idx += 1
             current_branch = self.branch_idx

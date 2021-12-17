@@ -23,18 +23,18 @@ def process_single_graph(path, args, best_known_solution=None):
     graph = read_graph(path)
     solver = BnPColoringSolver(graph, args.time_limit, debug=args.debug)
     time_limit_reached = False
-    # try:
-    solver()
-    # except (TimeoutError, KeyboardInterrupt):
-    #     logging.error("Out of time!")
-    #     time_limit_reached = True
-    # except Exception as msg:
-    #     logging.error(msg)
-    #     raise msg
-    # finally:
-    solution_values = solver.get_solution()
-    objective_value = solver.get_objective_value()
-    print_solution(solution_values, objective_value)
+    try:
+        solver()
+    except (TimeoutError, KeyboardInterrupt):
+        logging.error("Out of time!")
+        time_limit_reached = True
+    except Exception as msg:
+        logging.error(msg)
+        raise msg
+    finally:
+        solution_values = solver.get_solution()
+        objective_value = solver.get_objective_value()
+        print_solution(solution_values, objective_value)
     return objective_value, time_limit_reached  # noqa:B012
 
 
