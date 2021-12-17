@@ -131,6 +131,7 @@ dmypy.json
 
 # Data
 DIMACS_all_ascii/
+BnP_data/
 
 # IDE
 .idea/

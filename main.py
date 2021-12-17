@@ -4,9 +4,8 @@ import os
 import sys
 from datetime import datetime
 
-from bnc_max_clique import BnCCliqueSolver
-from heuristic import GreedyHeuristic
-from utils import check_clique, parse_args, read_graph, time_it
+from bnp_max_clique import BnPColoringSolver
+from utils import parse_args, read_graph, time_it
 
 
 def print_solution(solution_values, objective_value):
@@ -22,41 +21,21 @@ def print_solution(solution_values, objective_value):
 @time_it
 def process_single_graph(path, args, best_known_solution=None):
     graph = read_graph(path)
-    solver = BnCCliqueSolver(graph, args.time_limit, debug=args.debug)
-    if args.use_heuristics:
-        logging.info("Using heuristics")
-        heuristic_solver = GreedyHeuristic(graph)
-        heuristic_solution, heuristic_objective_value = heuristic_solver()
-        is_clique = check_clique(graph, heuristic_solution)[0]
-        logging.info(
-            f"Finished with heuristics, found solution length: {heuristic_objective_value}, it's a clique: {is_clique}",
-        )
-        if is_clique:
-            solver.set_objective_value(heuristic_objective_value)
-            solver.set_solution(heuristic_solution)
+    solver = BnPColoringSolver(graph, args.time_limit, debug=args.debug)
     time_limit_reached = False
-    try:
-        solver()
-    except (TimeoutError, KeyboardInterrupt):
-        logging.warning("Out of time!")
-        time_limit_reached = True
-    except Exception as msg:
-        logging.warning(msg)
-        raise msg
-    finally:
-        solution_values = solver.get_solution()
-        objective_value = solver.get_objective_value()
-        print_solution(solution_values, objective_value)
-        is_clique, size_match_with_best_known = check_clique(
-            solver.graph, solution_values, best_known_solution,
-        )
-        if is_clique:
-            logging.info("Found nodes create a clique")
-            if size_match_with_best_known:
-                logging.info("It's size matches with the best known")
-        else:
-            logging.warning("Found nodes don't form a clique!")
-        return objective_value, is_clique, time_limit_reached  # noqa:B012
+    # try:
+    solver()
+    # except (TimeoutError, KeyboardInterrupt):
+    #     logging.error("Out of time!")
+    #     time_limit_reached = True
+    # except Exception as msg:
+    #     logging.error(msg)
+    #     raise msg
+    # finally:
+    solution_values = solver.get_solution()
+    objective_value = solver.get_objective_value()
+    print_solution(solution_values, objective_value)
+    return objective_value, time_limit_reached  # noqa:B012
 
 
 @time_it
@@ -77,12 +56,12 @@ def main():
     if ".txt" in args.path:
         with open(args.path, "r") as fp:
             inputs = [line.rstrip().split(",") for line in fp.readlines()[1:]]
-        for (path, best_known_size, difficult_level) in inputs:
+        for (path, best_known_size) in inputs:
             filename = os.path.basename(path)
             logging.info(f"\n\nPROCESSING: {os.path.basename(path)}")
             graph_results = {}
             (
-                (found_clique_size, is_clique, time_limit_reached),
+                (found_clique_size, time_limit_reached),
                 processing_time,
             ) = process_single_graph(
                 path, args, best_known_solution=int(best_known_size),
@@ -91,7 +70,6 @@ def main():
             graph_results["Time (sec.)"] = processing_time / 1000
             graph_results["Found Answer"] = found_clique_size
             graph_results["Best Known Answer"] = best_known_size
-            graph_results["Type"] = difficult_level
             graph_results["Reached Time Limit"] = time_limit_reached
             with open(
                 os.path.join("outputs", start_time_formatted, f"{filename}.json"), "w",
