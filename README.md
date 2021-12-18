@@ -11,29 +11,29 @@ Time Limit was set to 2 hours (7200 sec).
 
 Achieved results (E - easy, M - middle, H - hard):
 
-| Graph              | Best Known Answer |     Found Answer      |  Total Time (sec)  | Reached Time Limit 	  |
-|:-------------------|:-----------------:|:---------------------:|:------------------:|:---------------------:|
-| myciel3            | 4               	 |           4           | 1.15            	  |         False         |
-| myciel4            | 5              	  | TBA                 	 | TBA             	  | TBA                	  |
-| myciel5            |   6           	   | TBA                	  |  TBA            	  |  TBA              	   |
-| myciel6            | 7              	  | TBA                	  |  TBA            	  |  TBA              	   |
-| queen5_5           |         5         |           5           |        0.02        |         False         |
-| queen6_6           | 7              	  |  7                	   | 0.52             	 | False              	  |
-| queen7_7        	  |         7         |  7                	   | 0.08            	  | False              	  |
-| queen8_8     	     |  9            	   |  9                	   | 3.55             	 | False               	 |
-| queen9_9     	     |  10            	  | TBA                	  |  TBA           	   |  TBA              	   |
-| queen8_12     	    |        12         |  12                	  | 102              	 | False              	  |
-| queen10_10     	   |        11         | TBA                	  |  TBA            	  |  TBA              	   |
-| huck               |        11         |  11                	  |  0.27           	  | False              	  |
-| jean               |  10           	   |  10                	  | 0.24             	 | False              	  |
-| david              |  11           	   |  11                	  | 0.17             	 | False               	 |
-| anna               |  11           	   |  11                	  | 0.79             	 | False               	 |
-| games120  	        |         9         |  9                	   | 0.85             	 | False               	 |
-| miles250        	  |         8         |  8                	   |        0.72        | False               	 |
-| miles500           |  20           	   |  20                	  | 0.66             	 | False               	 |
-| miles750           |  31           	   |  31                	  | 0.64             	 | False               	 |
-| miles1000          |  42           	   |  42                	  | 0.73             	 | False               	 |
-| miles1500          |  73           	   |  73                	  | 0.59             	 | False               	 |                                                                                                                            |
+| Graph              | Best Known Answer |    Found Answer     |  Total Time (sec)  |  Reached Time Limit 	  |
+|:-------------------|:-----------------:|:-------------------:|:------------------:|:----------------------:|
+| myciel3            | 4               	 |          4          | 0.15            	  |         False          |
+| myciel4            | 5              	  | 5                 	 |  127            	  | False                	 |
+| myciel5            |   6           	   | 6                	  | 7200            	  |  True              	   |
+| myciel6            | 7              	  | 7                	  | 7200            	  |  True              	   |
+| queen5_5           |         5         |          5          |        0.01        |         False          |
+| queen6_6           | 7              	  | 7                	  | 0.18             	 |  False              	  |
+| queen7_7        	  |         7         | 7                	  | 0.09            	  |  False              	  |
+| queen8_8     	     |  9            	   | 9                	  | 5.4             	  | False               	  |
+| queen9_9     	     |  10            	  | 10                	 |  120           	   |  False              	  |
+| queen8_12     	    |        12         | 12                	 | 2.3              	 |  False              	  |
+| queen10_10     	   |        11         | 11                	 | 1295            	  |  False              	  |
+| huck               |        11         | 11                	 |  0.36           	  |  False              	  |
+| jean               |  10           	   | 10                	 | 0.29             	 |  False              	  |
+| david              |  11           	   | 11                	 | 0.17             	 | False               	  |
+| anna               |  11           	   | 11                	 | 0.54             	 | False               	  |
+| games120  	        |         9         | 9                	  | 0.68             	 | False               	  |
+| miles250        	  |         8         | 8                	  |        0.83        | False               	  |
+| miles500           |  20           	   | 20                	 | 0.54             	 | False               	  |
+| miles750           |  31           	   | 31                	 | 0.56             	 | False               	  |
+| miles1000          |  42           	   | 42                	 | 0.66             	 | False               	  |
+| miles1500          |  73           	   | 73                	 | 0.55             	 | False               	  |                                                                                                                            |
 
 ## Installation & Usage
 1. Install IBM CPLEX, setup it for Python

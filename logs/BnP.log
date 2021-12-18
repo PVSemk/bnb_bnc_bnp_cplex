@@ -1,0 +1,1819 @@
+2021-12-18 01:58:41,261 [INFO] Time Limit: 7205 secs
+2021-12-18 01:58:41,261 [INFO] 
+
+PROCESSING: huck.col
+2021-12-18 01:58:41,330 [INFO] Searched for independent sets during 14 iterations
+2021-12-18 01:58:41,334 [INFO] construct_problem function took 0.0 mins, 0.07 secs
+2021-12-18 01:58:41,623 [INFO] __call__ function took 0.0 mins, 0.29 secs
+2021-12-18 01:58:41,623 [INFO] objective value: 11.0 
+2021-12-18 01:58:41,623 [INFO] values:
+2021-12-18 01:58:41,623 [INFO] 	x_9 = 1.0 	x_38 = 1.0 	x_67 = 1.0 	x_68 = 1.0 	x_70 = 1.0 	x_74 = 1.0 	x_81 = 1.0 	x_92 = 1.0 	x_105 = 1.0 	x_133 = 1.0 	x_191 = 1.0 
+2021-12-18 01:58:41,624 [INFO] process_single_graph function took 0.0 mins, 0.36 secs
+2021-12-18 01:58:41,624 [INFO] 
+
+PROCESSING: jean.col
+2021-12-18 01:58:41,680 [INFO] Searched for independent sets during 14 iterations
+2021-12-18 01:58:41,684 [INFO] construct_problem function took 0.0 mins, 0.06 secs
+2021-12-18 01:58:41,917 [INFO] __call__ function took 0.0 mins, 0.23 secs
+2021-12-18 01:58:41,917 [INFO] objective value: 10.0 
+2021-12-18 01:58:41,918 [INFO] values:
+2021-12-18 01:58:41,918 [INFO] 	x_0 = 1.0 	x_6 = 1.0 	x_12 = 1.0 	x_17 = 1.0 	x_22 = 1.0 	x_24 = 1.0 	x_44 = 1.0 	x_55 = 1.0 	x_66 = 1.0 	x_72 = 1.0 
+2021-12-18 01:58:41,918 [INFO] process_single_graph function took 0.0 mins, 0.29 secs
+2021-12-18 01:58:41,918 [INFO] 
+
+PROCESSING: david.col
+2021-12-18 01:58:41,978 [INFO] Searched for independent sets during 15 iterations
+2021-12-18 01:58:41,983 [INFO] construct_problem function took 0.0 mins, 0.06 secs
+2021-12-18 01:58:42,089 [INFO] __call__ function took 0.0 mins, 0.10 secs
+2021-12-18 01:58:42,089 [INFO] objective value: 11.0 
+2021-12-18 01:58:42,089 [INFO] values:
+2021-12-18 01:58:42,089 [INFO] 	x_6 = 1.0 	x_26 = 1.0 	x_41 = 1.0 	x_48 = 1.0 	x_49 = 1.0 	x_61 = 1.0 	x_74 = 1.0 	x_76 = 1.0 	x_94 = 1.0 	x_103 = 1.0 	x_175 = 1.0 
+2021-12-18 01:58:42,090 [INFO] process_single_graph function took 0.0 mins, 0.17 secs
+2021-12-18 01:58:42,090 [INFO] 
+
+PROCESSING: anna.col
+2021-12-18 01:58:42,218 [INFO] Searched for independent sets during 13 iterations
+2021-12-18 01:58:42,228 [INFO] construct_problem function took 0.0 mins, 0.13 secs
+2021-12-18 01:58:42,635 [INFO] __call__ function took 0.0 mins, 0.39 secs
+2021-12-18 01:58:42,635 [INFO] objective value: 11.0 
+2021-12-18 01:58:42,635 [INFO] values:
+2021-12-18 01:58:42,635 [INFO] 	x_2 = 1.0 	x_21 = 1.0 	x_33 = 1.0 	x_48 = 1.0 	x_62 = 1.0 	x_64 = 1.0 	x_65 = 1.0 	x_129 = 1.0 	x_131 = 1.0 	x_143 = 1.0 	x_150 = 1.0 
+2021-12-18 01:58:42,636 [INFO] process_single_graph function took 0.0 mins, 0.55 secs
+2021-12-18 01:58:42,637 [INFO] 
+
+PROCESSING: games120.col
+2021-12-18 01:58:42,721 [INFO] Searched for independent sets during 15 iterations
+2021-12-18 01:58:42,725 [INFO] construct_problem function took 0.0 mins, 0.08 secs
+2021-12-18 01:58:43,316 [INFO] __call__ function took 0.0 mins, 0.58 secs
+2021-12-18 01:58:43,316 [INFO] objective value: 9.0 
+2021-12-18 01:58:43,316 [INFO] values:
+2021-12-18 01:58:43,316 [INFO] 	x_11 = 1.0 	x_104 = 1.0 	x_135 = 1.0 	x_158 = 1.0 	x_181 = 1.0 	x_189 = 1.0 	x_235 = 1.0 	x_246 = 1.0 	x_294 = 1.0 
+2021-12-18 01:58:43,317 [INFO] process_single_graph function took 0.0 mins, 0.68 secs
+2021-12-18 01:58:43,317 [INFO] 
+
+PROCESSING: miles250.col
+2021-12-18 01:58:43,416 [INFO] Searched for independent sets during 14 iterations
+2021-12-18 01:58:43,423 [INFO] construct_problem function took 0.0 mins, 0.10 secs
+2021-12-18 01:58:44,147 [INFO] __call__ function took 0.0 mins, 0.70 secs
+2021-12-18 01:58:44,147 [INFO] objective value: 8.0 
+2021-12-18 01:58:44,147 [INFO] values:
+2021-12-18 01:58:44,147 [INFO] 	x_26 = 1.0 	x_38 = 1.0 	x_40 = 1.0 	x_78 = 1.0 	x_108 = 1.0 	x_156 = 1.0 	x_184 = 1.0 	x_214 = 1.0 
+2021-12-18 01:58:44,148 [INFO] process_single_graph function took 0.0 mins, 0.83 secs
+2021-12-18 01:58:44,149 [INFO] 
+
+PROCESSING: miles500.col
+2021-12-18 01:58:44,295 [INFO] Searched for independent sets during 14 iterations
+2021-12-18 01:58:44,303 [INFO] construct_problem function took 0.0 mins, 0.15 secs
+2021-12-18 01:58:44,692 [INFO] __call__ function took 0.0 mins, 0.38 secs
+2021-12-18 01:58:44,692 [INFO] objective value: 20.0 
+2021-12-18 01:58:44,693 [INFO] values:
+2021-12-18 01:58:44,693 [INFO] 	x_4 = 1.0 	x_11 = 1.0 	x_19 = 1.0 	x_58 = 1.0 	x_62 = 1.0 	x_65 = 1.0 	x_102 = 1.0 	x_112 = 1.0 	x_120 = 1.0 	x_148 = 1.0 	x_169 = 1.0 	x_170 = 1.0 	x_171 = 1.0 	x_174 = 1.0 	x_177 = 1.0 	x_199 = 1.0 	x_211 = 1.0 	x_262 = 1.0 	x_274 = 1.0 	x_329 = 1.0 
+2021-12-18 01:58:44,694 [INFO] process_single_graph function took 0.0 mins, 0.55 secs
+2021-12-18 01:58:44,694 [INFO] 
+
+PROCESSING: miles750.col
+2021-12-18 01:58:44,892 [INFO] Searched for independent sets during 15 iterations
+2021-12-18 01:58:44,901 [INFO] construct_problem function took 0.0 mins, 0.19 secs
+2021-12-18 01:58:45,259 [INFO] __call__ function took 0.0 mins, 0.35 secs
+2021-12-18 01:58:45,260 [INFO] objective value: 31.0 
+2021-12-18 01:58:45,260 [INFO] values:
+2021-12-18 01:58:45,260 [INFO] 	x_15 = 1.0 	x_16 = 1.0 	x_17 = 1.0 	x_27 = 1.0 	x_31 = 1.0 	x_32 = 1.0 	x_34 = 1.0 	x_58 = 1.0 	x_64 = 1.0 	x_84 = 1.0 	x_108 = 1.0 	x_132 = 1.0 	x_135 = 1.0 	x_145 = 1.0 	x_149 = 1.0 	x_163 = 1.0 	x_176 = 1.0 	x_191 = 1.0 	x_269 = 1.0 	x_286 = 1.0 	x_301 = 1.0 	x_312 = 1.0 	x_315 = 1.0 	x_321 = 1.0 	x_364 = 1.0 	x_382 = 1.0 	x_464 = 1.0 	x_484 = 1.0 	x_489 = 1.0 	x_514 = 1.0 	x_524 = 1.0 
+2021-12-18 01:58:45,261 [INFO] process_single_graph function took 0.0 mins, 0.57 secs
+2021-12-18 01:58:45,262 [INFO] 
+
+PROCESSING: miles1000.col
+2021-12-18 01:58:45,507 [INFO] Searched for independent sets during 13 iterations
+2021-12-18 01:58:45,515 [INFO] construct_problem function took 0.0 mins, 0.24 secs
+2021-12-18 01:58:45,929 [INFO] __call__ function took 0.0 mins, 0.41 secs
+2021-12-18 01:58:45,929 [INFO] objective value: 42.0 
+2021-12-18 01:58:45,929 [INFO] values:
+2021-12-18 01:58:45,929 [INFO] 	x_24 = 1.0 	x_37 = 1.0 	x_43 = 1.0 	x_44 = 1.0 	x_66 = 1.0 	x_72 = 1.0 	x_82 = 1.0 	x_105 = 1.0 	x_107 = 1.0 	x_109 = 1.0 	x_117 = 1.0 	x_122 = 1.0 	x_144 = 1.0 	x_150 = 1.0 	x_161 = 1.0 	x_167 = 1.0 	x_169 = 1.0 	x_171 = 1.0 	x_179 = 1.0 	x_186 = 1.0 	x_188 = 1.0 	x_194 = 1.0 	x_221 = 1.0 	x_225 = 1.0 	x_244 = 1.0 	x_265 = 1.0 	x_292 = 1.0 	x_349 = 1.0 	x_391 = 1.0 	x_412 = 1.0 	x_415 = 1.0 	x_419 = 1.0 	x_486 = 1.0 	x_496 = 1.0 	x_521 = 1.0 	x_536 = 1.0 	x_556 = 1.0 	x_567 = 1.0 	x_581 = 1.0 	x_584 = 1.0 	x_587 = 1.0 	x_590 = 1.0 
+2021-12-18 01:58:45,930 [INFO] process_single_graph function took 0.0 mins, 0.67 secs
+2021-12-18 01:58:45,930 [INFO] 
+
+PROCESSING: miles1500.col
+2021-12-18 01:58:46,279 [INFO] Searched for independent sets during 13 iterations
+2021-12-18 01:58:46,285 [INFO] construct_problem function took 0.0 mins, 0.33 secs
+2021-12-18 01:58:46,486 [INFO] __call__ function took 0.0 mins, 0.20 secs
+2021-12-18 01:58:46,486 [INFO] objective value: 73.0 
+2021-12-18 01:58:46,486 [INFO] values:
+2021-12-18 01:58:46,486 [INFO] 	x_0 = 1.0 	x_2 = 1.0 	x_3 = 1.0 	x_4 = 1.0 	x_5 = 1.0 	x_6 = 1.0 	x_8 = 1.0 	x_12 = 1.0 	x_18 = 1.0 	x_21 = 1.0 	x_22 = 1.0 	x_23 = 1.0 	x_24 = 1.0 	x_26 = 1.0 	x_37 = 1.0 	x_40 = 1.0 	x_41 = 1.0 	x_42 = 1.0 	x_43 = 1.0 	x_46 = 1.0 	x_47 = 1.0 	x_49 = 1.0 	x_50 = 1.0 	x_52 = 1.0 	x_56 = 1.0 	x_59 = 1.0 	x_60 = 1.0 	x_63 = 1.0 	x_64 = 1.0 	x_65 = 1.0 	x_66 = 1.0 	x_69 = 1.0 	x_70 = 1.0 	x_73 = 1.0 	x_74 = 1.0 	x_81 = 1.0 	x_95 = 1.0 	x_98 = 1.0 	x_106 = 1.0 	x_113 = 1.0 	x_116 = 1.0 	x_117 = 1.0 	x_120 = 1.0 	x_123 = 1.0 	x_133 = 1.0 	x_137 = 1.0 	x_147 = 1.0 	x_149 = 1.0 	x_152 = 1.0 	x_158 = 1.0 	x_170 = 1.0 	x_173 = 1.0 	x_175 = 1.0 	x_179 = 1.0 	x_181 = 1.0 	x_188 = 1.0 	x_196 = 1.0 	x_206 = 1.0 	x_272 = 1.0 	x_292 = 1.0 	x_302 = 1.0 	x_320 = 1.0 	x_325 = 1.0 	x_351 = 1.0 	x_358 = 1.0 	x_372 = 1.0 	x_413 = 1.0 	x_429 = 1.0 	x_432 = 1.0 	x_447 = 1.0 	x_459 = 1.0 	x_463 = 1.0 	x_550 = 1.0 
+2021-12-18 01:58:46,487 [INFO] process_single_graph function took 0.0 mins, 0.56 secs
+2021-12-18 01:58:46,487 [INFO] 
+
+PROCESSING: myciel3.col
+2021-12-18 01:58:46,489 [INFO] Searched for independent sets during 6 iterations
+2021-12-18 01:58:46,490 [INFO] construct_problem function took 0.0 mins, 0.00 secs
+2021-12-18 01:58:46,646 [INFO] __call__ function took 0.0 mins, 0.16 secs
+2021-12-18 01:58:46,646 [INFO] objective value: 4.0 
+2021-12-18 01:58:46,646 [INFO] values:
+2021-12-18 01:58:46,646 [INFO] 	x_4 = 1.0 	x_7 = 1.0 	x_10 = 1.0 	x_13 = 1.0 
+2021-12-18 01:58:46,646 [INFO] process_single_graph function took 0.0 mins, 0.16 secs
+2021-12-18 01:58:46,646 [INFO] 
+
+PROCESSING: queen5_5.col
+2021-12-18 01:58:46,653 [INFO] Searched for independent sets during 5 iterations
+2021-12-18 01:58:46,654 [INFO] construct_problem function took 0.0 mins, 0.01 secs
+2021-12-18 01:58:46,665 [INFO] __call__ function took 0.0 mins, 0.01 secs
+2021-12-18 01:58:46,665 [INFO] objective value: 5.0 
+2021-12-18 01:58:46,665 [INFO] values:
+2021-12-18 01:58:46,665 [INFO] 	x_4 = 1.0 	x_5 = 1.0 	x_22 = 1.0 	x_24 = 1.0 	x_27 = 1.0 
+2021-12-18 01:58:46,666 [INFO] process_single_graph function took 0.0 mins, 0.02 secs
+2021-12-18 01:58:46,666 [INFO] 
+
+PROCESSING: queen6_6.col
+2021-12-18 01:58:46,684 [INFO] Searched for independent sets during 8 iterations
+2021-12-18 01:58:46,684 [INFO] construct_problem function took 0.0 mins, 0.02 secs
+2021-12-18 01:58:46,847 [INFO] __call__ function took 0.0 mins, 0.16 secs
+2021-12-18 01:58:46,848 [INFO] objective value: 7.0 
+2021-12-18 01:58:46,848 [INFO] values:
+2021-12-18 01:58:46,848 [INFO] 	x_7 = 1.0 	x_20 = 1.0 	x_63 = 1.0 	x_64 = 1.0 	x_73 = 1.0 	x_79 = 1.0 	x_95 = 1.0 
+2021-12-18 01:58:46,848 [INFO] process_single_graph function took 0.0 mins, 0.18 secs
+2021-12-18 01:58:46,848 [INFO] 
+
+PROCESSING: queen7_7.col
+2021-12-18 01:58:46,871 [INFO] Searched for independent sets during 15 iterations
+2021-12-18 01:58:46,872 [INFO] construct_problem function took 0.0 mins, 0.02 secs
+2021-12-18 01:58:46,942 [INFO] __call__ function took 0.0 mins, 0.07 secs
+2021-12-18 01:58:46,942 [INFO] objective value: 6.999999999999999 
+2021-12-18 01:58:46,942 [INFO] values:
+2021-12-18 01:58:46,942 [INFO] 	x_12 = 1.0 	x_75 = 1.0 	x_80 = 1.0000000000000002 	x_87 = 1.0000000000000002 	x_134 = 1.0 	x_181 = 0.9999999999999993 	x_198 = 1.0 
+2021-12-18 01:58:46,943 [INFO] process_single_graph function took 0.0 mins, 0.09 secs
+2021-12-18 01:58:46,943 [INFO] 
+
+PROCESSING: queen8_8.col
+2021-12-18 01:58:46,984 [INFO] Searched for independent sets during 13 iterations
+2021-12-18 01:58:46,986 [INFO] construct_problem function took 0.0 mins, 0.04 secs
+2021-12-18 01:58:52,354 [INFO] __call__ function took 0.0 mins, 5.37 secs
+2021-12-18 01:58:52,354 [INFO] objective value: 9.0 
+2021-12-18 01:58:52,354 [INFO] values:
+2021-12-18 01:58:52,354 [INFO] 	x_15 = 1.0 	x_226 = 1.0 	x_230 = 1.0 	x_239 = 1.0 	x_240 = 1.0 	x_287 = 1.0 	x_305 = 1.0 	x_316 = 1.0 	x_353 = 1.0 
+2021-12-18 01:58:52,355 [INFO] process_single_graph function took 0.0 mins, 5.41 secs
+2021-12-18 01:58:52,355 [INFO] 
+
+PROCESSING: queen9_9.col
+2021-12-18 01:58:52,409 [INFO] Searched for independent sets during 14 iterations
+2021-12-18 01:58:52,412 [INFO] construct_problem function took 0.0 mins, 0.05 secs
+2021-12-18 02:00:53,314 [INFO] __call__ function took 2.0 mins, 0.90 secs
+2021-12-18 02:00:53,314 [INFO] objective value: 10.0 
+2021-12-18 02:00:53,315 [INFO] values:
+2021-12-18 02:00:53,315 [INFO] 	x_21 = 1.0 	x_41 = 1.0 	x_297 = 1.0 	x_298 = 1.0 	x_349 = 1.0 	x_410 = 1.0 	x_428 = 1.0 	x_446 = 1.0 	x_468 = 1.0 	x_470 = 1.0 
+2021-12-18 02:00:53,316 [INFO] process_single_graph function took 2.0 mins, 0.96 secs
+2021-12-18 02:00:53,316 [INFO] 
+
+PROCESSING: queen8_12.col
+2021-12-18 02:00:53,401 [INFO] Searched for independent sets during 15 iterations
+2021-12-18 02:00:53,404 [INFO] construct_problem function took 0.0 mins, 0.08 secs
+2021-12-18 02:00:55,711 [INFO] __call__ function took 0.0 mins, 2.30 secs
+2021-12-18 02:00:55,711 [INFO] objective value: 12.0 
+2021-12-18 02:00:55,711 [INFO] values:
+2021-12-18 02:00:55,711 [INFO] 	x_73 = 1.0 	x_198 = 1.0 	x_199 = 1.0 	x_234 = 1.0 	x_320 = 1.0 	x_432 = 1.0 	x_473 = 1.0 	x_509 = 1.0 	x_535 = 1.0 	x_578 = 1.0 	x_615 = 1.0 	x_616 = 1.0 
+2021-12-18 02:00:55,713 [INFO] process_single_graph function took 0.0 mins, 2.40 secs
+2021-12-18 02:00:55,713 [INFO] 
+
+PROCESSING: myciel4.col
+2021-12-18 02:00:55,720 [INFO] Searched for independent sets during 4 iterations
+2021-12-18 02:00:55,720 [INFO] construct_problem function took 0.0 mins, 0.01 secs
+2021-12-18 02:00:57,482 [INFO] Total Call times: 100, Best Found Solution: 5.0,Current Solution: 4.0
+2021-12-18 02:00:59,795 [INFO] Total Call times: 200, Best Found Solution: 5.0,Current Solution: 3.9444444444444446
+2021-12-18 02:01:02,582 [INFO] Total Call times: 400, Best Found Solution: 5.0,Current Solution: 4.0
+2021-12-18 02:01:03,947 [INFO] Total Call times: 500, Best Found Solution: 5.0,Current Solution: 4.0
+2021-12-18 02:01:05,714 [INFO] Total Call times: 600, Best Found Solution: 5.0,Current Solution: 4.0
+2021-12-18 02:01:07,213 [INFO] Total Call times: 700, Best Found Solution: 5.0,Current Solution: 3.9375
+2021-12-18 02:01:09,188 [INFO] Total Call times: 800, Best Found Solution: 5.0,Current Solution: 3.944444444444444
+2021-12-18 02:01:10,601 [INFO] Total Call times: 900, Best Found Solution: 5.0,Current Solution: 3.9000000000000004
+2021-12-18 02:01:12,042 [INFO] Total Call times: 1000, Best Found Solution: 5.0,Current Solution: 3.9090909090909087
+2021-12-18 02:01:13,405 [INFO] Total Call times: 1100, Best Found Solution: 5.0,Current Solution: 4.0
+2021-12-18 02:01:14,840 [INFO] Total Call times: 1200, Best Found Solution: 5.0,Current Solution: 4.0
+2021-12-18 02:01:16,442 [INFO] Total Call times: 1300, Best Found Solution: 5.0,Current Solution: 3.9000000000000004
+2021-12-18 02:01:17,883 [INFO] Total Call times: 1400, Best Found Solution: 5.0,Current Solution: 3.8999999999999995
+2021-12-18 02:01:19,547 [INFO] Total Call times: 1500, Best Found Solution: 5.0,Current Solution: 3.9523809523809526
+2021-12-18 02:01:21,187 [INFO] Total Call times: 1600, Best Found Solution: 5.0,Current Solution: 3.9
+2021-12-18 02:01:22,935 [INFO] Total Call times: 1700, Best Found Solution: 5.0,Current Solution: 3.999999999999999
+2021-12-18 02:01:24,925 [INFO] Total Call times: 1800, Best Found Solution: 5.0,Current Solution: 4.0
+2021-12-18 02:01:26,799 [INFO] Total Call times: 1900, Best Found Solution: 5.0,Current Solution: 3.9375
+2021-12-18 02:01:29,087 [INFO] Total Call times: 2000, Best Found Solution: 5.0,Current Solution: 3.9
+2021-12-18 02:01:30,644 [INFO] Total Call times: 2100, Best Found Solution: 5.0,Current Solution: 3.9375
+2021-12-18 02:01:32,596 [INFO] Total Call times: 2200, Best Found Solution: 5.0,Current Solution: 3.9047619047619047
+2021-12-18 02:01:34,136 [INFO] Total Call times: 2300, Best Found Solution: 5.0,Current Solution: 3.944444444444445
+2021-12-18 02:01:35,837 [INFO] Total Call times: 2400, Best Found Solution: 5.0,Current Solution: 3.9
+2021-12-18 02:01:37,572 [INFO] Total Call times: 2500, Best Found Solution: 5.0,Current Solution: 3.899999999999999
+2021-12-18 02:01:39,694 [INFO] Total Call times: 2600, Best Found Solution: 5.0,Current Solution: 3.9375
+2021-12-18 02:01:41,182 [INFO] Total Call times: 2700, Best Found Solution: 5.0,Current Solution: 3.9285714285714284
+2021-12-18 02:01:42,959 [INFO] Total Call times: 2800, Best Found Solution: 5.0,Current Solution: 3.9000000000000004
+2021-12-18 02:01:44,616 [INFO] Total Call times: 2900, Best Found Solution: 5.0,Current Solution: 3.964285714285713
+2021-12-18 02:01:46,323 [INFO] Total Call times: 3000, Best Found Solution: 5.0,Current Solution: 3.9
+2021-12-18 02:01:48,109 [INFO] Total Call times: 3100, Best Found Solution: 5.0,Current Solution: 4.000000000000001
+2021-12-18 02:01:49,744 [INFO] Total Call times: 3200, Best Found Solution: 5.0,Current Solution: 3.9117647058823533
+2021-12-18 02:01:51,433 [INFO] Total Call times: 3300, Best Found Solution: 5.0,Current Solution: 3.9302325581395348
+2021-12-18 02:01:53,567 [INFO] Total Call times: 3400, Best Found Solution: 5.0,Current Solution: 3.9000000000000004
+2021-12-18 02:01:55,363 [INFO] Total Call times: 3500, Best Found Solution: 5.0,Current Solution: 3.9
+2021-12-18 02:01:59,087 [INFO] Total Call times: 3700, Best Found Solution: 5.0,Current Solution: 3.9000000000000004
+2021-12-18 02:02:01,027 [INFO] Total Call times: 3800, Best Found Solution: 5.0,Current Solution: 3.9000000000000004
+2021-12-18 02:02:03,170 [INFO] Total Call times: 3900, Best Found Solution: 5.0,Current Solution: 3.9000000000000004
+2021-12-18 02:02:05,210 [INFO] Total Call times: 4000, Best Found Solution: 5.0,Current Solution: 3.956521739130435
+2021-12-18 02:02:07,398 [INFO] Total Call times: 4100, Best Found Solution: 5.0,Current Solution: 3.9333333333333322
+2021-12-18 02:02:09,439 [INFO] Total Call times: 4200, Best Found Solution: 5.0,Current Solution: 3.9000000000000004
+2021-12-18 02:02:11,589 [INFO] Total Call times: 4300, Best Found Solution: 5.0,Current Solution: 3.9454545454545453
+2021-12-18 02:02:13,508 [INFO] Total Call times: 4400, Best Found Solution: 5.0,Current Solution: 3.8999999999999995
+2021-12-18 02:02:15,672 [INFO] Total Call times: 4500, Best Found Solution: 5.0,Current Solution: 3.8999999999999995
+2021-12-18 02:02:17,721 [INFO] Total Call times: 4600, Best Found Solution: 5.0,Current Solution: 3.8999999999999995
+2021-12-18 02:02:19,880 [INFO] Total Call times: 4700, Best Found Solution: 5.0,Current Solution: 3.9166666666666665
+2021-12-18 02:02:21,913 [INFO] Total Call times: 4800, Best Found Solution: 5.0,Current Solution: 3.958333333333334
+2021-12-18 02:02:23,951 [INFO] Total Call times: 4900, Best Found Solution: 5.0,Current Solution: 4.0
+2021-12-18 02:02:25,921 [INFO] Total Call times: 5000, Best Found Solution: 5.0,Current Solution: 3.9000000000000004
+2021-12-18 02:02:28,066 [INFO] Total Call times: 5100, Best Found Solution: 5.0,Current Solution: 3.9534883720930236
+2021-12-18 02:02:30,296 [INFO] Total Call times: 5200, Best Found Solution: 5.0,Current Solution: 3.916666666666667
+2021-12-18 02:02:32,652 [INFO] Total Call times: 5300, Best Found Solution: 5.0,Current Solution: 4.0
+2021-12-18 02:02:35,448 [INFO] Total Call times: 5400, Best Found Solution: 5.0,Current Solution: 3.9787234042553203
+2021-12-18 02:02:38,156 [INFO] Total Call times: 5500, Best Found Solution: 5.0,Current Solution: 3.9375
+2021-12-18 02:02:40,569 [INFO] Total Call times: 5600, Best Found Solution: 5.0,Current Solution: 4.0
+2021-12-18 02:02:43,214 [INFO] Total Call times: 5700, Best Found Solution: 5.0,Current Solution: 3.982142857142857
+2021-12-18 02:02:46,011 [INFO] Total Call times: 5800, Best Found Solution: 5.0,Current Solution: 3.9818181818181815
+2021-12-18 02:02:48,859 [INFO] Total Call times: 5900, Best Found Solution: 5.0,Current Solution: 3.96
+2021-12-18 02:02:51,873 [INFO] Total Call times: 6000, Best Found Solution: 5.0,Current Solution: 3.9782608695652173
+2021-12-18 02:02:54,663 [INFO] Total Call times: 6100, Best Found Solution: 5.0,Current Solution: 3.916666666666667
+2021-12-18 02:03:03,605 [INFO] __call__ function took 2.0 mins, 7.88 secs
+2021-12-18 02:03:03,605 [INFO] objective value: 5.0 
+2021-12-18 02:03:03,605 [INFO] values:
+2021-12-18 02:03:03,605 [INFO] 	x_13 = 1.0 	x_15 = 1.0 	x_19 = 1.0 	x_31 = 1.0 	x_33 = 1.0 
+2021-12-18 02:03:03,606 [INFO] process_single_graph function took 2.0 mins, 7.89 secs
+2021-12-18 02:03:03,606 [INFO] 
+
+PROCESSING: myciel5.col
+2021-12-18 02:03:03,623 [INFO] Searched for independent sets during 8 iterations
+2021-12-18 02:03:03,623 [INFO] construct_problem function took 0.0 mins, 0.02 secs
+2021-12-18 02:04:02,950 [INFO] Total Call times: 2900, Best Found Solution: 6.0,Current Solution: 4.3478260869565215
+2021-12-18 02:04:47,247 [INFO] Total Call times: 5300, Best Found Solution: 6.0,Current Solution: 4.446428571428571
+2021-12-18 02:05:06,913 [INFO] Total Call times: 6300, Best Found Solution: 6.0,Current Solution: 4.4950495049504955
+2021-12-18 02:07:37,693 [INFO] Total Call times: 13100, Best Found Solution: 6.0,Current Solution: 4.666666666666668
+2021-12-18 02:09:59,007 [INFO] Total Call times: 18400, Best Found Solution: 6.0,Current Solution: 4.735294117647059
+2021-12-18 02:10:20,172 [INFO] Total Call times: 19100, Best Found Solution: 6.0,Current Solution: 4.755434782608696
+2021-12-18 02:11:43,962 [INFO] Total Call times: 21200, Best Found Solution: 6.0,Current Solution: 4.865030674846626
+2021-12-18 02:12:06,917 [INFO] Total Call times: 21600, Best Found Solution: 6.0,Current Solution: 4.907303370786517
+2021-12-18 02:12:14,757 [INFO] Total Call times: 21700, Best Found Solution: 6.0,Current Solution: 4.932989690721651
+2021-12-18 02:12:23,019 [INFO] Total Call times: 21800, Best Found Solution: 6.0,Current Solution: 4.952380952380952
+2021-12-18 02:12:31,144 [INFO] Total Call times: 21900, Best Found Solution: 6.0,Current Solution: 4.988694177501414
+2021-12-18 02:13:38,138 [INFO] Total Call times: 24600, Best Found Solution: 6.0,Current Solution: 4.3
+2021-12-18 02:14:04,989 [INFO] Total Call times: 25800, Best Found Solution: 6.0,Current Solution: 4.39
+2021-12-18 02:15:07,473 [INFO] Total Call times: 28300, Best Found Solution: 6.0,Current Solution: 4.41409691629956
+2021-12-18 02:15:15,015 [INFO] Total Call times: 28600, Best Found Solution: 6.0,Current Solution: 4.418259023354565
+2021-12-18 02:15:31,800 [INFO] Total Call times: 29300, Best Found Solution: 6.0,Current Solution: 4.418259023354564
+2021-12-18 02:16:21,294 [INFO] Total Call times: 31100, Best Found Solution: 6.0,Current Solution: 4.495049504950495
+2021-12-18 02:58:59,588 [INFO] Total Call times: 85900, Best Found Solution: 6.0,Current Solution: 4.670307167235495
+2021-12-18 03:00:13,899 [INFO] Total Call times: 87200, Best Found Solution: 6.0,Current Solution: 4.689300411522634
+2021-12-18 03:02:49,707 [INFO] Total Call times: 89600, Best Found Solution: 6.0,Current Solution: 4.7125
+2021-12-18 03:06:31,839 [INFO] Total Call times: 93100, Best Found Solution: 6.0,Current Solution: 4.719512195121951
+2021-12-18 03:08:19,833 [INFO] Total Call times: 94600, Best Found Solution: 6.0,Current Solution: 4.725806451612903
+2021-12-18 03:15:03,783 [INFO] Total Call times: 99400, Best Found Solution: 6.0,Current Solution: 4.769230769230769
+2021-12-18 03:33:03,958 [INFO] Total Call times: 108600, Best Found Solution: 6.0,Current Solution: 4.91764705882353
+2021-12-18 03:35:15,109 [INFO] Total Call times: 109100, Best Found Solution: 6.0,Current Solution: 4.976190476190476
+2021-12-18 03:35:37,544 [INFO] Total Call times: 109200, Best Found Solution: 6.0,Current Solution: 4.983870967741936
+2021-12-18 03:36:17,055 [INFO] Total Call times: 109300, Best Found Solution: 6.0,Current Solution: 5.0
+2021-12-18 03:59:27,555 [INFO] Total Call times: 125200, Best Found Solution: 6.0,Current Solution: 4.3
+2021-12-18 04:02:03,230 [INFO] Total Call times: 127700, Best Found Solution: 6.0,Current Solution: 4.3
+2021-12-18 04:03:08,676 [ERROR] Out of time!
+2021-12-18 04:03:08,682 [INFO] objective value: 6.0 
+2021-12-18 04:03:08,682 [INFO] values:
+2021-12-18 04:03:08,682 [INFO] 	x_14 = 1.0 	x_18 = 1.0 	x_22 = 1.0 	x_55 = 1.0 	x_77 = 1.0 	x_83 = 1.0 
+2021-12-18 04:03:08,687 [INFO] process_single_graph function took 120.0 mins, 5.08 secs
+2021-12-18 04:03:08,687 [INFO] 
+
+PROCESSING: myciel6.col
+2021-12-18 04:03:08,747 [INFO] Searched for independent sets during 13 iterations
+2021-12-18 04:03:08,750 [INFO] construct_problem function took 0.0 mins, 0.06 secs
+2021-12-18 04:03:16,943 [INFO] Total Call times: 100, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:03:20,916 [INFO] Total Call times: 200, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:03:25,223 [INFO] Total Call times: 300, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:03:29,760 [INFO] Total Call times: 400, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:03:33,916 [INFO] Total Call times: 500, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:03:38,325 [INFO] Total Call times: 600, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:03:42,764 [INFO] Total Call times: 700, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:03:47,020 [INFO] Total Call times: 800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:03:55,765 [INFO] Total Call times: 1000, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:03:59,099 [INFO] Total Call times: 1100, Best Found Solution: 7.0,Current Solution: 5.909090909090908
+2021-12-18 04:04:03,828 [INFO] Total Call times: 1300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:04:06,222 [INFO] Total Call times: 1400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:04:07,906 [INFO] Total Call times: 1500, Best Found Solution: 7.0,Current Solution: 5.909090909090908
+2021-12-18 04:04:09,855 [INFO] Total Call times: 1600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:04:12,504 [INFO] Total Call times: 1700, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:04:15,200 [INFO] Total Call times: 1800, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:04:17,560 [INFO] Total Call times: 1900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:04:20,064 [INFO] Total Call times: 2000, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:04:22,798 [INFO] Total Call times: 2100, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:04:25,154 [INFO] Total Call times: 2200, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:04:27,820 [INFO] Total Call times: 2300, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:04:30,606 [INFO] Total Call times: 2400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:04:33,387 [INFO] Total Call times: 2500, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:04:35,997 [INFO] Total Call times: 2600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:04:38,147 [INFO] Total Call times: 2700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:04:39,851 [INFO] Total Call times: 2800, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:04:41,696 [INFO] Total Call times: 2900, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:04:43,895 [INFO] Total Call times: 3000, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:04:45,754 [INFO] Total Call times: 3100, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:04:48,128 [INFO] Total Call times: 3200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:04:50,203 [INFO] Total Call times: 3300, Best Found Solution: 7.0,Current Solution: 5.999999999999998
+2021-12-18 04:04:52,020 [INFO] Total Call times: 3400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:04:53,916 [INFO] Total Call times: 3500, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:04:55,670 [INFO] Total Call times: 3600, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:04:58,400 [INFO] Total Call times: 3700, Best Found Solution: 7.0,Current Solution: 5.999999999999999
+2021-12-18 04:05:01,210 [INFO] Total Call times: 3800, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:05:03,668 [INFO] Total Call times: 3900, Best Found Solution: 7.0,Current Solution: 5.909090909090909
+2021-12-18 04:05:06,832 [INFO] Total Call times: 4000, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:05:08,671 [INFO] Total Call times: 4100, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:05:11,009 [INFO] Total Call times: 4200, Best Found Solution: 7.0,Current Solution: 5.909090909090908
+2021-12-18 04:05:14,820 [INFO] Total Call times: 4400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:05:16,508 [INFO] Total Call times: 4500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:05:18,413 [INFO] Total Call times: 4600, Best Found Solution: 7.0,Current Solution: 5.9642857142857135
+2021-12-18 04:05:21,311 [INFO] Total Call times: 4700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:05:23,039 [INFO] Total Call times: 4800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:05:25,266 [INFO] Total Call times: 4900, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:05:27,597 [INFO] Total Call times: 5000, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:05:29,496 [INFO] Total Call times: 5100, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:05:31,942 [INFO] Total Call times: 5200, Best Found Solution: 7.0,Current Solution: 5.999999999999998
+2021-12-18 04:05:33,959 [INFO] Total Call times: 5300, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:05:35,819 [INFO] Total Call times: 5400, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:05:37,846 [INFO] Total Call times: 5500, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:05:40,207 [INFO] Total Call times: 5600, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:05:42,659 [INFO] Total Call times: 5700, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:05:46,286 [INFO] Total Call times: 5800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:05:48,061 [INFO] Total Call times: 5900, Best Found Solution: 7.0,Current Solution: 5.909090909090909
+2021-12-18 04:05:50,212 [INFO] Total Call times: 6000, Best Found Solution: 7.0,Current Solution: 5.96875
+2021-12-18 04:05:52,522 [INFO] Total Call times: 6100, Best Found Solution: 7.0,Current Solution: 5.909090909090908
+2021-12-18 04:05:55,015 [INFO] Total Call times: 6200, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:05:57,053 [INFO] Total Call times: 6300, Best Found Solution: 7.0,Current Solution: 5.947368421052632
+2021-12-18 04:06:00,138 [INFO] Total Call times: 6400, Best Found Solution: 7.0,Current Solution: 5.98360655737705
+2021-12-18 04:06:02,878 [INFO] Total Call times: 6500, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:06:05,215 [INFO] Total Call times: 6600, Best Found Solution: 7.0,Current Solution: 5.999999999999999
+2021-12-18 04:06:07,122 [INFO] Total Call times: 6700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:06:09,626 [INFO] Total Call times: 6800, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:06:11,943 [INFO] Total Call times: 6900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:06:13,763 [INFO] Total Call times: 7000, Best Found Solution: 7.0,Current Solution: 5.909090909090908
+2021-12-18 04:06:15,679 [INFO] Total Call times: 7100, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:06:17,679 [INFO] Total Call times: 7200, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:06:19,632 [INFO] Total Call times: 7300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:06:21,415 [INFO] Total Call times: 7400, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:06:24,265 [INFO] Total Call times: 7500, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:06:26,551 [INFO] Total Call times: 7600, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:06:28,916 [INFO] Total Call times: 7700, Best Found Solution: 7.0,Current Solution: 5.951219512195122
+2021-12-18 04:06:31,078 [INFO] Total Call times: 7800, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:06:33,517 [INFO] Total Call times: 7900, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:06:35,563 [INFO] Total Call times: 8000, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:06:37,777 [INFO] Total Call times: 8100, Best Found Solution: 7.0,Current Solution: 5.944444444444443
+2021-12-18 04:06:40,597 [INFO] Total Call times: 8200, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:06:42,908 [INFO] Total Call times: 8300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:06:44,764 [INFO] Total Call times: 8400, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:06:47,309 [INFO] Total Call times: 8500, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:06:49,923 [INFO] Total Call times: 8600, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:06:51,924 [INFO] Total Call times: 8700, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:06:54,229 [INFO] Total Call times: 8800, Best Found Solution: 7.0,Current Solution: 5.966666666666665
+2021-12-18 04:06:56,407 [INFO] Total Call times: 8900, Best Found Solution: 7.0,Current Solution: 5.928571428571429
+2021-12-18 04:06:58,887 [INFO] Total Call times: 9000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:07:01,073 [INFO] Total Call times: 9100, Best Found Solution: 7.0,Current Solution: 5.999999999999999
+2021-12-18 04:07:03,204 [INFO] Total Call times: 9200, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:07:05,678 [INFO] Total Call times: 9300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:07:08,489 [INFO] Total Call times: 9400, Best Found Solution: 7.0,Current Solution: 5.984000000000003
+2021-12-18 04:07:10,746 [INFO] Total Call times: 9500, Best Found Solution: 7.0,Current Solution: 5.923076923076923
+2021-12-18 04:07:13,350 [INFO] Total Call times: 9600, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:07:15,529 [INFO] Total Call times: 9700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:07:18,530 [INFO] Total Call times: 9800, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:07:21,258 [INFO] Total Call times: 9900, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:07:23,482 [INFO] Total Call times: 10000, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:07:25,858 [INFO] Total Call times: 10100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:07:28,215 [INFO] Total Call times: 10200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:07:30,274 [INFO] Total Call times: 10300, Best Found Solution: 7.0,Current Solution: 5.928571428571429
+2021-12-18 04:07:33,141 [INFO] Total Call times: 10400, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:07:35,418 [INFO] Total Call times: 10500, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:07:37,862 [INFO] Total Call times: 10600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:07:40,089 [INFO] Total Call times: 10700, Best Found Solution: 7.0,Current Solution: 5.999999999999998
+2021-12-18 04:07:42,708 [INFO] Total Call times: 10800, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:07:45,295 [INFO] Total Call times: 10900, Best Found Solution: 7.0,Current Solution: 5.909090909090909
+2021-12-18 04:07:48,250 [INFO] Total Call times: 11000, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:07:51,202 [INFO] Total Call times: 11100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:07:54,234 [INFO] Total Call times: 11200, Best Found Solution: 7.0,Current Solution: 5.960000000000002
+2021-12-18 04:07:58,716 [INFO] Total Call times: 11300, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:08:02,581 [INFO] Total Call times: 11400, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:08:07,693 [INFO] Total Call times: 11500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:08:09,695 [INFO] Total Call times: 11600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:08:12,128 [INFO] Total Call times: 11700, Best Found Solution: 7.0,Current Solution: 5.999999999999999
+2021-12-18 04:08:14,745 [INFO] Total Call times: 11800, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:08:17,328 [INFO] Total Call times: 11900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:08:19,801 [INFO] Total Call times: 12000, Best Found Solution: 7.0,Current Solution: 5.909090909090909
+2021-12-18 04:08:22,226 [INFO] Total Call times: 12100, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:08:24,848 [INFO] Total Call times: 12200, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:08:26,947 [INFO] Total Call times: 12300, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:08:30,088 [INFO] Total Call times: 12400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:08:32,708 [INFO] Total Call times: 12500, Best Found Solution: 7.0,Current Solution: 5.999999999999999
+2021-12-18 04:08:35,152 [INFO] Total Call times: 12600, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:08:37,824 [INFO] Total Call times: 12700, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:08:41,079 [INFO] Total Call times: 12800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:08:43,562 [INFO] Total Call times: 12900, Best Found Solution: 7.0,Current Solution: 5.930232558139533
+2021-12-18 04:08:48,018 [INFO] Total Call times: 13000, Best Found Solution: 7.0,Current Solution: 5.956521739130435
+2021-12-18 04:08:51,058 [INFO] Total Call times: 13100, Best Found Solution: 7.0,Current Solution: 5.909090909090908
+2021-12-18 04:08:53,754 [INFO] Total Call times: 13200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:08:56,211 [INFO] Total Call times: 13300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:08:58,519 [INFO] Total Call times: 13400, Best Found Solution: 7.0,Current Solution: 5.899999999999999
+2021-12-18 04:09:00,835 [INFO] Total Call times: 13500, Best Found Solution: 7.0,Current Solution: 5.9705882352941195
+2021-12-18 04:09:03,135 [INFO] Total Call times: 13600, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:09:05,643 [INFO] Total Call times: 13700, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:09:08,749 [INFO] Total Call times: 13800, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:09:11,079 [INFO] Total Call times: 13900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:09:13,262 [INFO] Total Call times: 14000, Best Found Solution: 7.0,Current Solution: 5.928571428571428
+2021-12-18 04:09:15,463 [INFO] Total Call times: 14100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:09:17,720 [INFO] Total Call times: 14200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:09:22,681 [INFO] Total Call times: 14400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:09:24,690 [INFO] Total Call times: 14500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:09:27,559 [INFO] Total Call times: 14600, Best Found Solution: 7.0,Current Solution: 5.96774193548387
+2021-12-18 04:09:30,486 [INFO] Total Call times: 14700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:09:32,848 [INFO] Total Call times: 14800, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:09:36,358 [INFO] Total Call times: 14900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:09:38,665 [INFO] Total Call times: 15000, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:09:41,446 [INFO] Total Call times: 15100, Best Found Solution: 7.0,Current Solution: 5.975
+2021-12-18 04:09:46,490 [INFO] Total Call times: 15200, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:09:49,219 [INFO] Total Call times: 15300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:09:51,848 [INFO] Total Call times: 15400, Best Found Solution: 7.0,Current Solution: 5.9411764705882355
+2021-12-18 04:09:54,586 [INFO] Total Call times: 15500, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:09:56,768 [INFO] Total Call times: 15600, Best Found Solution: 7.0,Current Solution: 5.909090909090908
+2021-12-18 04:09:59,626 [INFO] Total Call times: 15700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:10:02,050 [INFO] Total Call times: 15800, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:10:05,398 [INFO] Total Call times: 15900, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:10:07,569 [INFO] Total Call times: 16000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:10:10,258 [INFO] Total Call times: 16100, Best Found Solution: 7.0,Current Solution: 5.9523809523809526
+2021-12-18 04:10:13,400 [INFO] Total Call times: 16200, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:10:17,623 [INFO] Total Call times: 16300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:10:20,533 [INFO] Total Call times: 16400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:10:22,685 [INFO] Total Call times: 16500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:10:25,430 [INFO] Total Call times: 16600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:10:28,235 [INFO] Total Call times: 16700, Best Found Solution: 7.0,Current Solution: 5.909090909090908
+2021-12-18 04:10:30,594 [INFO] Total Call times: 16800, Best Found Solution: 7.0,Current Solution: 5.9714285714285715
+2021-12-18 04:10:33,045 [INFO] Total Call times: 16900, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:10:35,259 [INFO] Total Call times: 17000, Best Found Solution: 7.0,Current Solution: 5.944444444444444
+2021-12-18 04:10:38,906 [INFO] Total Call times: 17100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:10:41,468 [INFO] Total Call times: 17200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:10:43,761 [INFO] Total Call times: 17300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:10:46,132 [INFO] Total Call times: 17400, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:10:48,478 [INFO] Total Call times: 17500, Best Found Solution: 7.0,Current Solution: 5.909090909090909
+2021-12-18 04:10:50,772 [INFO] Total Call times: 17600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:10:53,335 [INFO] Total Call times: 17700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:10:55,656 [INFO] Total Call times: 17800, Best Found Solution: 7.0,Current Solution: 5.944444444444444
+2021-12-18 04:10:58,304 [INFO] Total Call times: 17900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:11:00,656 [INFO] Total Call times: 18000, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:11:03,096 [INFO] Total Call times: 18100, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:11:05,750 [INFO] Total Call times: 18200, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:11:08,212 [INFO] Total Call times: 18300, Best Found Solution: 7.0,Current Solution: 5.999999999999998
+2021-12-18 04:11:10,787 [INFO] Total Call times: 18400, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:11:13,466 [INFO] Total Call times: 18500, Best Found Solution: 7.0,Current Solution: 6.000000000000001
+2021-12-18 04:11:16,175 [INFO] Total Call times: 18600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:11:18,640 [INFO] Total Call times: 18700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:11:20,980 [INFO] Total Call times: 18800, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:11:23,505 [INFO] Total Call times: 18900, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:11:25,879 [INFO] Total Call times: 19000, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:11:28,471 [INFO] Total Call times: 19100, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:11:30,763 [INFO] Total Call times: 19200, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:11:34,233 [INFO] Total Call times: 19300, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:11:37,292 [INFO] Total Call times: 19400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:11:39,514 [INFO] Total Call times: 19500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:11:42,733 [INFO] Total Call times: 19600, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:11:45,395 [INFO] Total Call times: 19700, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:11:48,278 [INFO] Total Call times: 19800, Best Found Solution: 7.0,Current Solution: 5.96
+2021-12-18 04:11:50,762 [INFO] Total Call times: 19900, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:11:53,204 [INFO] Total Call times: 20000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:11:55,485 [INFO] Total Call times: 20100, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:11:57,865 [INFO] Total Call times: 20200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:12:00,434 [INFO] Total Call times: 20300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:12:02,682 [INFO] Total Call times: 20400, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:12:05,768 [INFO] Total Call times: 20500, Best Found Solution: 7.0,Current Solution: 5.979166666666665
+2021-12-18 04:12:08,566 [INFO] Total Call times: 20600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:12:10,836 [INFO] Total Call times: 20700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:12:13,349 [INFO] Total Call times: 20800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:12:15,707 [INFO] Total Call times: 20900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:12:18,207 [INFO] Total Call times: 21000, Best Found Solution: 7.0,Current Solution: 6.000000000000001
+2021-12-18 04:12:20,849 [INFO] Total Call times: 21100, Best Found Solution: 7.0,Current Solution: 5.899999999999999
+2021-12-18 04:12:23,328 [INFO] Total Call times: 21200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:12:25,998 [INFO] Total Call times: 21300, Best Found Solution: 7.0,Current Solution: 5.960000000000001
+2021-12-18 04:12:29,608 [INFO] Total Call times: 21400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:12:32,255 [INFO] Total Call times: 21500, Best Found Solution: 7.0,Current Solution: 5.951219512195122
+2021-12-18 04:12:35,926 [INFO] Total Call times: 21600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:12:38,414 [INFO] Total Call times: 21700, Best Found Solution: 7.0,Current Solution: 5.938271604938272
+2021-12-18 04:12:41,796 [INFO] Total Call times: 21800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:12:44,462 [INFO] Total Call times: 21900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:12:47,048 [INFO] Total Call times: 22000, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:12:52,886 [INFO] Total Call times: 22200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:12:55,313 [INFO] Total Call times: 22300, Best Found Solution: 7.0,Current Solution: 5.937500000000001
+2021-12-18 04:12:59,381 [INFO] Total Call times: 22400, Best Found Solution: 7.0,Current Solution: 5.96875
+2021-12-18 04:13:02,907 [INFO] Total Call times: 22500, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:13:10,704 [INFO] Total Call times: 22700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:13:13,563 [INFO] Total Call times: 22800, Best Found Solution: 7.0,Current Solution: 5.976190476190475
+2021-12-18 04:13:17,935 [INFO] Total Call times: 22900, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:13:20,451 [INFO] Total Call times: 23000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:13:23,542 [INFO] Total Call times: 23100, Best Found Solution: 7.0,Current Solution: 5.999999999999998
+2021-12-18 04:13:28,101 [INFO] Total Call times: 23200, Best Found Solution: 7.0,Current Solution: 5.923076923076923
+2021-12-18 04:13:34,175 [INFO] Total Call times: 23300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:13:39,235 [INFO] Total Call times: 23500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:13:42,794 [INFO] Total Call times: 23600, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:13:45,779 [INFO] Total Call times: 23700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:13:49,059 [INFO] Total Call times: 23800, Best Found Solution: 7.0,Current Solution: 5.909090909090908
+2021-12-18 04:13:53,945 [INFO] Total Call times: 23900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:13:57,122 [INFO] Total Call times: 24000, Best Found Solution: 7.0,Current Solution: 5.916666666666667
+2021-12-18 04:14:00,131 [INFO] Total Call times: 24100, Best Found Solution: 7.0,Current Solution: 5.962264150943396
+2021-12-18 04:14:03,347 [INFO] Total Call times: 24200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:14:06,938 [INFO] Total Call times: 24300, Best Found Solution: 7.0,Current Solution: 5.999999999999998
+2021-12-18 04:14:10,773 [INFO] Total Call times: 24400, Best Found Solution: 7.0,Current Solution: 5.999999999999999
+2021-12-18 04:14:14,039 [INFO] Total Call times: 24500, Best Found Solution: 7.0,Current Solution: 5.90909090909091
+2021-12-18 04:14:18,329 [INFO] Total Call times: 24600, Best Found Solution: 7.0,Current Solution: 5.90625
+2021-12-18 04:14:21,215 [INFO] Total Call times: 24700, Best Found Solution: 7.0,Current Solution: 5.90909090909091
+2021-12-18 04:14:24,010 [INFO] Total Call times: 24800, Best Found Solution: 7.0,Current Solution: 5.928571428571429
+2021-12-18 04:14:26,765 [INFO] Total Call times: 24900, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:14:29,993 [INFO] Total Call times: 25000, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:14:33,105 [INFO] Total Call times: 25100, Best Found Solution: 7.0,Current Solution: 5.96875
+2021-12-18 04:14:36,888 [INFO] Total Call times: 25200, Best Found Solution: 7.0,Current Solution: 5.909090909090911
+2021-12-18 04:14:40,778 [INFO] Total Call times: 25300, Best Found Solution: 7.0,Current Solution: 5.909090909090908
+2021-12-18 04:14:43,837 [INFO] Total Call times: 25400, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:14:46,975 [INFO] Total Call times: 25500, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:14:50,389 [INFO] Total Call times: 25600, Best Found Solution: 7.0,Current Solution: 5.916666666666666
+2021-12-18 04:14:53,499 [INFO] Total Call times: 25700, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:14:56,601 [INFO] Total Call times: 25800, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:14:59,965 [INFO] Total Call times: 25900, Best Found Solution: 7.0,Current Solution: 5.957446808510638
+2021-12-18 04:15:04,611 [INFO] Total Call times: 26000, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:15:07,622 [INFO] Total Call times: 26100, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:15:11,329 [INFO] Total Call times: 26200, Best Found Solution: 7.0,Current Solution: 5.961538461538462
+2021-12-18 04:15:17,064 [INFO] Total Call times: 26300, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:15:20,545 [INFO] Total Call times: 26400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:15:23,615 [INFO] Total Call times: 26500, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:15:27,789 [INFO] Total Call times: 26600, Best Found Solution: 7.0,Current Solution: 5.999999999999998
+2021-12-18 04:15:31,752 [INFO] Total Call times: 26700, Best Found Solution: 7.0,Current Solution: 5.909090909090909
+2021-12-18 04:15:34,624 [INFO] Total Call times: 26800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:15:37,633 [INFO] Total Call times: 26900, Best Found Solution: 7.0,Current Solution: 5.982142857142857
+2021-12-18 04:15:41,123 [INFO] Total Call times: 27000, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:15:44,575 [INFO] Total Call times: 27100, Best Found Solution: 7.0,Current Solution: 5.958333333333333
+2021-12-18 04:15:47,958 [INFO] Total Call times: 27200, Best Found Solution: 7.0,Current Solution: 5.964285714285714
+2021-12-18 04:15:51,328 [INFO] Total Call times: 27300, Best Found Solution: 7.0,Current Solution: 5.909090909090909
+2021-12-18 04:15:55,118 [INFO] Total Call times: 27400, Best Found Solution: 7.0,Current Solution: 5.928571428571429
+2021-12-18 04:15:58,382 [INFO] Total Call times: 27500, Best Found Solution: 7.0,Current Solution: 5.928571428571429
+2021-12-18 04:16:01,725 [INFO] Total Call times: 27600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:16:04,822 [INFO] Total Call times: 27700, Best Found Solution: 7.0,Current Solution: 5.937499999999999
+2021-12-18 04:16:08,026 [INFO] Total Call times: 27800, Best Found Solution: 7.0,Current Solution: 5.958333333333333
+2021-12-18 04:16:13,608 [INFO] Total Call times: 27900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:16:16,103 [INFO] Total Call times: 28000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:16:19,340 [INFO] Total Call times: 28100, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:16:23,836 [INFO] Total Call times: 28200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:16:27,975 [INFO] Total Call times: 28300, Best Found Solution: 7.0,Current Solution: 5.975000000000001
+2021-12-18 04:16:32,462 [INFO] Total Call times: 28400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:16:35,399 [INFO] Total Call times: 28500, Best Found Solution: 7.0,Current Solution: 5.961538461538462
+2021-12-18 04:16:39,000 [INFO] Total Call times: 28600, Best Found Solution: 7.0,Current Solution: 5.899999999999999
+2021-12-18 04:16:42,419 [INFO] Total Call times: 28700, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:16:45,455 [INFO] Total Call times: 28800, Best Found Solution: 7.0,Current Solution: 5.973684210526317
+2021-12-18 04:16:48,971 [INFO] Total Call times: 28900, Best Found Solution: 7.0,Current Solution: 5.928571428571428
+2021-12-18 04:16:53,308 [INFO] Total Call times: 29000, Best Found Solution: 7.0,Current Solution: 5.9523809523809526
+2021-12-18 04:16:56,348 [INFO] Total Call times: 29100, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:17:00,791 [INFO] Total Call times: 29200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:17:04,153 [INFO] Total Call times: 29300, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:17:07,685 [INFO] Total Call times: 29400, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:17:10,835 [INFO] Total Call times: 29500, Best Found Solution: 7.0,Current Solution: 5.9642857142857135
+2021-12-18 04:17:15,068 [INFO] Total Call times: 29600, Best Found Solution: 7.0,Current Solution: 5.909090909090909
+2021-12-18 04:17:18,591 [INFO] Total Call times: 29700, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:17:21,753 [INFO] Total Call times: 29800, Best Found Solution: 7.0,Current Solution: 5.9629629629629655
+2021-12-18 04:17:25,658 [INFO] Total Call times: 29900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:17:29,517 [INFO] Total Call times: 30000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:17:32,775 [INFO] Total Call times: 30100, Best Found Solution: 7.0,Current Solution: 5.975609756097562
+2021-12-18 04:17:36,655 [INFO] Total Call times: 30200, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:17:40,493 [INFO] Total Call times: 30300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:17:47,963 [INFO] Total Call times: 30500, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:17:51,831 [INFO] Total Call times: 30600, Best Found Solution: 7.0,Current Solution: 5.916666666666667
+2021-12-18 04:17:55,408 [INFO] Total Call times: 30700, Best Found Solution: 7.0,Current Solution: 5.9411764705882355
+2021-12-18 04:17:58,973 [INFO] Total Call times: 30800, Best Found Solution: 7.0,Current Solution: 5.933333333333334
+2021-12-18 04:18:02,570 [INFO] Total Call times: 30900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:18:06,809 [INFO] Total Call times: 31000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:18:11,097 [INFO] Total Call times: 31100, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:18:14,828 [INFO] Total Call times: 31200, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:18:22,550 [INFO] Total Call times: 31400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:18:28,471 [INFO] Total Call times: 31500, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:18:32,851 [INFO] Total Call times: 31600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:18:36,898 [INFO] Total Call times: 31700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:18:41,972 [INFO] Total Call times: 31800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:18:47,571 [INFO] Total Call times: 31900, Best Found Solution: 7.0,Current Solution: 5.985436893203884
+2021-12-18 04:18:53,034 [INFO] Total Call times: 32000, Best Found Solution: 7.0,Current Solution: 5.999999999999999
+2021-12-18 04:18:57,375 [INFO] Total Call times: 32100, Best Found Solution: 7.0,Current Solution: 5.96
+2021-12-18 04:19:01,868 [INFO] Total Call times: 32200, Best Found Solution: 7.0,Current Solution: 5.960000000000002
+2021-12-18 04:19:06,767 [INFO] Total Call times: 32300, Best Found Solution: 7.0,Current Solution: 5.960000000000002
+2021-12-18 04:19:11,855 [INFO] Total Call times: 32400, Best Found Solution: 7.0,Current Solution: 5.909090909090909
+2021-12-18 04:19:16,177 [INFO] Total Call times: 32500, Best Found Solution: 7.0,Current Solution: 5.989690721649483
+2021-12-18 04:19:20,549 [INFO] Total Call times: 32600, Best Found Solution: 7.0,Current Solution: 5.999999999999999
+2021-12-18 04:19:27,391 [INFO] Total Call times: 32700, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:19:31,575 [INFO] Total Call times: 32800, Best Found Solution: 7.0,Current Solution: 5.999999999999999
+2021-12-18 04:19:36,075 [INFO] Total Call times: 32900, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:19:42,430 [INFO] Total Call times: 33000, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:19:47,316 [INFO] Total Call times: 33100, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:19:52,624 [INFO] Total Call times: 33200, Best Found Solution: 7.0,Current Solution: 5.966666666666665
+2021-12-18 04:19:58,764 [INFO] Total Call times: 33300, Best Found Solution: 7.0,Current Solution: 5.949999999999998
+2021-12-18 04:20:04,459 [INFO] Total Call times: 33400, Best Found Solution: 7.0,Current Solution: 5.913043478260869
+2021-12-18 04:20:11,296 [INFO] Total Call times: 33500, Best Found Solution: 7.0,Current Solution: 5.921052631578948
+2021-12-18 04:20:18,344 [INFO] Total Call times: 33600, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:20:29,077 [INFO] Total Call times: 33800, Best Found Solution: 7.0,Current Solution: 5.923076923076923
+2021-12-18 04:20:33,639 [INFO] Total Call times: 33900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:20:37,998 [INFO] Total Call times: 34000, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:20:41,721 [INFO] Total Call times: 34100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:20:45,043 [INFO] Total Call times: 34200, Best Found Solution: 7.0,Current Solution: 5.916666666666666
+2021-12-18 04:20:50,381 [INFO] Total Call times: 34300, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:20:55,591 [INFO] Total Call times: 34400, Best Found Solution: 7.0,Current Solution: 5.960000000000001
+2021-12-18 04:21:00,478 [INFO] Total Call times: 34500, Best Found Solution: 7.0,Current Solution: 5.960000000000003
+2021-12-18 04:21:05,655 [INFO] Total Call times: 34600, Best Found Solution: 7.0,Current Solution: 5.960000000000002
+2021-12-18 04:21:11,126 [INFO] Total Call times: 34700, Best Found Solution: 7.0,Current Solution: 5.90909090909091
+2021-12-18 04:21:15,639 [INFO] Total Call times: 34800, Best Found Solution: 7.0,Current Solution: 5.96
+2021-12-18 04:21:21,289 [INFO] Total Call times: 34900, Best Found Solution: 7.0,Current Solution: 5.96
+2021-12-18 04:21:26,751 [INFO] Total Call times: 35000, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:21:32,500 [INFO] Total Call times: 35100, Best Found Solution: 7.0,Current Solution: 5.981203007518795
+2021-12-18 04:21:37,868 [INFO] Total Call times: 35200, Best Found Solution: 7.0,Current Solution: 5.977272727272727
+2021-12-18 04:21:43,170 [INFO] Total Call times: 35300, Best Found Solution: 7.0,Current Solution: 5.960000000000002
+2021-12-18 04:21:48,696 [INFO] Total Call times: 35400, Best Found Solution: 7.0,Current Solution: 5.960000000000003
+2021-12-18 04:21:54,332 [INFO] Total Call times: 35500, Best Found Solution: 7.0,Current Solution: 5.944444444444444
+2021-12-18 04:21:58,720 [INFO] Total Call times: 35600, Best Found Solution: 7.0,Current Solution: 5.960000000000003
+2021-12-18 04:22:03,281 [INFO] Total Call times: 35700, Best Found Solution: 7.0,Current Solution: 5.960000000000001
+2021-12-18 04:22:09,439 [INFO] Total Call times: 35800, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:22:13,419 [INFO] Total Call times: 35900, Best Found Solution: 7.0,Current Solution: 5.90625
+2021-12-18 04:22:17,450 [INFO] Total Call times: 36000, Best Found Solution: 7.0,Current Solution: 5.909090909090909
+2021-12-18 04:22:22,982 [INFO] Total Call times: 36100, Best Found Solution: 7.0,Current Solution: 5.916666666666667
+2021-12-18 04:22:28,657 [INFO] Total Call times: 36200, Best Found Solution: 7.0,Current Solution: 5.916666666666666
+2021-12-18 04:22:33,220 [INFO] Total Call times: 36300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:22:38,501 [INFO] Total Call times: 36400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:22:41,518 [INFO] Total Call times: 36500, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:22:45,076 [INFO] Total Call times: 36600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:22:53,296 [INFO] Total Call times: 36700, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:22:57,786 [INFO] Total Call times: 36800, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:23:03,402 [INFO] Total Call times: 36900, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:23:08,690 [INFO] Total Call times: 37000, Best Found Solution: 7.0,Current Solution: 5.999999999999998
+2021-12-18 04:23:14,092 [INFO] Total Call times: 37100, Best Found Solution: 7.0,Current Solution: 5.966666666666666
+2021-12-18 04:23:20,088 [INFO] Total Call times: 37200, Best Found Solution: 7.0,Current Solution: 5.909090909090908
+2021-12-18 04:23:25,702 [INFO] Total Call times: 37300, Best Found Solution: 7.0,Current Solution: 5.95
+2021-12-18 04:23:31,902 [INFO] Total Call times: 37400, Best Found Solution: 7.0,Current Solution: 5.914893617021276
+2021-12-18 04:23:37,392 [INFO] Total Call times: 37500, Best Found Solution: 7.0,Current Solution: 5.935483870967742
+2021-12-18 04:23:43,767 [INFO] Total Call times: 37600, Best Found Solution: 7.0,Current Solution: 5.950000000000001
+2021-12-18 04:23:52,276 [INFO] Total Call times: 37700, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:23:58,575 [INFO] Total Call times: 37800, Best Found Solution: 7.0,Current Solution: 5.975206611570246
+2021-12-18 04:24:04,875 [INFO] Total Call times: 37900, Best Found Solution: 7.0,Current Solution: 5.928571428571428
+2021-12-18 04:24:10,202 [INFO] Total Call times: 38000, Best Found Solution: 7.0,Current Solution: 5.9642857142857135
+2021-12-18 04:24:16,057 [INFO] Total Call times: 38100, Best Found Solution: 7.0,Current Solution: 5.960000000000002
+2021-12-18 04:24:22,475 [INFO] Total Call times: 38200, Best Found Solution: 7.0,Current Solution: 5.924242424242424
+2021-12-18 04:24:29,031 [INFO] Total Call times: 38300, Best Found Solution: 7.0,Current Solution: 5.909090909090909
+2021-12-18 04:24:34,332 [INFO] Total Call times: 38400, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:24:40,296 [INFO] Total Call times: 38500, Best Found Solution: 7.0,Current Solution: 5.993377483443708
+2021-12-18 04:24:46,219 [INFO] Total Call times: 38600, Best Found Solution: 7.0,Current Solution: 5.965277777777778
+2021-12-18 04:24:52,739 [INFO] Total Call times: 38700, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:25:02,197 [INFO] Total Call times: 38800, Best Found Solution: 7.0,Current Solution: 5.909090909090909
+2021-12-18 04:25:07,529 [INFO] Total Call times: 38900, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:25:17,864 [INFO] Total Call times: 39000, Best Found Solution: 7.0,Current Solution: 5.947368421052632
+2021-12-18 04:25:23,215 [INFO] Total Call times: 39100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:25:26,784 [INFO] Total Call times: 39200, Best Found Solution: 7.0,Current Solution: 5.9411764705882355
+2021-12-18 04:25:33,560 [INFO] Total Call times: 39300, Best Found Solution: 7.0,Current Solution: 5.988636363636364
+2021-12-18 04:25:40,697 [INFO] Total Call times: 39400, Best Found Solution: 7.0,Current Solution: 5.925
+2021-12-18 04:25:48,882 [INFO] Total Call times: 39500, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:25:53,109 [INFO] Total Call times: 39600, Best Found Solution: 7.0,Current Solution: 5.944444444444444
+2021-12-18 04:25:58,568 [INFO] Total Call times: 39700, Best Found Solution: 7.0,Current Solution: 5.924242424242424
+2021-12-18 04:26:05,337 [INFO] Total Call times: 39800, Best Found Solution: 7.0,Current Solution: 5.966666666666666
+2021-12-18 04:26:11,896 [INFO] Total Call times: 39900, Best Found Solution: 7.0,Current Solution: 5.970588235294118
+2021-12-18 04:26:20,716 [INFO] Total Call times: 40000, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:26:24,947 [INFO] Total Call times: 40100, Best Found Solution: 7.0,Current Solution: 5.9529411764705875
+2021-12-18 04:26:32,246 [INFO] Total Call times: 40200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:26:37,583 [INFO] Total Call times: 40300, Best Found Solution: 7.0,Current Solution: 5.999999999999999
+2021-12-18 04:26:43,768 [INFO] Total Call times: 40400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:26:47,171 [INFO] Total Call times: 40500, Best Found Solution: 7.0,Current Solution: 5.904761904761905
+2021-12-18 04:26:55,732 [INFO] Total Call times: 40600, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:27:01,010 [INFO] Total Call times: 40700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:27:04,478 [INFO] Total Call times: 40800, Best Found Solution: 7.0,Current Solution: 5.909090909090908
+2021-12-18 04:27:13,589 [INFO] Total Call times: 40900, Best Found Solution: 7.0,Current Solution: 5.986486486486487
+2021-12-18 04:27:26,306 [INFO] Total Call times: 41000, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:27:37,902 [INFO] Total Call times: 41100, Best Found Solution: 7.0,Current Solution: 5.9565217391304355
+2021-12-18 04:27:49,333 [INFO] Total Call times: 41200, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:27:58,832 [INFO] Total Call times: 41300, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:28:04,926 [INFO] Total Call times: 41400, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:28:12,793 [INFO] Total Call times: 41500, Best Found Solution: 7.0,Current Solution: 5.9655172413793105
+2021-12-18 04:28:25,291 [INFO] Total Call times: 41600, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:28:38,510 [INFO] Total Call times: 41700, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:29:04,274 [INFO] Total Call times: 41900, Best Found Solution: 7.0,Current Solution: 5.909090909090908
+2021-12-18 04:29:09,836 [INFO] Total Call times: 42000, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:29:19,170 [INFO] Total Call times: 42100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:29:40,047 [INFO] Total Call times: 42300, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:29:49,948 [INFO] Total Call times: 42400, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:30:01,988 [INFO] Total Call times: 42500, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:30:32,527 [INFO] Total Call times: 42700, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:30:39,427 [INFO] Total Call times: 42800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:30:42,845 [INFO] Total Call times: 42900, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:30:45,214 [INFO] Total Call times: 43000, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:30:49,409 [INFO] Total Call times: 43100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:30:51,676 [INFO] Total Call times: 43200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:30:55,987 [INFO] Total Call times: 43300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:30:58,234 [INFO] Total Call times: 43400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:31:01,443 [INFO] Total Call times: 43500, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:31:03,939 [INFO] Total Call times: 43600, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:31:06,312 [INFO] Total Call times: 43700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:31:08,644 [INFO] Total Call times: 43800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:31:11,219 [INFO] Total Call times: 43900, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:31:13,572 [INFO] Total Call times: 44000, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:31:15,974 [INFO] Total Call times: 44100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:31:18,715 [INFO] Total Call times: 44200, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:31:20,960 [INFO] Total Call times: 44300, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:31:23,698 [INFO] Total Call times: 44400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:31:26,893 [INFO] Total Call times: 44500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:31:29,140 [INFO] Total Call times: 44600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:31:31,592 [INFO] Total Call times: 44700, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:31:33,921 [INFO] Total Call times: 44800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:31:36,927 [INFO] Total Call times: 44900, Best Found Solution: 7.0,Current Solution: 5.899999999999999
+2021-12-18 04:31:39,058 [INFO] Total Call times: 45000, Best Found Solution: 7.0,Current Solution: 5.899999999999999
+2021-12-18 04:31:41,410 [INFO] Total Call times: 45100, Best Found Solution: 7.0,Current Solution: 5.909090909090909
+2021-12-18 04:31:45,092 [INFO] Total Call times: 45200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:31:47,279 [INFO] Total Call times: 45300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:31:49,637 [INFO] Total Call times: 45400, Best Found Solution: 7.0,Current Solution: 5.909090909090908
+2021-12-18 04:31:51,917 [INFO] Total Call times: 45500, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:31:54,361 [INFO] Total Call times: 45600, Best Found Solution: 7.0,Current Solution: 5.944444444444444
+2021-12-18 04:31:57,880 [INFO] Total Call times: 45700, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:32:01,170 [INFO] Total Call times: 45800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:32:03,361 [INFO] Total Call times: 45900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:32:05,726 [INFO] Total Call times: 46000, Best Found Solution: 7.0,Current Solution: 5.909090909090908
+2021-12-18 04:32:08,296 [INFO] Total Call times: 46100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:32:10,600 [INFO] Total Call times: 46200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:32:12,793 [INFO] Total Call times: 46300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:32:15,331 [INFO] Total Call times: 46400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:32:17,570 [INFO] Total Call times: 46500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:32:19,872 [INFO] Total Call times: 46600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:32:22,564 [INFO] Total Call times: 46700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:32:24,641 [INFO] Total Call times: 46800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:32:27,466 [INFO] Total Call times: 46900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:32:29,606 [INFO] Total Call times: 47000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:32:32,602 [INFO] Total Call times: 47100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:32:34,724 [INFO] Total Call times: 47200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:32:37,510 [INFO] Total Call times: 47300, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:32:40,292 [INFO] Total Call times: 47400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:32:42,625 [INFO] Total Call times: 47500, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:32:45,427 [INFO] Total Call times: 47600, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:32:47,782 [INFO] Total Call times: 47700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:32:50,195 [INFO] Total Call times: 47800, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:32:52,968 [INFO] Total Call times: 47900, Best Found Solution: 7.0,Current Solution: 5.999999999999998
+2021-12-18 04:32:55,697 [INFO] Total Call times: 48000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:32:57,888 [INFO] Total Call times: 48100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:33:00,327 [INFO] Total Call times: 48200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:33:02,461 [INFO] Total Call times: 48300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:33:05,286 [INFO] Total Call times: 48400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:33:07,393 [INFO] Total Call times: 48500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:33:12,131 [INFO] Total Call times: 48700, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:33:14,598 [INFO] Total Call times: 48800, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:33:17,387 [INFO] Total Call times: 48900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:33:19,527 [INFO] Total Call times: 49000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:33:23,100 [INFO] Total Call times: 49100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:33:25,213 [INFO] Total Call times: 49200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:33:27,956 [INFO] Total Call times: 49300, Best Found Solution: 7.0,Current Solution: 5.999999999999999
+2021-12-18 04:33:30,219 [INFO] Total Call times: 49400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:33:32,700 [INFO] Total Call times: 49500, Best Found Solution: 7.0,Current Solution: 5.909090909090908
+2021-12-18 04:33:35,280 [INFO] Total Call times: 49600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:33:37,800 [INFO] Total Call times: 49700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:33:39,973 [INFO] Total Call times: 49800, Best Found Solution: 7.0,Current Solution: 5.944444444444444
+2021-12-18 04:33:42,305 [INFO] Total Call times: 49900, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:33:44,564 [INFO] Total Call times: 50000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:33:46,944 [INFO] Total Call times: 50100, Best Found Solution: 7.0,Current Solution: 5.909090909090909
+2021-12-18 04:33:49,117 [INFO] Total Call times: 50200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:33:51,337 [INFO] Total Call times: 50300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:33:53,842 [INFO] Total Call times: 50400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:33:56,057 [INFO] Total Call times: 50500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:33:58,962 [INFO] Total Call times: 50600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:34:01,109 [INFO] Total Call times: 50700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:34:03,841 [INFO] Total Call times: 50800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:34:05,909 [INFO] Total Call times: 50900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:34:08,621 [INFO] Total Call times: 51000, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:34:10,995 [INFO] Total Call times: 51100, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:34:13,495 [INFO] Total Call times: 51200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:34:17,156 [INFO] Total Call times: 51300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:34:19,328 [INFO] Total Call times: 51400, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:34:22,171 [INFO] Total Call times: 51500, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:34:24,755 [INFO] Total Call times: 51600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:34:27,018 [INFO] Total Call times: 51700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:34:29,748 [INFO] Total Call times: 51800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:34:31,988 [INFO] Total Call times: 51900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:34:34,278 [INFO] Total Call times: 52000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:34:37,829 [INFO] Total Call times: 52100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:34:39,907 [INFO] Total Call times: 52200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:34:42,188 [INFO] Total Call times: 52300, Best Found Solution: 7.0,Current Solution: 5.909090909090908
+2021-12-18 04:34:44,740 [INFO] Total Call times: 52400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:34:47,020 [INFO] Total Call times: 52500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:34:50,054 [INFO] Total Call times: 52600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:34:52,224 [INFO] Total Call times: 52700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:34:54,715 [INFO] Total Call times: 52800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:34:56,831 [INFO] Total Call times: 52900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:34:59,204 [INFO] Total Call times: 53000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:35:01,341 [INFO] Total Call times: 53100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:35:03,584 [INFO] Total Call times: 53200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:35:05,768 [INFO] Total Call times: 53300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:35:08,187 [INFO] Total Call times: 53400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:35:10,316 [INFO] Total Call times: 53500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:35:12,740 [INFO] Total Call times: 53600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:35:14,837 [INFO] Total Call times: 53700, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:35:17,064 [INFO] Total Call times: 53800, Best Found Solution: 7.0,Current Solution: 5.909090909090908
+2021-12-18 04:35:19,757 [INFO] Total Call times: 53900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:35:21,955 [INFO] Total Call times: 54000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:35:24,274 [INFO] Total Call times: 54100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:35:26,542 [INFO] Total Call times: 54200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:35:30,058 [INFO] Total Call times: 54300, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:35:33,386 [INFO] Total Call times: 54400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:35:35,974 [INFO] Total Call times: 54500, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:35:38,204 [INFO] Total Call times: 54600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:35:40,636 [INFO] Total Call times: 54700, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:35:43,588 [INFO] Total Call times: 54800, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:35:47,135 [INFO] Total Call times: 54900, Best Found Solution: 7.0,Current Solution: 5.942857142857142
+2021-12-18 04:35:49,880 [INFO] Total Call times: 55000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:35:52,104 [INFO] Total Call times: 55100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:35:54,677 [INFO] Total Call times: 55200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:35:56,901 [INFO] Total Call times: 55300, Best Found Solution: 7.0,Current Solution: 5.944444444444444
+2021-12-18 04:35:59,322 [INFO] Total Call times: 55400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:36:01,604 [INFO] Total Call times: 55500, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:36:04,656 [INFO] Total Call times: 55600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:36:06,802 [INFO] Total Call times: 55700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:36:09,336 [INFO] Total Call times: 55800, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:36:11,759 [INFO] Total Call times: 55900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:36:14,055 [INFO] Total Call times: 56000, Best Found Solution: 7.0,Current Solution: 5.909090909090909
+2021-12-18 04:36:16,290 [INFO] Total Call times: 56100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:36:18,561 [INFO] Total Call times: 56200, Best Found Solution: 7.0,Current Solution: 5.909090909090909
+2021-12-18 04:36:21,016 [INFO] Total Call times: 56300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:36:23,211 [INFO] Total Call times: 56400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:36:25,760 [INFO] Total Call times: 56500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:36:28,017 [INFO] Total Call times: 56600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:36:30,906 [INFO] Total Call times: 56700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:36:33,071 [INFO] Total Call times: 56800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:36:35,380 [INFO] Total Call times: 56900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:36:38,327 [INFO] Total Call times: 57000, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:36:40,655 [INFO] Total Call times: 57100, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:36:42,932 [INFO] Total Call times: 57200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:36:45,292 [INFO] Total Call times: 57300, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:36:48,033 [INFO] Total Call times: 57400, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:36:52,616 [INFO] Total Call times: 57600, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:36:55,106 [INFO] Total Call times: 57700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:36:57,389 [INFO] Total Call times: 57800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:36:59,936 [INFO] Total Call times: 57900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:37:02,764 [INFO] Total Call times: 58000, Best Found Solution: 7.0,Current Solution: 5.913043478260869
+2021-12-18 04:37:05,480 [INFO] Total Call times: 58100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:37:07,922 [INFO] Total Call times: 58200, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:37:10,533 [INFO] Total Call times: 58300, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:37:12,874 [INFO] Total Call times: 58400, Best Found Solution: 7.0,Current Solution: 5.9444444444444455
+2021-12-18 04:37:15,681 [INFO] Total Call times: 58500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:37:18,028 [INFO] Total Call times: 58600, Best Found Solution: 7.0,Current Solution: 5.923076923076923
+2021-12-18 04:37:20,887 [INFO] Total Call times: 58700, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:37:25,139 [INFO] Total Call times: 58800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:37:27,408 [INFO] Total Call times: 58900, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:37:30,017 [INFO] Total Call times: 59000, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:37:33,208 [INFO] Total Call times: 59100, Best Found Solution: 7.0,Current Solution: 5.947368421052629
+2021-12-18 04:37:37,145 [INFO] Total Call times: 59200, Best Found Solution: 7.0,Current Solution: 5.973684210526317
+2021-12-18 04:37:41,449 [INFO] Total Call times: 59300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:37:43,707 [INFO] Total Call times: 59400, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:37:46,196 [INFO] Total Call times: 59500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:37:50,733 [INFO] Total Call times: 59700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:37:53,134 [INFO] Total Call times: 59800, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:37:55,620 [INFO] Total Call times: 59900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:37:57,932 [INFO] Total Call times: 60000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:38:00,416 [INFO] Total Call times: 60100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:38:03,665 [INFO] Total Call times: 60200, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:38:07,413 [INFO] Total Call times: 60300, Best Found Solution: 7.0,Current Solution: 5.970588235294118
+2021-12-18 04:38:11,380 [INFO] Total Call times: 60400, Best Found Solution: 7.0,Current Solution: 5.988095238095237
+2021-12-18 04:38:14,261 [INFO] Total Call times: 60500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:38:16,513 [INFO] Total Call times: 60600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:38:19,049 [INFO] Total Call times: 60700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:38:21,998 [INFO] Total Call times: 60800, Best Found Solution: 7.0,Current Solution: 5.951219512195122
+2021-12-18 04:38:25,472 [INFO] Total Call times: 60900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:38:27,812 [INFO] Total Call times: 61000, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:38:30,257 [INFO] Total Call times: 61100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:38:32,715 [INFO] Total Call times: 61200, Best Found Solution: 7.0,Current Solution: 5.923076923076923
+2021-12-18 04:38:35,881 [INFO] Total Call times: 61300, Best Found Solution: 7.0,Current Solution: 5.98076923076923
+2021-12-18 04:38:39,524 [INFO] Total Call times: 61400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:38:41,767 [INFO] Total Call times: 61500, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:38:44,149 [INFO] Total Call times: 61600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:38:46,923 [INFO] Total Call times: 61700, Best Found Solution: 7.0,Current Solution: 5.923076923076923
+2021-12-18 04:38:50,346 [INFO] Total Call times: 61800, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:38:54,543 [INFO] Total Call times: 61900, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:38:57,748 [INFO] Total Call times: 62000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:39:00,083 [INFO] Total Call times: 62100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:39:02,494 [INFO] Total Call times: 62200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:39:05,299 [INFO] Total Call times: 62300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:39:07,718 [INFO] Total Call times: 62400, Best Found Solution: 7.0,Current Solution: 5.923076923076923
+2021-12-18 04:39:10,576 [INFO] Total Call times: 62500, Best Found Solution: 7.0,Current Solution: 5.9655172413793105
+2021-12-18 04:39:13,048 [INFO] Total Call times: 62600, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:39:15,432 [INFO] Total Call times: 62700, Best Found Solution: 7.0,Current Solution: 5.999999999999998
+2021-12-18 04:39:18,085 [INFO] Total Call times: 62800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:39:20,845 [INFO] Total Call times: 62900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:39:23,001 [INFO] Total Call times: 63000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:39:25,527 [INFO] Total Call times: 63100, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:39:27,823 [INFO] Total Call times: 63200, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:39:30,215 [INFO] Total Call times: 63300, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:39:32,624 [INFO] Total Call times: 63400, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:39:35,209 [INFO] Total Call times: 63500, Best Found Solution: 7.0,Current Solution: 5.999999999999997
+2021-12-18 04:39:37,767 [INFO] Total Call times: 63600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:39:40,258 [INFO] Total Call times: 63700, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:39:42,631 [INFO] Total Call times: 63800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:39:45,742 [INFO] Total Call times: 63900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:39:47,936 [INFO] Total Call times: 64000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:39:50,329 [INFO] Total Call times: 64100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:39:53,358 [INFO] Total Call times: 64200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:39:55,720 [INFO] Total Call times: 64300, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:39:58,330 [INFO] Total Call times: 64400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:40:00,775 [INFO] Total Call times: 64500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:40:07,229 [INFO] Total Call times: 64700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:40:09,887 [INFO] Total Call times: 64800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:40:12,331 [INFO] Total Call times: 64900, Best Found Solution: 7.0,Current Solution: 5.923076923076923
+2021-12-18 04:40:15,546 [INFO] Total Call times: 65000, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:40:18,077 [INFO] Total Call times: 65100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:40:20,562 [INFO] Total Call times: 65200, Best Found Solution: 7.0,Current Solution: 5.93103448275862
+2021-12-18 04:40:23,868 [INFO] Total Call times: 65300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:40:26,074 [INFO] Total Call times: 65400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:40:28,413 [INFO] Total Call times: 65500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:40:31,350 [INFO] Total Call times: 65600, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:40:34,948 [INFO] Total Call times: 65700, Best Found Solution: 7.0,Current Solution: 5.9523809523809526
+2021-12-18 04:40:38,320 [INFO] Total Call times: 65800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:40:40,567 [INFO] Total Call times: 65900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:40:43,101 [INFO] Total Call times: 66000, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:40:45,273 [INFO] Total Call times: 66100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:40:47,754 [INFO] Total Call times: 66200, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:40:50,056 [INFO] Total Call times: 66300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:40:52,392 [INFO] Total Call times: 66400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:40:55,395 [INFO] Total Call times: 66500, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:40:59,488 [INFO] Total Call times: 66600, Best Found Solution: 7.0,Current Solution: 5.937500000000002
+2021-12-18 04:41:03,265 [INFO] Total Call times: 66700, Best Found Solution: 7.0,Current Solution: 5.961538461538462
+2021-12-18 04:41:07,549 [INFO] Total Call times: 66800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:41:09,701 [INFO] Total Call times: 66900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:41:12,238 [INFO] Total Call times: 67000, Best Found Solution: 7.0,Current Solution: 5.999999999999998
+2021-12-18 04:41:14,585 [INFO] Total Call times: 67100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:41:17,049 [INFO] Total Call times: 67200, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:41:19,798 [INFO] Total Call times: 67300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:41:22,092 [INFO] Total Call times: 67400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:41:24,516 [INFO] Total Call times: 67500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:41:27,261 [INFO] Total Call times: 67600, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:41:30,879 [INFO] Total Call times: 67700, Best Found Solution: 7.0,Current Solution: 5.95
+2021-12-18 04:41:33,924 [INFO] Total Call times: 67800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:41:36,302 [INFO] Total Call times: 67900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:41:39,285 [INFO] Total Call times: 68000, Best Found Solution: 7.0,Current Solution: 5.937500000000001
+2021-12-18 04:41:42,956 [INFO] Total Call times: 68100, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:41:46,240 [INFO] Total Call times: 68200, Best Found Solution: 7.0,Current Solution: 5.964285714285714
+2021-12-18 04:41:51,087 [INFO] Total Call times: 68300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:41:53,455 [INFO] Total Call times: 68400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:41:56,220 [INFO] Total Call times: 68500, Best Found Solution: 7.0,Current Solution: 5.923076923076923
+2021-12-18 04:41:59,519 [INFO] Total Call times: 68600, Best Found Solution: 7.0,Current Solution: 5.973684210526315
+2021-12-18 04:42:03,611 [INFO] Total Call times: 68700, Best Found Solution: 7.0,Current Solution: 5.986666666666666
+2021-12-18 04:42:06,390 [INFO] Total Call times: 68800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:42:08,744 [INFO] Total Call times: 68900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:42:11,307 [INFO] Total Call times: 69000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:42:14,669 [INFO] Total Call times: 69100, Best Found Solution: 7.0,Current Solution: 5.947368421052631
+2021-12-18 04:42:18,304 [INFO] Total Call times: 69200, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:42:21,037 [INFO] Total Call times: 69300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:42:23,481 [INFO] Total Call times: 69400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:42:26,245 [INFO] Total Call times: 69500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:42:29,596 [INFO] Total Call times: 69600, Best Found Solution: 7.0,Current Solution: 5.954545454545455
+2021-12-18 04:42:33,195 [INFO] Total Call times: 69700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:42:35,481 [INFO] Total Call times: 69800, Best Found Solution: 7.0,Current Solution: 5.923076923076923
+2021-12-18 04:42:38,284 [INFO] Total Call times: 69900, Best Found Solution: 7.0,Current Solution: 5.954545454545455
+2021-12-18 04:42:41,388 [INFO] Total Call times: 70000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:42:43,692 [INFO] Total Call times: 70100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:42:46,276 [INFO] Total Call times: 70200, Best Found Solution: 7.0,Current Solution: 5.904761904761905
+2021-12-18 04:42:49,704 [INFO] Total Call times: 70300, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:42:53,027 [INFO] Total Call times: 70400, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:42:55,222 [INFO] Total Call times: 70500, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:42:57,606 [INFO] Total Call times: 70600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:43:00,360 [INFO] Total Call times: 70700, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:43:03,721 [INFO] Total Call times: 70800, Best Found Solution: 7.0,Current Solution: 5.961538461538462
+2021-12-18 04:43:06,260 [INFO] Total Call times: 70900, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:43:09,237 [INFO] Total Call times: 71000, Best Found Solution: 7.0,Current Solution: 5.941176470588235
+2021-12-18 04:43:12,280 [INFO] Total Call times: 71100, Best Found Solution: 7.0,Current Solution: 5.98076923076923
+2021-12-18 04:43:14,820 [INFO] Total Call times: 71200, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:43:17,390 [INFO] Total Call times: 71300, Best Found Solution: 7.0,Current Solution: 5.944444444444444
+2021-12-18 04:43:19,886 [INFO] Total Call times: 71400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:43:22,370 [INFO] Total Call times: 71500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:43:25,025 [INFO] Total Call times: 71600, Best Found Solution: 7.0,Current Solution: 5.909090909090909
+2021-12-18 04:43:28,298 [INFO] Total Call times: 71700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:43:30,729 [INFO] Total Call times: 71800, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:43:33,169 [INFO] Total Call times: 71900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:43:35,439 [INFO] Total Call times: 72000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:43:37,925 [INFO] Total Call times: 72100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:43:41,418 [INFO] Total Call times: 72200, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:43:44,966 [INFO] Total Call times: 72300, Best Found Solution: 7.0,Current Solution: 5.962962962962963
+2021-12-18 04:43:48,794 [INFO] Total Call times: 72400, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:43:52,553 [INFO] Total Call times: 72500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:43:54,868 [INFO] Total Call times: 72600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:43:57,372 [INFO] Total Call times: 72700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:44:00,524 [INFO] Total Call times: 72800, Best Found Solution: 7.0,Current Solution: 5.937500000000001
+2021-12-18 04:44:04,068 [INFO] Total Call times: 72900, Best Found Solution: 7.0,Current Solution: 5.962264150943396
+2021-12-18 04:44:07,585 [INFO] Total Call times: 73000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:44:09,912 [INFO] Total Call times: 73100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:44:12,248 [INFO] Total Call times: 73200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:44:15,058 [INFO] Total Call times: 73300, Best Found Solution: 7.0,Current Solution: 5.916666666666667
+2021-12-18 04:44:18,200 [INFO] Total Call times: 73400, Best Found Solution: 7.0,Current Solution: 5.954545454545455
+2021-12-18 04:44:21,013 [INFO] Total Call times: 73500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:44:23,355 [INFO] Total Call times: 73600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:44:25,892 [INFO] Total Call times: 73700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:44:28,975 [INFO] Total Call times: 73800, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:44:32,388 [INFO] Total Call times: 73900, Best Found Solution: 7.0,Current Solution: 5.95
+2021-12-18 04:44:35,783 [INFO] Total Call times: 74000, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:44:38,128 [INFO] Total Call times: 74100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:44:40,737 [INFO] Total Call times: 74200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:44:43,842 [INFO] Total Call times: 74300, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:44:47,121 [INFO] Total Call times: 74400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:44:49,504 [INFO] Total Call times: 74500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:44:52,045 [INFO] Total Call times: 74600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:44:55,185 [INFO] Total Call times: 74700, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:44:59,336 [INFO] Total Call times: 74800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:45:01,740 [INFO] Total Call times: 74900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:45:04,325 [INFO] Total Call times: 75000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:45:07,734 [INFO] Total Call times: 75100, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:45:11,247 [INFO] Total Call times: 75200, Best Found Solution: 7.0,Current Solution: 5.961538461538462
+2021-12-18 04:45:14,712 [INFO] Total Call times: 75300, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:45:18,593 [INFO] Total Call times: 75400, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:45:21,057 [INFO] Total Call times: 75500, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:45:23,941 [INFO] Total Call times: 75600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:45:26,408 [INFO] Total Call times: 75700, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:45:29,191 [INFO] Total Call times: 75800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:45:31,576 [INFO] Total Call times: 75900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:45:34,327 [INFO] Total Call times: 76000, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:45:37,775 [INFO] Total Call times: 76100, Best Found Solution: 7.0,Current Solution: 5.96875
+2021-12-18 04:45:42,548 [INFO] Total Call times: 76200, Best Found Solution: 7.0,Current Solution: 5.979166666666666
+2021-12-18 04:45:46,440 [INFO] Total Call times: 76300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:45:48,915 [INFO] Total Call times: 76400, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:45:51,476 [INFO] Total Call times: 76500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:45:53,990 [INFO] Total Call times: 76600, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:45:56,829 [INFO] Total Call times: 76700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:45:59,361 [INFO] Total Call times: 76800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:46:02,154 [INFO] Total Call times: 76900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:46:04,613 [INFO] Total Call times: 77000, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:46:07,399 [INFO] Total Call times: 77100, Best Found Solution: 7.0,Current Solution: 5.916666666666667
+2021-12-18 04:46:10,771 [INFO] Total Call times: 77200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:46:13,257 [INFO] Total Call times: 77300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:46:15,958 [INFO] Total Call times: 77400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:46:18,564 [INFO] Total Call times: 77500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:46:21,271 [INFO] Total Call times: 77600, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:46:24,230 [INFO] Total Call times: 77700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:46:26,653 [INFO] Total Call times: 77800, Best Found Solution: 7.0,Current Solution: 5.923076923076923
+2021-12-18 04:46:29,505 [INFO] Total Call times: 77900, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:46:31,756 [INFO] Total Call times: 78000, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:46:34,244 [INFO] Total Call times: 78100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:46:37,496 [INFO] Total Call times: 78200, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:46:40,986 [INFO] Total Call times: 78300, Best Found Solution: 7.0,Current Solution: 5.964285714285714
+2021-12-18 04:46:43,884 [INFO] Total Call times: 78400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:46:46,335 [INFO] Total Call times: 78500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:46:49,227 [INFO] Total Call times: 78600, Best Found Solution: 7.0,Current Solution: 5.999999999999999
+2021-12-18 04:46:52,199 [INFO] Total Call times: 78700, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:46:54,644 [INFO] Total Call times: 78800, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:46:57,206 [INFO] Total Call times: 78900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:46:59,845 [INFO] Total Call times: 79000, Best Found Solution: 7.0,Current Solution: 5.923076923076923
+2021-12-18 04:47:03,125 [INFO] Total Call times: 79100, Best Found Solution: 7.0,Current Solution: 5.9655172413793105
+2021-12-18 04:47:05,821 [INFO] Total Call times: 79200, Best Found Solution: 7.0,Current Solution: 5.928571428571428
+2021-12-18 04:47:08,247 [INFO] Total Call times: 79300, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:47:10,718 [INFO] Total Call times: 79400, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:47:13,568 [INFO] Total Call times: 79500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:47:15,841 [INFO] Total Call times: 79600, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:47:18,476 [INFO] Total Call times: 79700, Best Found Solution: 7.0,Current Solution: 5.999999999999998
+2021-12-18 04:47:21,017 [INFO] Total Call times: 79800, Best Found Solution: 7.0,Current Solution: 5.904761904761905
+2021-12-18 04:47:23,702 [INFO] Total Call times: 79900, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:47:26,457 [INFO] Total Call times: 80000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:47:28,876 [INFO] Total Call times: 80100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:47:31,584 [INFO] Total Call times: 80200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:47:34,674 [INFO] Total Call times: 80300, Best Found Solution: 7.0,Current Solution: 5.951219512195122
+2021-12-18 04:47:38,413 [INFO] Total Call times: 80400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:47:41,223 [INFO] Total Call times: 80500, Best Found Solution: 7.0,Current Solution: 6.000000000000002
+2021-12-18 04:47:43,766 [INFO] Total Call times: 80600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:47:46,094 [INFO] Total Call times: 80700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:47:48,759 [INFO] Total Call times: 80800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:47:52,081 [INFO] Total Call times: 80900, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:47:56,759 [INFO] Total Call times: 81000, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:48:00,429 [INFO] Total Call times: 81100, Best Found Solution: 7.0,Current Solution: 5.928571428571429
+2021-12-18 04:48:03,124 [INFO] Total Call times: 81200, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:48:05,450 [INFO] Total Call times: 81300, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:48:08,107 [INFO] Total Call times: 81400, Best Found Solution: 7.0,Current Solution: 5.909090909090909
+2021-12-18 04:48:12,009 [INFO] Total Call times: 81500, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:48:14,807 [INFO] Total Call times: 81600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:48:17,543 [INFO] Total Call times: 81700, Best Found Solution: 7.0,Current Solution: 5.925925925925926
+2021-12-18 04:48:20,167 [INFO] Total Call times: 81800, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:48:22,564 [INFO] Total Call times: 81900, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:48:25,236 [INFO] Total Call times: 82000, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:48:28,244 [INFO] Total Call times: 82100, Best Found Solution: 7.0,Current Solution: 5.916666666666667
+2021-12-18 04:48:31,785 [INFO] Total Call times: 82200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:48:34,203 [INFO] Total Call times: 82300, Best Found Solution: 7.0,Current Solution: 5.928571428571429
+2021-12-18 04:48:37,300 [INFO] Total Call times: 82400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:48:39,691 [INFO] Total Call times: 82500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:48:42,315 [INFO] Total Call times: 82600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:48:45,359 [INFO] Total Call times: 82700, Best Found Solution: 7.0,Current Solution: 5.933333333333334
+2021-12-18 04:48:49,452 [INFO] Total Call times: 82800, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:48:53,672 [INFO] Total Call times: 82900, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:48:58,866 [INFO] Total Call times: 83000, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:49:01,238 [INFO] Total Call times: 83100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:49:03,811 [INFO] Total Call times: 83200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:49:06,909 [INFO] Total Call times: 83300, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:49:10,218 [INFO] Total Call times: 83400, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:49:13,655 [INFO] Total Call times: 83500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:49:16,042 [INFO] Total Call times: 83600, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:49:18,644 [INFO] Total Call times: 83700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:49:21,772 [INFO] Total Call times: 83800, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:49:25,412 [INFO] Total Call times: 83900, Best Found Solution: 7.0,Current Solution: 5.950000000000001
+2021-12-18 04:49:28,520 [INFO] Total Call times: 84000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:49:31,107 [INFO] Total Call times: 84100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:49:33,974 [INFO] Total Call times: 84200, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:49:37,426 [INFO] Total Call times: 84300, Best Found Solution: 7.0,Current Solution: 5.9523809523809526
+2021-12-18 04:49:40,498 [INFO] Total Call times: 84400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:49:42,960 [INFO] Total Call times: 84500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:49:45,838 [INFO] Total Call times: 84600, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:49:49,345 [INFO] Total Call times: 84700, Best Found Solution: 7.0,Current Solution: 5.9523809523809526
+2021-12-18 04:49:52,800 [INFO] Total Call times: 84800, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:49:55,654 [INFO] Total Call times: 84900, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:49:58,666 [INFO] Total Call times: 85000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:50:01,067 [INFO] Total Call times: 85100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:50:03,852 [INFO] Total Call times: 85200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:50:07,423 [INFO] Total Call times: 85300, Best Found Solution: 7.0,Current Solution: 5.9411764705882355
+2021-12-18 04:50:12,340 [INFO] Total Call times: 85400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:50:14,790 [INFO] Total Call times: 85500, Best Found Solution: 7.0,Current Solution: 5.923076923076923
+2021-12-18 04:50:17,708 [INFO] Total Call times: 85600, Best Found Solution: 7.0,Current Solution: 5.982456140350877
+2021-12-18 04:50:20,138 [INFO] Total Call times: 85700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:50:22,660 [INFO] Total Call times: 85800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:50:25,770 [INFO] Total Call times: 85900, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:50:28,465 [INFO] Total Call times: 86000, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:50:31,031 [INFO] Total Call times: 86100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:50:33,567 [INFO] Total Call times: 86200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:50:36,705 [INFO] Total Call times: 86300, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:50:39,267 [INFO] Total Call times: 86400, Best Found Solution: 7.0,Current Solution: 5.923076923076923
+2021-12-18 04:50:42,143 [INFO] Total Call times: 86500, Best Found Solution: 7.0,Current Solution: 5.970588235294118
+2021-12-18 04:50:46,567 [INFO] Total Call times: 86600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:50:49,166 [INFO] Total Call times: 86700, Best Found Solution: 7.0,Current Solution: 5.944444444444444
+2021-12-18 04:50:52,056 [INFO] Total Call times: 86800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:50:54,722 [INFO] Total Call times: 86900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:50:57,085 [INFO] Total Call times: 87000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:50:59,701 [INFO] Total Call times: 87100, Best Found Solution: 7.0,Current Solution: 5.916666666666666
+2021-12-18 04:51:02,856 [INFO] Total Call times: 87200, Best Found Solution: 7.0,Current Solution: 5.9399999999999995
+2021-12-18 04:51:06,559 [INFO] Total Call times: 87300, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:51:09,266 [INFO] Total Call times: 87400, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:51:12,128 [INFO] Total Call times: 87500, Best Found Solution: 7.0,Current Solution: 5.90909090909091
+2021-12-18 04:51:15,666 [INFO] Total Call times: 87600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:51:18,222 [INFO] Total Call times: 87700, Best Found Solution: 7.0,Current Solution: 5.923076923076923
+2021-12-18 04:51:21,395 [INFO] Total Call times: 87800, Best Found Solution: 7.0,Current Solution: 5.978260869565217
+2021-12-18 04:51:24,328 [INFO] Total Call times: 87900, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:51:27,092 [INFO] Total Call times: 88000, Best Found Solution: 7.0,Current Solution: 5.954545454545454
+2021-12-18 04:51:30,612 [INFO] Total Call times: 88100, Best Found Solution: 7.0,Current Solution: 5.961538461538462
+2021-12-18 04:51:33,886 [INFO] Total Call times: 88200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:51:36,619 [INFO] Total Call times: 88300, Best Found Solution: 7.0,Current Solution: 5.923076923076923
+2021-12-18 04:51:40,556 [INFO] Total Call times: 88400, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:51:44,862 [INFO] Total Call times: 88500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:51:47,512 [INFO] Total Call times: 88600, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:51:50,867 [INFO] Total Call times: 88700, Best Found Solution: 7.0,Current Solution: 5.909090909090908
+2021-12-18 04:51:54,209 [INFO] Total Call times: 88800, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:51:57,608 [INFO] Total Call times: 88900, Best Found Solution: 7.0,Current Solution: 5.944444444444444
+2021-12-18 04:52:00,944 [INFO] Total Call times: 89000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:52:03,945 [INFO] Total Call times: 89100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:52:07,447 [INFO] Total Call times: 89200, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:52:10,991 [INFO] Total Call times: 89300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:52:15,261 [INFO] Total Call times: 89400, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:52:20,476 [INFO] Total Call times: 89500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:52:23,600 [INFO] Total Call times: 89600, Best Found Solution: 7.0,Current Solution: 5.909090909090909
+2021-12-18 04:52:27,119 [INFO] Total Call times: 89700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:52:30,407 [INFO] Total Call times: 89800, Best Found Solution: 7.0,Current Solution: 5.972222222222221
+2021-12-18 04:52:33,945 [INFO] Total Call times: 89900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:52:37,726 [INFO] Total Call times: 90000, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:52:43,857 [INFO] Total Call times: 90100, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:52:51,072 [INFO] Total Call times: 90200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:52:54,622 [INFO] Total Call times: 90300, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:52:59,907 [INFO] Total Call times: 90400, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:53:06,375 [INFO] Total Call times: 90500, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:53:10,535 [INFO] Total Call times: 90600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:53:13,760 [INFO] Total Call times: 90700, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:53:19,218 [INFO] Total Call times: 90800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:53:22,605 [INFO] Total Call times: 90900, Best Found Solution: 7.0,Current Solution: 5.973684210526316
+2021-12-18 04:53:26,547 [INFO] Total Call times: 91000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:53:30,688 [INFO] Total Call times: 91100, Best Found Solution: 7.0,Current Solution: 5.96969696969697
+2021-12-18 04:53:34,716 [INFO] Total Call times: 91200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:53:38,375 [INFO] Total Call times: 91300, Best Found Solution: 7.0,Current Solution: 5.96969696969697
+2021-12-18 04:53:42,160 [INFO] Total Call times: 91400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:53:46,118 [INFO] Total Call times: 91500, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:53:49,980 [INFO] Total Call times: 91600, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:53:55,256 [INFO] Total Call times: 91700, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:54:02,891 [INFO] Total Call times: 91800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:54:05,944 [INFO] Total Call times: 91900, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:54:09,291 [INFO] Total Call times: 92000, Best Found Solution: 7.0,Current Solution: 5.904761904761905
+2021-12-18 04:54:13,185 [INFO] Total Call times: 92100, Best Found Solution: 7.0,Current Solution: 5.961538461538462
+2021-12-18 04:54:22,769 [INFO] Total Call times: 92200, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:54:25,899 [INFO] Total Call times: 92300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:54:29,835 [INFO] Total Call times: 92400, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:54:35,960 [INFO] Total Call times: 92500, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:54:42,597 [INFO] Total Call times: 92600, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:54:59,081 [INFO] Total Call times: 92700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:55:02,268 [INFO] Total Call times: 92800, Best Found Solution: 7.0,Current Solution: 5.96875
+2021-12-18 04:55:06,952 [INFO] Total Call times: 92900, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:55:10,299 [INFO] Total Call times: 93000, Best Found Solution: 7.0,Current Solution: 5.941176470588235
+2021-12-18 04:55:14,418 [INFO] Total Call times: 93100, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:55:17,534 [INFO] Total Call times: 93200, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:55:21,124 [INFO] Total Call times: 93300, Best Found Solution: 7.0,Current Solution: 5.92
+2021-12-18 04:55:27,797 [INFO] Total Call times: 93400, Best Found Solution: 7.0,Current Solution: 5.962962962962963
+2021-12-18 04:55:36,708 [INFO] Total Call times: 93500, Best Found Solution: 7.0,Current Solution: 5.999999999999999
+2021-12-18 04:55:40,253 [INFO] Total Call times: 93600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:55:43,573 [INFO] Total Call times: 93700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:55:49,024 [INFO] Total Call times: 93800, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:55:52,872 [INFO] Total Call times: 93900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:55:56,203 [INFO] Total Call times: 94000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:56:00,805 [INFO] Total Call times: 94100, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:56:06,709 [INFO] Total Call times: 94200, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:56:18,162 [INFO] Total Call times: 94300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:56:21,321 [INFO] Total Call times: 94400, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:56:25,946 [INFO] Total Call times: 94500, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:56:31,016 [INFO] Total Call times: 94600, Best Found Solution: 7.0,Current Solution: 5.969230769230769
+2021-12-18 04:56:37,168 [INFO] Total Call times: 94700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:56:41,103 [INFO] Total Call times: 94800, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:56:44,691 [INFO] Total Call times: 94900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:56:48,535 [INFO] Total Call times: 95000, Best Found Solution: 7.0,Current Solution: 5.9523809523809526
+2021-12-18 04:56:52,645 [INFO] Total Call times: 95100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:56:56,146 [INFO] Total Call times: 95200, Best Found Solution: 7.0,Current Solution: 5.972222222222221
+2021-12-18 04:56:59,973 [INFO] Total Call times: 95300, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:57:04,432 [INFO] Total Call times: 95400, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:57:08,260 [INFO] Total Call times: 95500, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:57:13,001 [INFO] Total Call times: 95600, Best Found Solution: 7.0,Current Solution: 5.900000000000001
+2021-12-18 04:57:16,240 [INFO] Total Call times: 95700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:57:19,760 [INFO] Total Call times: 95800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:57:26,321 [INFO] Total Call times: 95900, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:57:30,791 [INFO] Total Call times: 96000, Best Found Solution: 7.0,Current Solution: 5.909090909090909
+2021-12-18 04:57:38,808 [INFO] Total Call times: 96200, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:57:42,592 [INFO] Total Call times: 96300, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 04:57:47,864 [INFO] Total Call times: 96400, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:57:53,994 [INFO] Total Call times: 96500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:57:57,165 [INFO] Total Call times: 96600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:58:00,716 [INFO] Total Call times: 96700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:58:06,124 [INFO] Total Call times: 96800, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:58:12,306 [INFO] Total Call times: 96900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:58:15,524 [INFO] Total Call times: 97000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:58:19,148 [INFO] Total Call times: 97100, Best Found Solution: 7.0,Current Solution: 5.916666666666666
+2021-12-18 04:58:25,171 [INFO] Total Call times: 97200, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:58:32,320 [INFO] Total Call times: 97300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:58:35,600 [INFO] Total Call times: 97400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:58:39,309 [INFO] Total Call times: 97500, Best Found Solution: 7.0,Current Solution: 5.916666666666667
+2021-12-18 04:58:45,519 [INFO] Total Call times: 97600, Best Found Solution: 7.0,Current Solution: 5.962962962962963
+2021-12-18 04:58:54,611 [INFO] Total Call times: 97700, Best Found Solution: 7.0,Current Solution: 5.9914529914529915
+2021-12-18 04:59:00,789 [INFO] Total Call times: 97800, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:59:04,017 [INFO] Total Call times: 97900, Best Found Solution: 7.0,Current Solution: 5.909090909090909
+2021-12-18 04:59:08,599 [INFO] Total Call times: 98000, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 04:59:19,014 [INFO] Total Call times: 98100, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 04:59:28,820 [INFO] Total Call times: 98200, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:59:32,018 [INFO] Total Call times: 98300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:59:35,673 [INFO] Total Call times: 98400, Best Found Solution: 7.0,Current Solution: 5.909090909090908
+2021-12-18 04:59:41,455 [INFO] Total Call times: 98500, Best Found Solution: 7.0,Current Solution: 5.999999999999999
+2021-12-18 04:59:51,337 [INFO] Total Call times: 98600, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 04:59:54,534 [INFO] Total Call times: 98700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 04:59:59,228 [INFO] Total Call times: 98800, Best Found Solution: 7.0,Current Solution: 5.9411764705882355
+2021-12-18 05:00:04,373 [INFO] Total Call times: 98900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:00:07,707 [INFO] Total Call times: 99000, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:00:11,468 [INFO] Total Call times: 99100, Best Found Solution: 7.0,Current Solution: 5.941176470588235
+2021-12-18 05:00:15,959 [INFO] Total Call times: 99200, Best Found Solution: 7.0,Current Solution: 5.975609756097562
+2021-12-18 05:00:22,328 [INFO] Total Call times: 99300, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:00:25,618 [INFO] Total Call times: 99400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:00:30,510 [INFO] Total Call times: 99500, Best Found Solution: 7.0,Current Solution: 5.941176470588235
+2021-12-18 05:00:37,992 [INFO] Total Call times: 99600, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:00:41,244 [INFO] Total Call times: 99700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:00:45,060 [INFO] Total Call times: 99800, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 05:00:57,369 [INFO] Total Call times: 99900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:01:00,606 [INFO] Total Call times: 100000, Best Found Solution: 7.0,Current Solution: 5.909090909090908
+2021-12-18 05:01:05,368 [INFO] Total Call times: 100100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:01:08,634 [INFO] Total Call times: 100200, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 05:01:13,851 [INFO] Total Call times: 100300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:01:17,181 [INFO] Total Call times: 100400, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 05:01:21,032 [INFO] Total Call times: 100500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:01:24,493 [INFO] Total Call times: 100600, Best Found Solution: 7.0,Current Solution: 5.956521739130435
+2021-12-18 05:01:28,108 [INFO] Total Call times: 100700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:01:31,732 [INFO] Total Call times: 100800, Best Found Solution: 7.0,Current Solution: 5.976744186046512
+2021-12-18 05:01:35,324 [INFO] Total Call times: 100900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:01:38,642 [INFO] Total Call times: 101000, Best Found Solution: 7.0,Current Solution: 5.904761904761905
+2021-12-18 05:01:43,292 [INFO] Total Call times: 101100, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 05:01:48,737 [INFO] Total Call times: 101200, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:01:52,137 [INFO] Total Call times: 101300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:01:55,756 [INFO] Total Call times: 101400, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 05:02:00,476 [INFO] Total Call times: 101500, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 05:02:07,249 [INFO] Total Call times: 101600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:02:10,539 [INFO] Total Call times: 101700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:02:14,501 [INFO] Total Call times: 101800, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 05:02:20,023 [INFO] Total Call times: 101900, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:02:24,234 [INFO] Total Call times: 102000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:02:27,736 [INFO] Total Call times: 102100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:02:32,488 [INFO] Total Call times: 102200, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 05:02:38,128 [INFO] Total Call times: 102300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:02:41,377 [INFO] Total Call times: 102400, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:02:45,057 [INFO] Total Call times: 102500, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:02:50,302 [INFO] Total Call times: 102600, Best Found Solution: 7.0,Current Solution: 5.971428571428571
+2021-12-18 05:02:54,425 [INFO] Total Call times: 102700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:02:57,842 [INFO] Total Call times: 102800, Best Found Solution: 7.0,Current Solution: 5.904761904761905
+2021-12-18 05:03:02,603 [INFO] Total Call times: 102900, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 05:03:07,299 [INFO] Total Call times: 103000, Best Found Solution: 7.0,Current Solution: 5.9787234042553195
+2021-12-18 05:03:14,574 [INFO] Total Call times: 103100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:03:17,835 [INFO] Total Call times: 103200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:03:21,712 [INFO] Total Call times: 103300, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 05:03:26,746 [INFO] Total Call times: 103400, Best Found Solution: 7.0,Current Solution: 5.949999999999999
+2021-12-18 05:03:32,933 [INFO] Total Call times: 103500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:03:36,219 [INFO] Total Call times: 103600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:03:40,308 [INFO] Total Call times: 103700, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 05:03:45,213 [INFO] Total Call times: 103800, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 05:03:50,429 [INFO] Total Call times: 103900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:03:53,845 [INFO] Total Call times: 104000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:03:58,467 [INFO] Total Call times: 104100, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 05:04:03,919 [INFO] Total Call times: 104200, Best Found Solution: 7.0,Current Solution: 5.9523809523809526
+2021-12-18 05:04:09,233 [INFO] Total Call times: 104300, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:04:12,535 [INFO] Total Call times: 104400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:04:16,275 [INFO] Total Call times: 104500, Best Found Solution: 7.0,Current Solution: 5.904761904761905
+2021-12-18 05:04:21,742 [INFO] Total Call times: 104600, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 05:04:28,370 [INFO] Total Call times: 104700, Best Found Solution: 7.0,Current Solution: 5.9714285714285715
+2021-12-18 05:04:35,020 [INFO] Total Call times: 104800, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:04:39,288 [INFO] Total Call times: 104900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:04:42,864 [INFO] Total Call times: 105000, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 05:04:47,502 [INFO] Total Call times: 105100, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 05:04:52,781 [INFO] Total Call times: 105200, Best Found Solution: 7.0,Current Solution: 5.967213114754099
+2021-12-18 05:04:58,840 [INFO] Total Call times: 105300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:05:03,580 [INFO] Total Call times: 105400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:05:06,736 [INFO] Total Call times: 105500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:05:10,150 [INFO] Total Call times: 105600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:05:14,538 [INFO] Total Call times: 105700, Best Found Solution: 7.0,Current Solution: 6.000000000000001
+2021-12-18 05:05:19,477 [INFO] Total Call times: 105800, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:05:24,480 [INFO] Total Call times: 105900, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:05:28,962 [INFO] Total Call times: 106000, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:05:32,789 [INFO] Total Call times: 106100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:05:36,144 [INFO] Total Call times: 106200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:05:45,038 [INFO] Total Call times: 106300, Best Found Solution: 7.0,Current Solution: 5.961538461538462
+2021-12-18 05:05:49,621 [INFO] Total Call times: 106400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:05:52,953 [INFO] Total Call times: 106500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:05:56,562 [INFO] Total Call times: 106600, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:06:01,153 [INFO] Total Call times: 106700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:06:04,367 [INFO] Total Call times: 106800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:06:07,992 [INFO] Total Call times: 106900, Best Found Solution: 7.0,Current Solution: 5.9230769230769225
+2021-12-18 05:06:12,407 [INFO] Total Call times: 107000, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:06:16,259 [INFO] Total Call times: 107100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:06:19,614 [INFO] Total Call times: 107200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:06:23,659 [INFO] Total Call times: 107300, Best Found Solution: 7.0,Current Solution: 5.943661971830986
+2021-12-18 05:06:29,580 [INFO] Total Call times: 107400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:06:32,848 [INFO] Total Call times: 107500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:06:36,747 [INFO] Total Call times: 107600, Best Found Solution: 7.0,Current Solution: 5.923076923076923
+2021-12-18 05:06:41,806 [INFO] Total Call times: 107700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:06:45,084 [INFO] Total Call times: 107800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:06:48,941 [INFO] Total Call times: 107900, Best Found Solution: 7.0,Current Solution: 5.945652173913044
+2021-12-18 05:06:53,325 [INFO] Total Call times: 108000, Best Found Solution: 7.0,Current Solution: 6.000000000000001
+2021-12-18 05:06:57,618 [INFO] Total Call times: 108100, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:07:01,615 [INFO] Total Call times: 108200, Best Found Solution: 7.0,Current Solution: 5.9298245614035086
+2021-12-18 05:07:07,978 [INFO] Total Call times: 108300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:07:12,030 [INFO] Total Call times: 108400, Best Found Solution: 7.0,Current Solution: 5.909090909090909
+2021-12-18 05:07:16,272 [INFO] Total Call times: 108500, Best Found Solution: 7.0,Current Solution: 5.928571428571429
+2021-12-18 05:07:21,028 [INFO] Total Call times: 108600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:07:24,554 [INFO] Total Call times: 108700, Best Found Solution: 7.0,Current Solution: 5.909090909090908
+2021-12-18 05:07:29,288 [INFO] Total Call times: 108800, Best Found Solution: 7.0,Current Solution: 5.96
+2021-12-18 05:07:34,128 [INFO] Total Call times: 108900, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:07:37,798 [INFO] Total Call times: 109000, Best Found Solution: 7.0,Current Solution: 5.9411764705882355
+2021-12-18 05:07:44,886 [INFO] Total Call times: 109100, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:07:53,085 [INFO] Total Call times: 109200, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:07:56,847 [INFO] Total Call times: 109300, Best Found Solution: 7.0,Current Solution: 5.9642857142857135
+2021-12-18 05:08:02,316 [INFO] Total Call times: 109400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:08:05,768 [INFO] Total Call times: 109500, Best Found Solution: 7.0,Current Solution: 5.903225806451613
+2021-12-18 05:08:10,209 [INFO] Total Call times: 109600, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:08:14,051 [INFO] Total Call times: 109700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:08:18,017 [INFO] Total Call times: 109800, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 05:08:23,188 [INFO] Total Call times: 109900, Best Found Solution: 7.0,Current Solution: 5.980769230769231
+2021-12-18 05:08:28,064 [INFO] Total Call times: 110000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:08:31,867 [INFO] Total Call times: 110100, Best Found Solution: 7.0,Current Solution: 5.91304347826087
+2021-12-18 05:08:37,550 [INFO] Total Call times: 110200, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:08:42,489 [INFO] Total Call times: 110300, Best Found Solution: 7.0,Current Solution: 5.909090909090909
+2021-12-18 05:08:46,097 [INFO] Total Call times: 110400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:08:50,009 [INFO] Total Call times: 110500, Best Found Solution: 7.0,Current Solution: 5.956521739130435
+2021-12-18 05:08:54,808 [INFO] Total Call times: 110600, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:08:59,040 [INFO] Total Call times: 110700, Best Found Solution: 7.0,Current Solution: 5.928571428571429
+2021-12-18 05:09:02,921 [INFO] Total Call times: 110800, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:09:06,884 [INFO] Total Call times: 110900, Best Found Solution: 7.0,Current Solution: 5.9642857142857135
+2021-12-18 05:09:11,135 [INFO] Total Call times: 111000, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:09:15,440 [INFO] Total Call times: 111100, Best Found Solution: 7.0,Current Solution: 5.9642857142857135
+2021-12-18 05:09:19,331 [INFO] Total Call times: 111200, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:09:23,011 [INFO] Total Call times: 111300, Best Found Solution: 7.0,Current Solution: 5.916666666666666
+2021-12-18 05:09:34,752 [INFO] Total Call times: 111400, Best Found Solution: 7.0,Current Solution: 5.909090909090909
+2021-12-18 05:09:43,504 [INFO] Total Call times: 111500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:09:46,944 [INFO] Total Call times: 111600, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:09:51,148 [INFO] Total Call times: 111700, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 05:09:58,370 [INFO] Total Call times: 111800, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:10:04,249 [INFO] Total Call times: 111900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:10:07,804 [INFO] Total Call times: 112000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:10:12,385 [INFO] Total Call times: 112100, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:10:16,388 [INFO] Total Call times: 112200, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:10:20,138 [INFO] Total Call times: 112300, Best Found Solution: 7.0,Current Solution: 5.916666666666666
+2021-12-18 05:10:24,738 [INFO] Total Call times: 112400, Best Found Solution: 7.0,Current Solution: 5.948717948717949
+2021-12-18 05:10:31,568 [INFO] Total Call times: 112500, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:10:38,733 [INFO] Total Call times: 112600, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:10:42,282 [INFO] Total Call times: 112700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:10:46,404 [INFO] Total Call times: 112800, Best Found Solution: 7.0,Current Solution: 5.9411764705882355
+2021-12-18 05:10:56,949 [INFO] Total Call times: 112900, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:11:09,524 [INFO] Total Call times: 113000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:11:13,012 [INFO] Total Call times: 113100, Best Found Solution: 7.0,Current Solution: 5.909090909090908
+2021-12-18 05:11:17,397 [INFO] Total Call times: 113200, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 05:11:23,691 [INFO] Total Call times: 113300, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:11:32,130 [INFO] Total Call times: 113400, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:11:35,772 [INFO] Total Call times: 113500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:11:39,484 [INFO] Total Call times: 113600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:11:44,293 [INFO] Total Call times: 113700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:11:47,768 [INFO] Total Call times: 113800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:11:52,038 [INFO] Total Call times: 113900, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 05:11:58,313 [INFO] Total Call times: 114000, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:12:01,754 [INFO] Total Call times: 114100, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:12:05,508 [INFO] Total Call times: 114200, Best Found Solution: 7.0,Current Solution: 5.916666666666666
+2021-12-18 05:12:09,941 [INFO] Total Call times: 114300, Best Found Solution: 7.0,Current Solution: 5.962962962962964
+2021-12-18 05:12:20,124 [INFO] Total Call times: 114400, Best Found Solution: 7.0,Current Solution: 5.980392156862745
+2021-12-18 05:12:25,614 [INFO] Total Call times: 114500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:12:30,107 [INFO] Total Call times: 114600, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:12:35,200 [INFO] Total Call times: 114700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:12:38,828 [INFO] Total Call times: 114800, Best Found Solution: 7.0,Current Solution: 5.90625
+2021-12-18 05:12:46,088 [INFO] Total Call times: 114900, Best Found Solution: 7.0,Current Solution: 5.9836065573770485
+2021-12-18 05:12:50,888 [INFO] Total Call times: 115000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:12:54,661 [INFO] Total Call times: 115100, Best Found Solution: 7.0,Current Solution: 5.949999999999999
+2021-12-18 05:13:05,418 [INFO] Total Call times: 115200, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:13:09,904 [INFO] Total Call times: 115300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:13:16,177 [INFO] Total Call times: 115400, Best Found Solution: 7.0,Current Solution: 5.964285714285714
+2021-12-18 05:13:25,915 [INFO] Total Call times: 115500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:13:29,497 [INFO] Total Call times: 115600, Best Found Solution: 7.0,Current Solution: 5.909090909090909
+2021-12-18 05:13:34,741 [INFO] Total Call times: 115700, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:13:38,694 [INFO] Total Call times: 115800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:13:42,951 [INFO] Total Call times: 115900, Best Found Solution: 7.0,Current Solution: 5.946428571428572
+2021-12-18 05:13:47,207 [INFO] Total Call times: 116000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:13:51,301 [INFO] Total Call times: 116100, Best Found Solution: 7.0,Current Solution: 5.926829268292683
+2021-12-18 05:13:56,638 [INFO] Total Call times: 116200, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:14:00,799 [INFO] Total Call times: 116300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:14:04,853 [INFO] Total Call times: 116400, Best Found Solution: 7.0,Current Solution: 5.976744186046512
+2021-12-18 05:14:11,438 [INFO] Total Call times: 116500, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:14:16,311 [INFO] Total Call times: 116600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:14:20,095 [INFO] Total Call times: 116700, Best Found Solution: 7.0,Current Solution: 5.923076923076923
+2021-12-18 05:14:25,155 [INFO] Total Call times: 116800, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:14:28,947 [INFO] Total Call times: 116900, Best Found Solution: 7.0,Current Solution: 5.9230769230769225
+2021-12-18 05:14:34,236 [INFO] Total Call times: 117000, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:14:37,946 [INFO] Total Call times: 117100, Best Found Solution: 7.0,Current Solution: 5.916666666666667
+2021-12-18 05:14:45,913 [INFO] Total Call times: 117200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:14:49,355 [INFO] Total Call times: 117300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:14:53,899 [INFO] Total Call times: 117400, Best Found Solution: 7.0,Current Solution: 5.965517241379311
+2021-12-18 05:15:00,052 [INFO] Total Call times: 117500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:15:03,550 [INFO] Total Call times: 117600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:15:09,047 [INFO] Total Call times: 117700, Best Found Solution: 7.0,Current Solution: 5.972972972972973
+2021-12-18 05:15:15,832 [INFO] Total Call times: 117800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:15:19,456 [INFO] Total Call times: 117900, Best Found Solution: 7.0,Current Solution: 5.90909090909091
+2021-12-18 05:15:24,218 [INFO] Total Call times: 118000, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 05:15:30,004 [INFO] Total Call times: 118100, Best Found Solution: 7.0,Current Solution: 5.948717948717948
+2021-12-18 05:15:35,347 [INFO] Total Call times: 118200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:15:38,912 [INFO] Total Call times: 118300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:15:43,693 [INFO] Total Call times: 118400, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 05:15:51,044 [INFO] Total Call times: 118500, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:16:02,084 [INFO] Total Call times: 118600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:16:05,571 [INFO] Total Call times: 118700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:16:09,855 [INFO] Total Call times: 118800, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 05:16:15,068 [INFO] Total Call times: 118900, Best Found Solution: 7.0,Current Solution: 5.940298507462686
+2021-12-18 05:16:27,711 [INFO] Total Call times: 119100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:16:31,428 [INFO] Total Call times: 119200, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:16:36,253 [INFO] Total Call times: 119300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:16:39,780 [INFO] Total Call times: 119400, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:16:44,119 [INFO] Total Call times: 119500, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 05:16:49,497 [INFO] Total Call times: 119600, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 05:17:00,890 [INFO] Total Call times: 119700, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:17:14,389 [INFO] Total Call times: 119800, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:17:19,689 [INFO] Total Call times: 119900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:17:23,649 [INFO] Total Call times: 120000, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:17:27,808 [INFO] Total Call times: 120100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:17:32,247 [INFO] Total Call times: 120200, Best Found Solution: 7.0,Current Solution: 5.975
+2021-12-18 05:17:37,664 [INFO] Total Call times: 120300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:17:41,814 [INFO] Total Call times: 120400, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:17:47,523 [INFO] Total Call times: 120500, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:17:52,237 [INFO] Total Call times: 120600, Best Found Solution: 7.0,Current Solution: 5.955555555555556
+2021-12-18 05:17:58,091 [INFO] Total Call times: 120700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:18:01,982 [INFO] Total Call times: 120800, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 05:18:07,447 [INFO] Total Call times: 120900, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:18:11,263 [INFO] Total Call times: 121000, Best Found Solution: 7.0,Current Solution: 5.954545454545454
+2021-12-18 05:18:17,152 [INFO] Total Call times: 121100, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:18:20,786 [INFO] Total Call times: 121200, Best Found Solution: 7.0,Current Solution: 5.916666666666666
+2021-12-18 05:18:25,816 [INFO] Total Call times: 121300, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:18:32,005 [INFO] Total Call times: 121400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:18:35,777 [INFO] Total Call times: 121500, Best Found Solution: 7.0,Current Solution: 5.916666666666666
+2021-12-18 05:18:42,852 [INFO] Total Call times: 121600, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:18:47,115 [INFO] Total Call times: 121700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:18:51,944 [INFO] Total Call times: 121800, Best Found Solution: 7.0,Current Solution: 5.96551724137931
+2021-12-18 05:19:02,703 [INFO] Total Call times: 121900, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:19:07,703 [INFO] Total Call times: 122000, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:19:12,195 [INFO] Total Call times: 122100, Best Found Solution: 7.0,Current Solution: 5.964285714285714
+2021-12-18 05:19:20,473 [INFO] Total Call times: 122200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:19:24,420 [INFO] Total Call times: 122300, Best Found Solution: 7.0,Current Solution: 5.923076923076923
+2021-12-18 05:19:29,824 [INFO] Total Call times: 122400, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:19:34,361 [INFO] Total Call times: 122500, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:19:38,589 [INFO] Total Call times: 122600, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 05:19:43,904 [INFO] Total Call times: 122700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:19:48,571 [INFO] Total Call times: 122800, Best Found Solution: 7.0,Current Solution: 5.956521739130435
+2021-12-18 05:19:53,078 [INFO] Total Call times: 122900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:19:56,899 [INFO] Total Call times: 123000, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:20:01,798 [INFO] Total Call times: 123100, Best Found Solution: 7.0,Current Solution: 5.972222222222223
+2021-12-18 05:20:08,270 [INFO] Total Call times: 123200, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:20:13,325 [INFO] Total Call times: 123300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:20:18,948 [INFO] Total Call times: 123400, Best Found Solution: 7.0,Current Solution: 5.9655172413793105
+2021-12-18 05:20:24,215 [INFO] Total Call times: 123500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:20:29,175 [INFO] Total Call times: 123600, Best Found Solution: 7.0,Current Solution: 5.963636363636363
+2021-12-18 05:20:38,809 [INFO] Total Call times: 123700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:20:42,959 [INFO] Total Call times: 123800, Best Found Solution: 7.0,Current Solution: 5.9523809523809526
+2021-12-18 05:20:48,952 [INFO] Total Call times: 123900, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:20:52,993 [INFO] Total Call times: 124000, Best Found Solution: 7.0,Current Solution: 5.9411764705882355
+2021-12-18 05:21:01,182 [INFO] Total Call times: 124100, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:21:06,372 [INFO] Total Call times: 124200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:21:11,123 [INFO] Total Call times: 124300, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:21:17,343 [INFO] Total Call times: 124400, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:21:23,588 [INFO] Total Call times: 124500, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:21:27,205 [INFO] Total Call times: 124600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:21:31,221 [INFO] Total Call times: 124700, Best Found Solution: 7.0,Current Solution: 5.92
+2021-12-18 05:21:35,973 [INFO] Total Call times: 124800, Best Found Solution: 7.0,Current Solution: 5.962962962962964
+2021-12-18 05:21:42,075 [INFO] Total Call times: 124900, Best Found Solution: 7.0,Current Solution: 6.000000000000001
+2021-12-18 05:21:48,330 [INFO] Total Call times: 125000, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:21:53,824 [INFO] Total Call times: 125100, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:21:58,150 [INFO] Total Call times: 125200, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:22:03,263 [INFO] Total Call times: 125300, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:22:08,065 [INFO] Total Call times: 125400, Best Found Solution: 7.0,Current Solution: 5.9799999999999995
+2021-12-18 05:22:12,855 [INFO] Total Call times: 125500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:22:18,451 [INFO] Total Call times: 125600, Best Found Solution: 7.0,Current Solution: 5.982142857142858
+2021-12-18 05:22:22,756 [INFO] Total Call times: 125700, Best Found Solution: 7.0,Current Solution: 5.9523809523809526
+2021-12-18 05:22:33,989 [INFO] Total Call times: 125800, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:22:37,550 [INFO] Total Call times: 125900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:22:41,672 [INFO] Total Call times: 126000, Best Found Solution: 7.0,Current Solution: 5.9411764705882355
+2021-12-18 05:22:48,909 [INFO] Total Call times: 126100, Best Found Solution: 7.0,Current Solution: 5.962962962962963
+2021-12-18 05:22:56,255 [INFO] Total Call times: 126200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:23:00,140 [INFO] Total Call times: 126300, Best Found Solution: 7.0,Current Solution: 5.909090909090909
+2021-12-18 05:23:04,680 [INFO] Total Call times: 126400, Best Found Solution: 7.0,Current Solution: 5.933333333333334
+2021-12-18 05:23:11,318 [INFO] Total Call times: 126500, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:23:16,316 [INFO] Total Call times: 126600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:23:20,084 [INFO] Total Call times: 126700, Best Found Solution: 7.0,Current Solution: 5.904761904761905
+2021-12-18 05:23:25,260 [INFO] Total Call times: 126800, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:23:29,896 [INFO] Total Call times: 126900, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:23:33,832 [INFO] Total Call times: 127000, Best Found Solution: 7.0,Current Solution: 5.935483870967742
+2021-12-18 05:23:40,842 [INFO] Total Call times: 127100, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:23:45,032 [INFO] Total Call times: 127200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:23:49,742 [INFO] Total Call times: 127300, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:23:55,884 [INFO] Total Call times: 127400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:23:59,801 [INFO] Total Call times: 127500, Best Found Solution: 7.0,Current Solution: 5.951612903225807
+2021-12-18 05:24:04,480 [INFO] Total Call times: 127600, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:24:09,547 [INFO] Total Call times: 127700, Best Found Solution: 7.0,Current Solution: 5.977272727272727
+2021-12-18 05:24:14,253 [INFO] Total Call times: 127800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:24:18,901 [INFO] Total Call times: 127900, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:24:24,364 [INFO] Total Call times: 128000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:24:29,255 [INFO] Total Call times: 128100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:24:33,231 [INFO] Total Call times: 128200, Best Found Solution: 7.0,Current Solution: 5.94
+2021-12-18 05:24:38,866 [INFO] Total Call times: 128300, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 05:24:43,570 [INFO] Total Call times: 128400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:24:48,149 [INFO] Total Call times: 128500, Best Found Solution: 7.0,Current Solution: 5.956896551724138
+2021-12-18 05:24:56,712 [INFO] Total Call times: 128600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:25:00,894 [INFO] Total Call times: 128700, Best Found Solution: 7.0,Current Solution: 5.954545454545454
+2021-12-18 05:25:06,133 [INFO] Total Call times: 128800, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:25:11,076 [INFO] Total Call times: 128900, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:25:15,886 [INFO] Total Call times: 129000, Best Found Solution: 7.0,Current Solution: 5.967741935483872
+2021-12-18 05:25:21,853 [INFO] Total Call times: 129100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:25:25,976 [INFO] Total Call times: 129200, Best Found Solution: 7.0,Current Solution: 5.954545454545455
+2021-12-18 05:25:31,080 [INFO] Total Call times: 129300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:25:35,000 [INFO] Total Call times: 129400, Best Found Solution: 7.0,Current Solution: 5.9411764705882355
+2021-12-18 05:25:39,682 [INFO] Total Call times: 129500, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:25:44,159 [INFO] Total Call times: 129600, Best Found Solution: 7.0,Current Solution: 5.941176470588235
+2021-12-18 05:25:49,992 [INFO] Total Call times: 129700, Best Found Solution: 7.0,Current Solution: 5.916666666666666
+2021-12-18 05:25:54,229 [INFO] Total Call times: 129800, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:26:01,113 [INFO] Total Call times: 129900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:26:11,318 [INFO] Total Call times: 130100, Best Found Solution: 7.0,Current Solution: 5.9411764705882355
+2021-12-18 05:26:21,277 [INFO] Total Call times: 130200, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:26:27,368 [INFO] Total Call times: 130300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:26:32,115 [INFO] Total Call times: 130400, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:26:36,711 [INFO] Total Call times: 130500, Best Found Solution: 7.0,Current Solution: 5.92
+2021-12-18 05:26:42,408 [INFO] Total Call times: 130600, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 05:26:48,419 [INFO] Total Call times: 130700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:26:52,832 [INFO] Total Call times: 130800, Best Found Solution: 7.0,Current Solution: 5.907216494845361
+2021-12-18 05:26:58,890 [INFO] Total Call times: 130900, Best Found Solution: 7.0,Current Solution: 5.972222222222221
+2021-12-18 05:27:05,231 [INFO] Total Call times: 131000, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:27:10,167 [INFO] Total Call times: 131100, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:27:15,593 [INFO] Total Call times: 131200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:27:21,001 [INFO] Total Call times: 131300, Best Found Solution: 7.0,Current Solution: 5.950000000000001
+2021-12-18 05:27:25,594 [INFO] Total Call times: 131400, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:27:29,431 [INFO] Total Call times: 131500, Best Found Solution: 7.0,Current Solution: 5.909090909090909
+2021-12-18 05:27:33,853 [INFO] Total Call times: 131600, Best Found Solution: 7.0,Current Solution: 5.9411764705882355
+2021-12-18 05:27:42,339 [INFO] Total Call times: 131700, Best Found Solution: 7.0,Current Solution: 5.9642857142857135
+2021-12-18 05:27:48,108 [INFO] Total Call times: 131800, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:27:53,193 [INFO] Total Call times: 131900, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:27:59,608 [INFO] Total Call times: 132000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:28:03,891 [INFO] Total Call times: 132100, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:28:09,928 [INFO] Total Call times: 132200, Best Found Solution: 7.0,Current Solution: 5.949999999999999
+2021-12-18 05:28:16,200 [INFO] Total Call times: 132300, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:28:25,651 [INFO] Total Call times: 132400, Best Found Solution: 7.0,Current Solution: 5.909090909090909
+2021-12-18 05:28:32,794 [INFO] Total Call times: 132500, Best Found Solution: 7.0,Current Solution: 5.90909090909091
+2021-12-18 05:28:37,376 [INFO] Total Call times: 132600, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:28:42,183 [INFO] Total Call times: 132700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:28:46,415 [INFO] Total Call times: 132800, Best Found Solution: 7.0,Current Solution: 5.90625
+2021-12-18 05:28:51,556 [INFO] Total Call times: 132900, Best Found Solution: 7.0,Current Solution: 5.964285714285715
+2021-12-18 05:28:59,252 [INFO] Total Call times: 133000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:29:03,727 [INFO] Total Call times: 133100, Best Found Solution: 7.0,Current Solution: 5.966666666666667
+2021-12-18 05:29:08,734 [INFO] Total Call times: 133200, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:29:13,587 [INFO] Total Call times: 133300, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:29:17,846 [INFO] Total Call times: 133400, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:29:21,938 [INFO] Total Call times: 133500, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:29:27,117 [INFO] Total Call times: 133600, Best Found Solution: 7.0,Current Solution: 5.976190476190476
+2021-12-18 05:29:34,703 [INFO] Total Call times: 133700, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:29:39,836 [INFO] Total Call times: 133800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:29:43,875 [INFO] Total Call times: 133900, Best Found Solution: 7.0,Current Solution: 5.904761904761904
+2021-12-18 05:29:49,167 [INFO] Total Call times: 134000, Best Found Solution: 7.0,Current Solution: 5.947368421052632
+2021-12-18 05:29:57,755 [INFO] Total Call times: 134100, Best Found Solution: 7.0,Current Solution: 5.916666666666667
+2021-12-18 05:30:02,739 [INFO] Total Call times: 134200, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 05:30:09,796 [INFO] Total Call times: 134300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:30:15,334 [INFO] Total Call times: 134400, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:30:19,877 [INFO] Total Call times: 134500, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:30:25,948 [INFO] Total Call times: 134600, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:30:30,969 [INFO] Total Call times: 134700, Best Found Solution: 7.0,Current Solution: 5.903846153846154
+2021-12-18 05:30:36,485 [INFO] Total Call times: 134800, Best Found Solution: 7.0,Current Solution: 5.96875
+2021-12-18 05:30:42,719 [INFO] Total Call times: 134900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:30:47,147 [INFO] Total Call times: 135000, Best Found Solution: 7.0,Current Solution: 5.933333333333334
+2021-12-18 05:30:55,436 [INFO] Total Call times: 135100, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:31:00,865 [INFO] Total Call times: 135200, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:31:09,256 [INFO] Total Call times: 135300, Best Found Solution: 7.0,Current Solution: 5.916666666666666
+2021-12-18 05:31:20,810 [INFO] Total Call times: 135400, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:31:28,407 [INFO] Total Call times: 135500, Best Found Solution: 7.0,Current Solution: 5.928571428571428
+2021-12-18 05:31:43,551 [INFO] Total Call times: 135600, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:31:48,478 [INFO] Total Call times: 135700, Best Found Solution: 7.0,Current Solution: 5.909090909090908
+2021-12-18 05:31:55,321 [INFO] Total Call times: 135800, Best Found Solution: 7.0,Current Solution: 5.978260869565217
+2021-12-18 05:32:01,261 [INFO] Total Call times: 135900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:32:10,323 [INFO] Total Call times: 136000, Best Found Solution: 7.0,Current Solution: 5.962962962962963
+2021-12-18 05:32:18,314 [INFO] Total Call times: 136100, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:32:22,606 [INFO] Total Call times: 136200, Best Found Solution: 7.0,Current Solution: 5.975609756097561
+2021-12-18 05:32:28,938 [INFO] Total Call times: 136300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:32:33,149 [INFO] Total Call times: 136400, Best Found Solution: 7.0,Current Solution: 5.975609756097561
+2021-12-18 05:32:38,680 [INFO] Total Call times: 136500, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:32:43,237 [INFO] Total Call times: 136600, Best Found Solution: 7.0,Current Solution: 5.975609756097561
+2021-12-18 05:32:48,522 [INFO] Total Call times: 136700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:32:52,965 [INFO] Total Call times: 136800, Best Found Solution: 7.0,Current Solution: 5.975609756097561
+2021-12-18 05:32:58,327 [INFO] Total Call times: 136900, Best Found Solution: 7.0,Current Solution: 5.904761904761905
+2021-12-18 05:33:03,527 [INFO] Total Call times: 137000, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:33:09,153 [INFO] Total Call times: 137100, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:33:13,285 [INFO] Total Call times: 137200, Best Found Solution: 7.0,Current Solution: 5.966666666666667
+2021-12-18 05:33:19,073 [INFO] Total Call times: 137300, Best Found Solution: 7.0,Current Solution: 5.9565217391304355
+2021-12-18 05:33:23,780 [INFO] Total Call times: 137400, Best Found Solution: 7.0,Current Solution: 5.909090909090909
+2021-12-18 05:33:29,045 [INFO] Total Call times: 137500, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:33:37,338 [INFO] Total Call times: 137600, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:33:45,902 [INFO] Total Call times: 137700, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:33:51,770 [INFO] Total Call times: 137800, Best Found Solution: 7.0,Current Solution: 5.958333333333334
+2021-12-18 05:34:03,942 [INFO] Total Call times: 137900, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:34:10,648 [INFO] Total Call times: 138000, Best Found Solution: 7.0,Current Solution: 5.981481481481481
+2021-12-18 05:34:17,571 [INFO] Total Call times: 138100, Best Found Solution: 7.0,Current Solution: 5.964285714285715
+2021-12-18 05:34:25,012 [INFO] Total Call times: 138200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:34:36,411 [INFO] Total Call times: 138400, Best Found Solution: 7.0,Current Solution: 5.928571428571429
+2021-12-18 05:34:49,408 [INFO] Total Call times: 138500, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:34:54,458 [INFO] Total Call times: 138600, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:35:01,742 [INFO] Total Call times: 138700, Best Found Solution: 7.0,Current Solution: 5.970588235294118
+2021-12-18 05:35:12,132 [INFO] Total Call times: 138800, Best Found Solution: 7.0,Current Solution: 5.913043478260869
+2021-12-18 05:35:18,283 [INFO] Total Call times: 138900, Best Found Solution: 7.0,Current Solution: 5.973684210526315
+2021-12-18 05:35:28,599 [INFO] Total Call times: 139000, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:35:39,248 [INFO] Total Call times: 139100, Best Found Solution: 7.0,Current Solution: 5.950000000000001
+2021-12-18 05:35:50,569 [INFO] Total Call times: 139200, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:35:55,558 [INFO] Total Call times: 139300, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:36:03,976 [INFO] Total Call times: 139400, Best Found Solution: 7.0,Current Solution: 5.928571428571429
+2021-12-18 05:36:13,320 [INFO] Total Call times: 139500, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:36:18,712 [INFO] Total Call times: 139600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:36:27,848 [INFO] Total Call times: 139700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:36:34,031 [INFO] Total Call times: 139800, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:36:39,512 [INFO] Total Call times: 139900, Best Found Solution: 7.0,Current Solution: 5.9565217391304355
+2021-12-18 05:36:46,776 [INFO] Total Call times: 140000, Best Found Solution: 7.0,Current Solution: 5.928571428571429
+2021-12-18 05:36:54,417 [INFO] Total Call times: 140100, Best Found Solution: 7.0,Current Solution: 5.95
+2021-12-18 05:37:09,644 [INFO] Total Call times: 140200, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:37:20,099 [INFO] Total Call times: 140300, Best Found Solution: 7.0,Current Solution: 5.913043478260869
+2021-12-18 05:37:29,525 [INFO] Total Call times: 140400, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:37:34,404 [INFO] Total Call times: 140500, Best Found Solution: 7.0,Current Solution: 6.000000000000001
+2021-12-18 05:37:40,464 [INFO] Total Call times: 140600, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:37:45,694 [INFO] Total Call times: 140700, Best Found Solution: 7.0,Current Solution: 6.000000000000002
+2021-12-18 05:37:52,427 [INFO] Total Call times: 140800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:38:03,251 [INFO] Total Call times: 140900, Best Found Solution: 7.0,Current Solution: 5.977941176470589
+2021-12-18 05:38:10,324 [INFO] Total Call times: 141000, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:38:18,806 [INFO] Total Call times: 141100, Best Found Solution: 7.0,Current Solution: 5.972222222222222
+2021-12-18 05:38:29,898 [INFO] Total Call times: 141200, Best Found Solution: 7.0,Current Solution: 5.970588235294118
+2021-12-18 05:38:40,017 [INFO] Total Call times: 141300, Best Found Solution: 7.0,Current Solution: 5.95
+2021-12-18 05:38:50,041 [INFO] Total Call times: 141400, Best Found Solution: 7.0,Current Solution: 5.916666666666666
+2021-12-18 05:38:58,269 [INFO] Total Call times: 141500, Best Found Solution: 7.0,Current Solution: 5.944444444444445
+2021-12-18 05:39:04,739 [INFO] Total Call times: 141600, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:39:13,167 [INFO] Total Call times: 141700, Best Found Solution: 7.0,Current Solution: 5.928571428571429
+2021-12-18 05:39:22,417 [INFO] Total Call times: 141800, Best Found Solution: 7.0,Current Solution: 5.963636363636364
+2021-12-18 05:39:27,785 [INFO] Total Call times: 141900, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:39:35,878 [INFO] Total Call times: 142000, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:39:43,247 [INFO] Total Call times: 142100, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:39:54,086 [INFO] Total Call times: 142200, Best Found Solution: 7.0,Current Solution: 5.9375
+2021-12-18 05:40:04,604 [INFO] Total Call times: 142300, Best Found Solution: 7.0,Current Solution: 5.953488372093023
+2021-12-18 05:40:11,535 [INFO] Total Call times: 142400, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:40:21,442 [INFO] Total Call times: 142500, Best Found Solution: 7.0,Current Solution: 5.933333333333334
+2021-12-18 05:40:29,430 [INFO] Total Call times: 142600, Best Found Solution: 7.0,Current Solution: 5.96875
+2021-12-18 05:40:41,154 [INFO] Total Call times: 142700, Best Found Solution: 7.0,Current Solution: 5.953703703703703
+2021-12-18 05:40:54,085 [INFO] Total Call times: 142800, Best Found Solution: 7.0,Current Solution: 5.999999999999999
+2021-12-18 05:41:03,111 [INFO] Total Call times: 142900, Best Found Solution: 7.0,Current Solution: 5.976190476190476
+2021-12-18 05:41:09,610 [INFO] Total Call times: 143000, Best Found Solution: 7.0,Current Solution: 5.95
+2021-12-18 05:41:16,490 [INFO] Total Call times: 143100, Best Found Solution: 7.0,Current Solution: 5.955882352941176
+2021-12-18 05:41:26,504 [INFO] Total Call times: 143200, Best Found Solution: 7.0,Current Solution: 6.000000000000001
+2021-12-18 05:41:36,129 [INFO] Total Call times: 143300, Best Found Solution: 7.0,Current Solution: 5.916666666666667
+2021-12-18 05:41:44,362 [INFO] Total Call times: 143400, Best Found Solution: 7.0,Current Solution: 5.916666666666667
+2021-12-18 05:41:52,695 [INFO] Total Call times: 143500, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:42:00,148 [INFO] Total Call times: 143600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:42:09,748 [INFO] Total Call times: 143700, Best Found Solution: 7.0,Current Solution: 5.96875
+2021-12-18 05:42:20,628 [INFO] Total Call times: 143800, Best Found Solution: 7.0,Current Solution: 5.935483870967742
+2021-12-18 05:42:32,259 [INFO] Total Call times: 143900, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:42:36,889 [INFO] Total Call times: 144000, Best Found Solution: 7.0,Current Solution: 5.961538461538462
+2021-12-18 05:42:43,090 [INFO] Total Call times: 144100, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:42:48,871 [INFO] Total Call times: 144200, Best Found Solution: 7.0,Current Solution: 5.959999999999999
+2021-12-18 05:42:58,243 [INFO] Total Call times: 144300, Best Found Solution: 7.0,Current Solution: 5.977941176470588
+2021-12-18 05:43:06,945 [INFO] Total Call times: 144400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:43:15,262 [INFO] Total Call times: 144500, Best Found Solution: 7.0,Current Solution: 5.916666666666667
+2021-12-18 05:43:24,418 [INFO] Total Call times: 144600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:43:29,142 [INFO] Total Call times: 144700, Best Found Solution: 7.0,Current Solution: 5.961538461538461
+2021-12-18 05:43:34,863 [INFO] Total Call times: 144800, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:43:44,368 [INFO] Total Call times: 144900, Best Found Solution: 7.0,Current Solution: 5.959999999999999
+2021-12-18 05:43:53,765 [INFO] Total Call times: 145000, Best Found Solution: 7.0,Current Solution: 5.916666666666666
+2021-12-18 05:44:03,502 [INFO] Total Call times: 145100, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:44:13,226 [INFO] Total Call times: 145200, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:44:18,336 [INFO] Total Call times: 145300, Best Found Solution: 7.0,Current Solution: 5.960000000000001
+2021-12-18 05:44:30,306 [INFO] Total Call times: 145400, Best Found Solution: 7.0,Current Solution: 5.982142857142858
+2021-12-18 05:44:40,296 [INFO] Total Call times: 145500, Best Found Solution: 7.0,Current Solution: 5.916666666666666
+2021-12-18 05:44:48,540 [INFO] Total Call times: 145600, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:44:56,466 [INFO] Total Call times: 145700, Best Found Solution: 7.0,Current Solution: 5.9772727272727275
+2021-12-18 05:45:07,844 [INFO] Total Call times: 145800, Best Found Solution: 7.0,Current Solution: 5.947368421052632
+2021-12-18 05:45:18,570 [INFO] Total Call times: 145900, Best Found Solution: 7.0,Current Solution: 5.95
+2021-12-18 05:45:29,516 [INFO] Total Call times: 146000, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:45:39,269 [INFO] Total Call times: 146100, Best Found Solution: 7.0,Current Solution: 5.962962962962962
+2021-12-18 05:45:47,557 [INFO] Total Call times: 146200, Best Found Solution: 7.0,Current Solution: 5.999999999999999
+2021-12-18 05:45:55,184 [INFO] Total Call times: 146300, Best Found Solution: 7.0,Current Solution: 5.959999999999999
+2021-12-18 05:46:05,037 [INFO] Total Call times: 146400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:46:12,935 [INFO] Total Call times: 146500, Best Found Solution: 7.0,Current Solution: 5.960000000000001
+2021-12-18 05:46:24,341 [INFO] Total Call times: 146600, Best Found Solution: 7.0,Current Solution: 5.8999999999999995
+2021-12-18 05:46:32,736 [INFO] Total Call times: 146700, Best Found Solution: 7.0,Current Solution: 5.9607843137254894
+2021-12-18 05:46:38,975 [INFO] Total Call times: 146800, Best Found Solution: 7.0,Current Solution: 5.96
+2021-12-18 05:46:48,143 [INFO] Total Call times: 146900, Best Found Solution: 7.0,Current Solution: 5.909090909090909
+2021-12-18 05:46:54,973 [INFO] Total Call times: 147000, Best Found Solution: 7.0,Current Solution: 5.9453125
+2021-12-18 05:47:06,031 [INFO] Total Call times: 147100, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:47:18,969 [INFO] Total Call times: 147200, Best Found Solution: 7.0,Current Solution: 5.959999999999999
+2021-12-18 05:47:29,318 [INFO] Total Call times: 147300, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:47:36,080 [INFO] Total Call times: 147400, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:47:44,397 [INFO] Total Call times: 147500, Best Found Solution: 7.0,Current Solution: 5.909090909090909
+2021-12-18 05:47:52,571 [INFO] Total Call times: 147600, Best Found Solution: 7.0,Current Solution: 5.959999999999999
+2021-12-18 05:48:01,761 [INFO] Total Call times: 147700, Best Found Solution: 7.0,Current Solution: 5.909090909090909
+2021-12-18 05:48:09,200 [INFO] Total Call times: 147800, Best Found Solution: 7.0,Current Solution: 5.965909090909091
+2021-12-18 05:48:16,400 [INFO] Total Call times: 147900, Best Found Solution: 7.0,Current Solution: 5.96
+2021-12-18 05:48:31,026 [INFO] Total Call times: 148000, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:48:36,447 [INFO] Total Call times: 148100, Best Found Solution: 7.0,Current Solution: 5.915254237288135
+2021-12-18 05:48:46,261 [INFO] Total Call times: 148200, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:48:52,197 [INFO] Total Call times: 148300, Best Found Solution: 7.0,Current Solution: 5.96
+2021-12-18 05:49:02,319 [INFO] Total Call times: 148400, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:49:10,944 [INFO] Total Call times: 148500, Best Found Solution: 7.0,Current Solution: 5.9642857142857135
+2021-12-18 05:49:18,273 [INFO] Total Call times: 148600, Best Found Solution: 7.0,Current Solution: 5.96
+2021-12-18 05:49:27,923 [INFO] Total Call times: 148700, Best Found Solution: 7.0,Current Solution: 5.987654320987654
+2021-12-18 05:49:33,692 [INFO] Total Call times: 148800, Best Found Solution: 7.0,Current Solution: 5.909090909090909
+2021-12-18 05:49:43,574 [INFO] Total Call times: 148900, Best Found Solution: 7.0,Current Solution: 5.977777777777778
+2021-12-18 05:49:50,243 [INFO] Total Call times: 149000, Best Found Solution: 7.0,Current Solution: 5.96
+2021-12-18 05:50:00,042 [INFO] Total Call times: 149100, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:50:06,796 [INFO] Total Call times: 149200, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:50:13,295 [INFO] Total Call times: 149300, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:50:22,739 [INFO] Total Call times: 149400, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:50:42,657 [INFO] Total Call times: 149500, Best Found Solution: 7.0,Current Solution: 5.964285714285714
+2021-12-18 05:50:56,028 [INFO] Total Call times: 149600, Best Found Solution: 7.0,Current Solution: 5.928057553956835
+2021-12-18 05:51:07,144 [INFO] Total Call times: 149700, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:51:25,562 [INFO] Total Call times: 149800, Best Found Solution: 7.0,Current Solution: 5.9750000000000005
+2021-12-18 05:51:38,633 [INFO] Total Call times: 149900, Best Found Solution: 7.0,Current Solution: 5.947368421052632
+2021-12-18 05:51:54,925 [INFO] Total Call times: 150000, Best Found Solution: 7.0,Current Solution: 5.969387755102041
+2021-12-18 05:52:09,619 [INFO] Total Call times: 150100, Best Found Solution: 7.0,Current Solution: 5.964285714285714
+2021-12-18 05:52:25,374 [INFO] Total Call times: 150200, Best Found Solution: 7.0,Current Solution: 5.933333333333334
+2021-12-18 05:52:39,241 [INFO] Total Call times: 150300, Best Found Solution: 7.0,Current Solution: 5.970588235294118
+2021-12-18 05:52:48,380 [INFO] Total Call times: 150400, Best Found Solution: 7.0,Current Solution: 5.959999999999999
+2021-12-18 05:52:58,890 [INFO] Total Call times: 150500, Best Found Solution: 7.0,Current Solution: 5.970588235294118
+2021-12-18 05:53:19,194 [INFO] Total Call times: 150600, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:53:35,047 [INFO] Total Call times: 150700, Best Found Solution: 7.0,Current Solution: 5.9
+2021-12-18 05:53:43,424 [INFO] Total Call times: 150800, Best Found Solution: 7.0,Current Solution: 5.969465648854962
+2021-12-18 05:54:01,219 [INFO] Total Call times: 150900, Best Found Solution: 7.0,Current Solution: 5.928571428571428
+2021-12-18 05:54:17,110 [INFO] Total Call times: 151000, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:54:37,047 [INFO] Total Call times: 151100, Best Found Solution: 7.0,Current Solution: 5.947368421052632
+2021-12-18 05:54:54,084 [INFO] Total Call times: 151200, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:55:02,195 [INFO] Total Call times: 151300, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:55:19,979 [INFO] Total Call times: 151400, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:55:38,199 [INFO] Total Call times: 151500, Best Found Solution: 7.0,Current Solution: 5.96
+2021-12-18 05:55:52,663 [INFO] Total Call times: 151600, Best Found Solution: 7.0,Current Solution: 5.928571428571428
+2021-12-18 05:56:10,997 [INFO] Total Call times: 151700, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:56:33,653 [INFO] Total Call times: 151800, Best Found Solution: 7.0,Current Solution: 5.999999999999999
+2021-12-18 05:57:13,465 [INFO] Total Call times: 152000, Best Found Solution: 7.0,Current Solution: 5.90625
+2021-12-18 05:57:30,708 [INFO] Total Call times: 152100, Best Found Solution: 7.0,Current Solution: 5.983606557377049
+2021-12-18 05:57:58,067 [INFO] Total Call times: 152300, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:58:16,210 [INFO] Total Call times: 152400, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:58:40,665 [INFO] Total Call times: 152500, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:58:50,047 [INFO] Total Call times: 152600, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:59:00,776 [INFO] Total Call times: 152700, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:59:13,092 [INFO] Total Call times: 152800, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 05:59:25,397 [INFO] Total Call times: 152900, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 06:00:12,141 [INFO] Total Call times: 153200, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 06:00:22,885 [INFO] Total Call times: 153300, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 06:00:32,861 [INFO] Total Call times: 153400, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 06:00:53,357 [INFO] Total Call times: 153500, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 06:01:15,198 [INFO] Total Call times: 153600, Best Found Solution: 7.0,Current Solution: 5.928571428571429
+2021-12-18 06:01:38,038 [INFO] Total Call times: 153700, Best Found Solution: 7.0,Current Solution: 5.9565217391304355
+2021-12-18 06:02:01,620 [INFO] Total Call times: 153800, Best Found Solution: 7.0,Current Solution: 5.925531914893616
+2021-12-18 06:02:16,076 [INFO] Total Call times: 153900, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 06:02:38,756 [INFO] Total Call times: 154000, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 06:03:00,731 [INFO] Total Call times: 154100, Best Found Solution: 7.0,Current Solution: 6.0
+2021-12-18 06:03:14,104 [ERROR] Out of time!
+2021-12-18 06:03:14,123 [INFO] objective value: 7.0 
+2021-12-18 06:03:14,124 [INFO] values:
+2021-12-18 06:03:14,124 [INFO] 	x_32 = 1.0 	x_56 = 1.0 	x_71 = 1.0 	x_82 = 1.0 	x_93 = 1.0 	x_154 = 1.0 	x_162 = 1.0 
+2021-12-18 06:03:14,127 [INFO] process_single_graph function took 120.0 mins, 5.44 secs
+2021-12-18 06:03:14,128 [INFO] 
+
+PROCESSING: queen10_10.col
+2021-12-18 06:03:14,205 [INFO] Searched for independent sets during 15 iterations
+2021-12-18 06:03:14,209 [INFO] construct_problem function took 0.0 mins, 0.08 secs
+2021-12-18 06:04:38,174 [INFO] Total Call times: 100, Best Found Solution: 11.0,Current Solution: 10.144699697562725
+2021-12-18 06:06:49,157 [INFO] Total Call times: 200, Best Found Solution: 11.0,Current Solution: 10.43950970894234
+2021-12-18 06:13:25,260 [INFO] Total Call times: 400, Best Found Solution: 11.0,Current Solution: 10.424999999999999
+2021-12-18 06:24:49,756 [INFO] __call__ function took 21.0 mins, 35.54 secs
+2021-12-18 06:24:49,756 [INFO] objective value: 11.0 
+2021-12-18 06:24:49,756 [INFO] values:
+2021-12-18 06:24:49,756 [INFO] 	x_10 = 1.0 	x_85 = 1.0 	x_264 = 1.0 	x_394 = 1.0 	x_427 = 1.0 	x_464 = 1.0 	x_466 = 1.0 	x_581 = 1.0 	x_641 = 1.0 	x_647 = 1.0 	x_754 = 1.0 
+2021-12-18 06:24:49,761 [INFO] process_single_graph function took 21.0 mins, 35.63 secs
+2021-12-18 06:24:49,761 [INFO] main function took 266.0 mins, 8.50 secs

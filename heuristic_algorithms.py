@@ -77,7 +77,6 @@ class ViolatedContraintsHeuristic:
         weighted_degree = dual_solution * weighted_degree
         sorted_nodes = vertices_indices[(np.argsort(weighted_degree)[::-1])].tolist()
         best_violated_constraints = set()
-        best_total_weight = 1
         for _ in range(self.iterations_limit):
             violated_constraint = []
             sorted_nodes_copy = sorted_nodes.copy()
@@ -95,7 +94,7 @@ class ViolatedContraintsHeuristic:
                 sorted_nodes_copy = list(
                     filter(lambda x: x in node_neighbours, sorted_nodes_copy),
                 )
-            if total_weight > best_total_weight + self.epsilon:
+            if total_weight > 1.1:
                 violated_constraint = sorted(violated_constraint)
                 if tuple(violated_constraint) in best_violated_constraints:
                     break

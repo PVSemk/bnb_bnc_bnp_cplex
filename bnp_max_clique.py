@@ -247,11 +247,12 @@ class BnPColoringSolver(ColoringSolver):
         self, dual_solution, objective_value, use_cplex=False, time_limit=None,
     ):  # ToDo: time_limit - object to tune
         cplex_iterations_num = 0
+        heuristic_iterations_num = 0
         while True:
             dual_solution = dual_solution[: self.graph.number_of_nodes()]
             if use_cplex:
                 cplex_iterations_num += 1
-                if cplex_iterations_num > 10:
+                if cplex_iterations_num > 20:
                     break
                 self.slave_problem.construct_slave_problem(
                     dual_solution, self.forbidden_sets, time_limit=time_limit,
@@ -259,6 +260,9 @@ class BnPColoringSolver(ColoringSolver):
                 violated_contraints, upper_bound = self.slave_problem.solve()
 
             else:
+                heuristic_iterations_num += 1
+                if heuristic_iterations_num > 40:
+                    break
                 violated_contraints, upper_bound = self.violated_constraints_heuristic(
                     dual_solution,
                 )
