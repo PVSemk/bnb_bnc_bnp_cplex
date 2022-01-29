@@ -1,4 +1,11 @@
 # Max Clique problem
+## Repository Overview
+This repository contains implementation of BnB, BnC algorithms (with cplex solver) for Max Clique problem and BnP algorithm for Vertex Coloring problem
+
+Implementations can be found in following branches:
+1. [BnB](https://github.com/PVSemk/max_clique_cplex/tree/main)
+2. [BnC](https://github.com/PVSemk/max_clique_cplex/tree/ps/BnC)
+3. [BnP](https://github.com/PVSemk/max_clique_cplex/tree/ps/BnP)
 
 ## Machine configuration
 ```
